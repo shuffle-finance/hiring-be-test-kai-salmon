@@ -56,3 +56,8 @@ Note that:
 * `data_sources/*/**` only imports **types**, but not methods, from `logic/**` 
 
 This creates a clear separation between logic which handles in-bound communication, out-bound communication, and core business logic. 
+
+
+## Fix TODOS from unclear api spec
+
+The API spec asked for a `type` and an `id`, but it is inclear how these are to be consumed or how they are defined. The code currently contains TODO's to resolve these loose ends properly -- most likely by reading the spec more slowly and more carefully!
