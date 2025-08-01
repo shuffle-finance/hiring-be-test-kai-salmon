@@ -29,8 +29,8 @@ const port = 3000
 
 function formatTransaction(transaction: Transaction): TransactionFormat {
     return {
-        id: transaction.shuffleId,
-        amount: transaction.transactionAmount.amount,
+        id: transaction.transactionId || transaction.internalTransactionId || '?', //TODO fix this
+        amount: Number(transaction.transactionAmount.amount_cents) / 100, // Convert cents to pounds
         currency: transaction.transactionAmount.currency,
         date: transaction.valueDate.toISOString().split('T')[0], 
         description: transaction.remittanceInformationUnstructured,
@@ -41,20 +41,34 @@ function formatTransaction(transaction: Transaction): TransactionFormat {
 
 // #### 1. **GET /users/{userId}/transactions**
 app.get('/users/:userId/transactions', async (req, res) => {
-    console.log({getUnproccessedAccountTransactions});
-  const userId = req.params.userId;
+    const userId = req.params.userId;
     const response = await getUnproccessedAccountTransactions(userId);
     const transactions = mapAccountTransactionsResponse(response);
 
     const formattedTransactions: TransactionsFormat = {
     user_id: userId,
-    transactions: Object.values(transactions).map(tx => formatTransaction(tx)),
-    count: Object.keys(transactions).length
+    transactions: transactions.map(tx => formatTransaction(tx)),
+    count: transactions.length
     };
 
     res.json(formattedTransactions);
 });
 
+app.get('/users/:userId/transactions/:transactionId', async (req, res) => {
+  const userId = req.params.userId;
+    const transactionId = req.params.transactionId;
+    const response = await getUnproccessedAccountTransactions(userId);
+    const transactions = mapAccountTransactionsResponse(response);
+    const filtered = transactions.filter(tx => tx.transactionId === transactionId);
+    const formattedTransactions: TransactionsFormat = {
+    user_id: userId,
+    transactions: filtered
+        .map(tx => formatTransaction(tx)),
+    count: filtered.length
+    };
+
+    res.json(formattedTransactions);
+});
 
 // #### 2. **GET /users/{userId}/balance**
 /* Return the current balance for a user (sum of all final transactions).
@@ -77,7 +91,7 @@ app.get('/users/:userId/balance', async (req, res) => {
     const balance = getAccountBalance(transactions);
     const balanceFormat: BalanceFormat = {
         user_id: userId,
-        balance: balance,
+        balance: Number(balance) / 100, // Convert cents to pounds
         currency: 'GBP', // Assuming all transactions are in GBP
         transaction_count: Object.keys(transactions).length,
         last_updated: new Date().toISOString()

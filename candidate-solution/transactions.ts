@@ -1,4 +1,4 @@
-import { sha512 } from 'js-sha512';
+import { distance } from 'fastest-levenshtein';
 
 type Result<T> = {
     data: T;
@@ -17,6 +17,7 @@ interface TransactionResponse {
     remittanceInformationUnstructured: string;
     creditorName?: string;
     debtorName?: string;
+    description?: string;
     transactionAmount: {
         amount: string;
         currency: string;
@@ -51,10 +52,7 @@ interface AccountTransactionsResponse {
     transactions: TransactionResponsePayload[];
 }
 
-function getShuffleId(TransactionResponse: TransactionResponse): string {
-    const merchant = TransactionResponse.creditorName || TransactionResponse.debtorName || 'Unknown Merchant';
-    return sha512(`${TransactionResponse.transactionAmount.amount}::${TransactionResponse.valueDate}::${merchant}`);
-}
+
 
 async function getAccountTransactionsPage(
     accountId: string,
@@ -116,7 +114,6 @@ export async function getUnproccessedAccountTransactions(accountId: string): Pro
 
 export type TransactionStatus = 'pending' | 'booked';
 export interface Transaction {
-    shuffleId: string;
 
     additionalInformation: string;
     bookingDate: Date;
@@ -125,20 +122,30 @@ export interface Transaction {
     proprietaryBankTransactionCode: string;
     remittanceInformationUnstructured: string;
     transactionAmount: {
-        amount: number;
+        amount_cents: bigint;
         currency: string;
     };
     transactionId?: string | undefined;
     valueDate: Date;
+    creditorName?: string;
+    debtorName?: string;
     status: TransactionStatus;
     timestamp: Date; 
+    description: string | undefined;
 }
-type AccountTransactions = Record<string, Transaction>; // Maps shuffleId to Transaction
+type AccountTransactions = Transaction[]
 
 
 export function mapTransactionResponseToTransaction(response: TransactionResponseWithTimestampAndStatus): Result<Transaction> {
+    let amount_cents: bigint;
+    try {
+        const amount = parseFloat(response.transactionAmount.amount) * 100
+        amount_cents = BigInt(Math.round(amount));
+    }catch(e){
+        return { error: new Error('Transaction amount is not a valid number'), data: undefined}
+    }
+    
     const tx: Transaction = {
-        shuffleId: getShuffleId(response),
         additionalInformation: response.additionalInformation,
         bookingDate: new Date(response.bookingDate),
         entryReference: response.entryReference,
@@ -146,19 +153,17 @@ export function mapTransactionResponseToTransaction(response: TransactionRespons
         proprietaryBankTransactionCode: response.proprietaryBankTransactionCode,
         remittanceInformationUnstructured: response.remittanceInformationUnstructured,
         transactionAmount: {
-            amount: parseFloat(response.transactionAmount.amount),
+            amount_cents,
             currency: response.transactionAmount.currency
         },
         transactionId: response.transactionId,
         valueDate: new Date(response.valueDate),
         timestamp: response.timestamp,
-        status: response.status
+        status: response.status,
+        description: response.description ?? undefined,
     };
     if (!tx.internalTransactionId) {
         return { error: new Error('Internal transaction ID is missing'), data: undefined };
-    }
-    if (isNaN(tx.transactionAmount.amount)) {
-        return { error: new Error('Transaction amount is not a valid number'), data: undefined };
     }
     if (isNaN(tx.bookingDate.getTime()) || isNaN(tx.valueDate.getTime()) || isNaN(tx.timestamp.getTime())) {
         return { error: new Error('Invalid date in transaction'), data: undefined };
@@ -170,17 +175,47 @@ export function mapTransactionResponseToTransaction(response: TransactionRespons
 }
 
 export function mapAccountTransactionsResponse(response: getAccountTransactionsResult): AccountTransactions {
-    const transactions: AccountTransactions = {};
+    const transactions: AccountTransactions = [];
     for (const tx of response.transactions) {
         const {data: transaction, error} = mapTransactionResponseToTransaction(tx);
         if (error) {
             continue; // Skip this transaction if there's an error
         }
-        const existingTransaction = transactions[transaction.shuffleId];
+        const existingTransaction = transactions.find(tx => areTransactionsFuzzyMatch(tx, transaction));
         const reconsiledTransaction = existingTransaction ? reconcileTransactions(existingTransaction, transaction) : transaction;
-        transactions[transaction.shuffleId] = reconsiledTransaction;
+        transactions.push(reconsiledTransaction);
     }
     return transactions;
+}
+
+type KeysMatching<T, V> = {[K in keyof T]-?: T[K] extends V ? K : never}[keyof T];
+
+function areTransactionsFuzzyMatch(tx1: Transaction, tx2: Transaction): boolean {
+    const SIMILARITY_THRESHOLD = 1000; 
+    const AMOUNT_DIST_WEIGHT = 0.1; // Distance for each cent difference
+    const keysToCompare: KeysMatching<Transaction, string|undefined>[] = [
+        'additionalInformation',
+        'entryReference',
+        'internalTransactionId',
+        'proprietaryBankTransactionCode',
+        'remittanceInformationUnstructured',
+        'transactionId',
+        'description',
+        'creditorName',
+        'debtorName'
+    ];
+    let totalDistance = Math.abs(Number(tx1.transactionAmount.amount_cents - tx2.transactionAmount.amount_cents)) * AMOUNT_DIST_WEIGHT;
+    for (const key of keysToCompare) {
+        const value1 = tx1[key];
+        const value2 = tx2[key];
+        if(!value1 || !value2) {
+            continue; 
+        }
+        const dist = distance(value1, value2);
+        totalDistance += dist;
+    }
+
+    return totalDistance < SIMILARITY_THRESHOLD;
 }
 
 function reconcileTransactions(existing: Transaction, incoming: Transaction): Transaction {
@@ -197,23 +232,11 @@ function reconcileTransactions(existing: Transaction, incoming: Transaction): Tr
     }
 }
 
-export function getAccountBalance(accountTransactions: AccountTransactions): number {
+export function getAccountBalance(accountTransactions: AccountTransactions): BigInt {
     return Object.values(accountTransactions).reduce((balance, transaction) => {
         if (transaction.status === 'booked') {
-            return balance + transaction.transactionAmount.amount;
+            return balance + transaction.transactionAmount.amount_cents;
         }
         return balance;
-    }, 0);
+    }, 0n);
 }
-
-// (async () => {
-//     try {
-//         const accountId = '04b3efb2-c8b1-1073-9d16-153585326359'; 
-//         const {transactions} = await getUnproccessedAccountTransactions(accountId);
-//         const accountTransactions = mapAccountTransactionsResponse({ transactions });
-//         console.log('accountTransactions:', accountTransactions);
-//     } catch (error) {
-//         console.error('Error fetching transactions:', error);
-//     }
-// })();
-
