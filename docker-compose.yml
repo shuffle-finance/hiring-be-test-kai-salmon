@@ -1,0 +1,75 @@
+services:
+  # PostgreSQL database for candidate use
+  postgres:
+    image: postgres:15-alpine
+    container_name: coding-test-postgres
+    environment:
+      POSTGRES_DB: transactions
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: password
+      POSTGRES_INITDB_ARGS: "--encoding=UTF8 --lc-collate=C --lc-ctype=C"
+    ports:
+      - "5432:5432"
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+      - ./database/init.sql:/docker-entrypoint-initdb.d/init.sql:ro
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U postgres -d transactions"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+    networks:
+      - coding-test-network
+
+  # Transaction API server
+  transaction-api:
+    build: ./transaction-api
+    container_name: coding-test-api
+    ports:
+      - "8000:8000"
+    environment:
+      - DATA_PATH=/app/data/transactions.json
+      - BASE_DELAY=0.1
+      - MAX_DELAY=0.3
+      - DEFAULT_PAGE_SIZE=10
+      - MAX_PAGE_SIZE=100
+      - RATE_LIMIT_DELAY=0.05
+    volumes:
+      - ./data:/app/data:ro
+    depends_on:
+      postgres:
+        condition: service_healthy
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:8000/health"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+      start_period: 10s
+    networks:
+      - coding-test-network
+    restart: unless-stopped
+
+  # Redis for caching (optional)
+  redis:
+    image: redis:7-alpine
+    container_name: coding-test-redis
+    ports:
+      - "6379:6379"
+    command: redis-server --appendonly yes
+    volumes:
+      - redis_data:/data
+    networks:
+      - coding-test-network
+    profiles:
+      - cache
+
+networks:
+  coding-test-network:
+    driver: bridge
+    name: coding-test-network
+
+volumes:
+  postgres_data:
+    name: coding-test-postgres-data
+  redis_data:
+    name: coding-test-redis-data

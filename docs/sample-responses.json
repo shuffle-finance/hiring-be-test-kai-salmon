@@ -1,0 +1,234 @@
+{
+    "health_check": {
+        "status": "healthy",
+        "timestamp": "2025-07-19T21:24:04.286764",
+        "version": "1.0.0",
+        "data_loaded": true,
+        "accounts_available": 76,
+        "total_transaction_records": 3233
+    },
+    "accounts_list": {
+        "accounts": [
+            "04b3efb2-c8b1-1073-9d16-153585326359",
+            "05d03a99-0429-6218-7b21-efdd118914fd",
+            "071c0a7a-9da3-52ff-6438-a37867b7e96f",
+            "0b348fd6-a451-ec70-2b50-afee5b1e1462"
+        ],
+        "total_count": 76,
+        "timestamp": "2025-07-19T21:24:04.286764"
+    },
+    "account_transactions": {
+        "transactions": [
+            {
+                "metadata": {
+                    "accountId": "04b3efb2-c8b1-1073-9d16-153585326359",
+                    "requisitionId": "884270da-3ebb-450a-a84a-d71461ef7bb2",
+                    "createdAt": "2025-06-26T19:06:14.142Z",
+                    "traceId": "e6950484-a8ba-4aaa-bf52-f8cc7fed72ba"
+                },
+                "payload": {
+                    "pending": [
+                        {
+                            "bookingDate": "2025-06-26",
+                            "transactionAmount": {
+                                "amount": "-12.99",
+                                "currency": "GBP"
+                            },
+                            "creditorName": "NETFLIX",
+                            "proprietaryBankTransactionCode": "DEB",
+                            "merchantCategoryCode": "4899"
+                        },
+                        {
+                            "bookingDate": "2025-06-26",
+                            "transactionAmount": {
+                                "amount": "-8.99",
+                                "currency": "GBP"
+                            },
+                            "creditorName": "DISNEY PLUS",
+                            "proprietaryBankTransactionCode": "DEB",
+                            "merchantCategoryCode": "4899"
+                        }
+                    ],
+                    "booked": [
+                        {
+                            "transactionId": "T1c50a94bb85ed1c02210801138f683c1",
+                            "entryReference": "NIKOLA KRESTININA,PX28N9IY152DT9P801",
+                            "bookingDate": "2025-06-26",
+                            "valueDate": "2025-06-26",
+                            "transactionAmount": {
+                                "amount": "13.00",
+                                "currency": "GBP"
+                            },
+                            "remittanceInformationUnstructured": "NIKOLA KRESTININA NIKOLA KRESTININA PX28N9IY152DT9P801",
+                            "additionalInformation": "NIKOLA KRESTININA,PX28N9IY152DT9P801",
+                            "proprietaryBankTransactionCode": "FPI",
+                            "internalTransactionId": "4a108854be20e262473bdd210da9d3d1"
+                        },
+                        {
+                            "transactionId": "T5b2682781b07fb0f1e7f83befe47b6fc",
+                            "bookingDate": "2025-06-25",
+                            "valueDate": "2025-06-26",
+                            "transactionAmount": {
+                                "amount": "-0.87",
+                                "currency": "GBP"
+                            },
+                            "remittanceInformationUnstructured": "DAILY OD INT",
+                            "proprietaryBankTransactionCode": "CHG",
+                            "internalTransactionId": "49dfe5cf907416d939d399a8db8a48d2"
+                        }
+                    ]
+                }
+            }
+        ],
+        "pagination": {
+            "page": 1,
+            "per_page": 10,
+            "total_count": 107,
+            "total_pages": 11,
+            "has_next": true,
+            "has_prev": false
+        },
+        "account_id": "04b3efb2-c8b1-1073-9d16-153585326359",
+        "timestamp": "2025-07-19T21:24:04.286764"
+    },
+    "account_summary": {
+        "account_id": "04b3efb2-c8b1-1073-9d16-153585326359",
+        "total_transaction_records": 107,
+        "total_pending_transactions": 234,
+        "total_booked_transactions": 1456,
+        "date_range": {
+            "first_transaction": "2025-06-25T23:03:51.307Z",
+            "last_transaction": "2025-07-17T23:23:41.841Z"
+        },
+        "timestamp": "2025-07-19T21:24:04.286764"
+    },
+    "api_stats": {
+        "total_accounts": 76,
+        "total_transaction_records": 3233,
+        "total_pending_transactions": 11379,
+        "total_booked_transactions": 102130,
+        "api_version": "1.0.0",
+        "configuration": {
+            "default_page_size": 10,
+            "max_page_size": 100,
+            "base_delay": 0.1
+        },
+        "timestamp": "2025-07-19T21:24:04.286764"
+    },
+    "candidate_expected_responses": {
+        "user_transactions": {
+            "description": "Expected response format for GET /users/{userId}/transactions",
+            "example": {
+                "transactions": [
+                    {
+                        "id": "T1c50a94bb85ed1c02210801138f683c1",
+                        "date": "2025-06-26",
+                        "amount": 13.00,
+                        "currency": "GBP",
+                        "merchant": "NIKOLA KRESTININA",
+                        "type": "credit",
+                        "status": "booked",
+                        "description": "NIKOLA KRESTININA NIKOLA KRESTININA PX28N9IY152DT9P801"
+                    },
+                    {
+                        "id": "T5b2682781b07fb0f1e7f83befe47b6fc",
+                        "date": "2025-06-25",
+                        "amount": -0.87,
+                        "currency": "GBP",
+                        "merchant": "BANK",
+                        "type": "debit",
+                        "status": "booked",
+                        "description": "DAILY OD INT"
+                    }
+                ],
+                "total": 2,
+                "user_id": "04b3efb2-c8b1-1073-9d16-153585326359"
+            },
+            "notes": [
+                "Response format is flexible - use what makes sense for your implementation",
+                "Must include transaction data with amounts, dates, and merchants",
+                "Should distinguish between debits (negative) and credits (positive)",
+                "Only include final/booked transactions, not duplicates"
+            ]
+        },
+        "user_balance": {
+            "description": "Expected response format for GET /users/{userId}/balance",
+            "example": {
+                "balance": 1250.45,
+                "currency": "GBP",
+                "user_id": "04b3efb2-c8b1-1073-9d16-153585326359",
+                "last_updated": "2025-07-19T21:30:00Z"
+            },
+            "notes": [
+                "Balance should be the sum of all final transaction amounts",
+                "Positive balance = more credits than debits",
+                "Negative balance = more debits than credits",
+                "Currency should always be 'GBP' for this dataset"
+            ]
+        }
+    },
+    "transaction_examples": {
+        "pending_only": {
+            "bookingDate": "2025-07-16",
+            "transactionAmount": {
+                "amount": "-4.61",
+                "currency": "GBP"
+            },
+            "creditorName": "TESCO",
+            "proprietaryBankTransactionCode": "POS"
+        },
+        "booked_with_id": {
+            "transactionId": "Tb8a1234567890abcdef",
+            "bookingDate": "2025-07-15",
+            "valueDate": "2025-07-15",
+            "transactionAmount": {
+                "amount": "25.50",
+                "currency": "GBP"
+            },
+            "creditorName": "AMAZON",
+            "remittanceInformationUnstructured": "AMAZON UK SERVICES",
+            "proprietaryBankTransactionCode": "FPI",
+            "internalTransactionId": "abc123def456"
+        },
+        "pending_to_booked_transition": {
+            "description": "Same transaction appears first as pending, then as booked",
+            "pending": {
+                "bookingDate": "2025-07-10",
+                "transactionAmount": {
+                    "amount": "-15.99",
+                    "currency": "GBP"
+                },
+                "creditorName": "SAINSBURYS",
+                "proprietaryBankTransactionCode": "POS"
+            },
+            "booked": {
+                "transactionId": "Tc9876543210fedcba",
+                "bookingDate": "2025-07-10",
+                "valueDate": "2025-07-10",
+                "transactionAmount": {
+                    "amount": "-15.99",
+                    "currency": "GBP"
+                },
+                "creditorName": "SAINSBURYS",
+                "proprietaryBankTransactionCode": "POS",
+                "internalTransactionId": "xyz789"
+            },
+            "notes": [
+                "Match by amount, date, and merchant name",
+                "Use the booked version as the final transaction",
+                "Ignore the pending version to avoid double-counting"
+            ]
+        }
+    },
+    "error_examples": {
+        "account_not_found": {
+            "error": "Account not found: invalid-account-id"
+        },
+        "invalid_pagination": {
+            "error": "Page number must be >= 1"
+        },
+        "invalid_page_size": {
+            "error": "Page size must be between 1 and 100"
+        }
+    }
+}

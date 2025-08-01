@@ -1,0 +1,5206 @@
+[
+  {
+    "metadata": {
+      "accountId": "0c64fe56-e31d-63a7-1296-61eebd9f39c7",
+      "requisitionId": "14869680-fdc2-405f-8145-cc037bfb3eb6",
+      "createdAt": "2025-07-11T02:42:42.779Z",
+      "traceId": "be427454-c4c4-4dd6-a569-7648d0ed6ccb"
+    },
+    "payload": {
+      "pending": [
+        {
+          "bookingDate": "2025-07-16",
+          "bookingDateTime": "2025-07-16T00:00:00.000Z",
+          "transactionAmount": {
+            "amount": "-4.61",
+            "currency": "GBP"
+          },
+          "remittanceInformationUnstructured": "TXN79644153",
+          "proprietaryBankTransactionCode": "POS"
+        },
+        {
+          "bookingDate": "2025-07-16",
+          "bookingDateTime": "2025-07-16T00:00:00.000Z",
+          "transactionAmount": {
+            "amount": "-4.90",
+            "currency": "GBP"
+          },
+          "remittanceInformationUnstructured": "ORD41859908",
+          "proprietaryBankTransactionCode": "POS"
+        },
+        {
+          "bookingDate": "2025-07-16",
+          "bookingDateTime": "2025-07-16T00:00:00.000Z",
+          "transactionAmount": {
+            "amount": "-0.11",
+            "currency": "GBP"
+          },
+          "remittanceInformationUnstructured": "TXN50130737",
+          "proprietaryBankTransactionCode": "POS"
+        },
+        {
+          "bookingDate": "2025-07-15",
+          "bookingDateTime": "2025-07-15T00:00:00.000Z",
+          "transactionAmount": {
+            "amount": "-3.68",
+            "currency": "GBP"
+          },
+          "remittanceInformationUnstructured": "INV87500675",
+          "proprietaryBankTransactionCode": "POS"
+        },
+        {
+          "bookingDate": "2025-07-11",
+          "bookingDateTime": "2025-07-11T00:00:00.000Z",
+          "transactionAmount": {
+            "amount": "135.38",
+            "currency": "GBP"
+          },
+          "remittanceInformationUnstructured": "203O71109 DWP UC",
+          "proprietaryBankTransactionCode": "BAC"
+        }
+      ],
+      "booked": [
+        {
+          "transactionId": "935da4ff7f0780b0a1f6674117db2a4ef8feb1ad86ad5accf678755bd91a0b60",
+          "bookingDate": "2025-07-10",
+          "bookingDateTime": "2025-07-10T00:00:00.000Z",
+          "transactionAmount": {
+            "amount": "-3.64",
+            "currency": "GBP"
+          },
+          "creditorName": "MCDONALD'S",
+          "remittanceInformationUnstructured": "2611 09JUL25 CD   BEENETWORK.       COM/CHARGES       2611 244 2611 GB",
+          "proprietaryBankTransactionCode": "POS",
+          "internalTransactionId": "fe7ebf4cecb165402fb6ed70beac3d8c"
+        },
+        {
+          "transactionId": "2ab723879d6552efb4fa469943db1818b6092539c4a5a342fc653bed4f639cd7",
+          "bookingDate": "2025-07-10",
+          "bookingDateTime": "2025-07-10T00:00:00.000Z",
+          "transactionAmount": {
+            "amount": "-5.70",
+            "currency": "GBP"
+          },
+          "creditorName": "PRIMARK LEEDS",
+          "remittanceInformationUnstructured": "0322 09JUL25 CD   KFC MANCHESTER    MANCHESTER GB",
+          "proprietaryBankTransactionCode": "POS",
+          "internalTransactionId": "e8c62b82046749ff578e75899e7dcc41"
+        },
+        {
+          "transactionId": "6f80161e30a700fde1bbe286f8a239e3348c10271b954b289aad2c48557a2da9",
+          "bookingDate": "2025-07-10",
+          "bookingDateTime": "2025-07-10T00:00:00.000Z",
+          "transactionAmount": {
+            "amount": "-1.32",
+            "currency": "GBP"
+          },
+          "creditorName": "ASDA",
+          "remittanceInformationUnstructured": "3899 09JUL25 CD   GREGGS PLC        STRETFORD GB",
+          "proprietaryBankTransactionCode": "POS",
+          "internalTransactionId": "efbfa94fdcdd30a7bb68a1e797257e97"
+        }
+      ]
+    }
+  },
+  {
+    "metadata": {
+      "accountId": "0c64fe56-e31d-63a7-1296-61eebd9f39c7",
+      "requisitionId": "990af4c0-c3a6-4a4b-b122-7a85f143878a",
+      "createdAt": "2025-07-11T15:43:13.571Z",
+      "traceId": "c1f11c9a-a6c2-43ef-bf7e-5f8ad1181648"
+    },
+    "payload": {
+      "pending": [
+        {
+          "bookingDate": "2025-07-16",
+          "bookingDateTime": "2025-07-16T00:00:00.000Z",
+          "transactionAmount": {
+            "amount": "-4.61",
+            "currency": "GBP"
+          },
+          "remittanceInformationUnstructured": "TXN79644153",
+          "proprietaryBankTransactionCode": "POS"
+        },
+        {
+          "bookingDate": "2025-07-16",
+          "bookingDateTime": "2025-07-16T00:00:00.000Z",
+          "transactionAmount": {
+            "amount": "-4.90",
+            "currency": "GBP"
+          },
+          "remittanceInformationUnstructured": "ORD41859908",
+          "proprietaryBankTransactionCode": "POS"
+        },
+        {
+          "bookingDate": "2025-07-16",
+          "bookingDateTime": "2025-07-16T00:00:00.000Z",
+          "transactionAmount": {
+            "amount": "-0.11",
+            "currency": "GBP"
+          },
+          "remittanceInformationUnstructured": "TXN50130737",
+          "proprietaryBankTransactionCode": "POS"
+        },
+        {
+          "bookingDate": "2025-07-15",
+          "bookingDateTime": "2025-07-15T00:00:00.000Z",
+          "transactionAmount": {
+            "amount": "-3.68",
+            "currency": "GBP"
+          },
+          "remittanceInformationUnstructured": "INV87500675",
+          "proprietaryBankTransactionCode": "POS"
+        },
+        {
+          "bookingDate": "2025-07-11",
+          "bookingDateTime": "2025-07-11T00:00:00.000Z",
+          "transactionAmount": {
+            "amount": "135.38",
+            "currency": "GBP"
+          },
+          "remittanceInformationUnstructured": "203O71109 DWP UC",
+          "proprietaryBankTransactionCode": "BAC"
+        },
+        {
+          "bookingDate": "2025-07-11",
+          "bookingDateTime": "2025-07-11T00:00:00.000Z",
+          "transactionAmount": {
+            "amount": "49.17",
+            "currency": "GBP"
+          },
+          "remittanceInformationUnstructured": "TXN47129721",
+          "proprietaryBankTransactionCode": "POS"
+        }
+      ],
+      "booked": []
+    }
+  },
+  {
+    "metadata": {
+      "accountId": "0c64fe56-e31d-63a7-1296-61eebd9f39c7",
+      "requisitionId": "4e19d1ef-cff6-4158-a3a4-a0c8fdf74de3",
+      "createdAt": "2025-07-11T19:44:07.372Z",
+      "traceId": "f52e26c4-3aa2-48a1-ae91-36fb986ed61d"
+    },
+    "payload": {
+      "pending": [
+        {
+          "bookingDate": "2025-07-17",
+          "bookingDateTime": "2025-07-17T00:00:00.000Z",
+          "transactionAmount": {
+            "amount": "-34.58",
+            "currency": "GBP"
+          },
+          "remittanceInformationUnstructured": "TRF60976222",
+          "proprietaryBankTransactionCode": "POS"
+        },
+        {
+          "bookingDate": "2025-07-16",
+          "bookingDateTime": "2025-07-16T00:00:00.000Z",
+          "transactionAmount": {
+            "amount": "-4.61",
+            "currency": "GBP"
+          },
+          "remittanceInformationUnstructured": "TXN79644153",
+          "proprietaryBankTransactionCode": "POS"
+        },
+        {
+          "bookingDate": "2025-07-16",
+          "bookingDateTime": "2025-07-16T00:00:00.000Z",
+          "transactionAmount": {
+            "amount": "-4.90",
+            "currency": "GBP"
+          },
+          "remittanceInformationUnstructured": "ORD41859908",
+          "proprietaryBankTransactionCode": "POS"
+        },
+        {
+          "bookingDate": "2025-07-16",
+          "bookingDateTime": "2025-07-16T00:00:00.000Z",
+          "transactionAmount": {
+            "amount": "-0.11",
+            "currency": "GBP"
+          },
+          "remittanceInformationUnstructured": "TXN50130737",
+          "proprietaryBankTransactionCode": "POS"
+        },
+        {
+          "bookingDate": "2025-07-15",
+          "bookingDateTime": "2025-07-15T00:00:00.000Z",
+          "transactionAmount": {
+            "amount": "-3.68",
+            "currency": "GBP"
+          },
+          "remittanceInformationUnstructured": "INV87500675",
+          "proprietaryBankTransactionCode": "POS"
+        },
+        {
+          "bookingDate": "2025-07-11",
+          "bookingDateTime": "2025-07-11T00:00:00.000Z",
+          "transactionAmount": {
+            "amount": "135.38",
+            "currency": "GBP"
+          },
+          "remittanceInformationUnstructured": "203O71109 DWP UC",
+          "proprietaryBankTransactionCode": "BAC"
+        },
+        {
+          "bookingDate": "2025-07-11",
+          "bookingDateTime": "2025-07-11T00:00:00.000Z",
+          "transactionAmount": {
+            "amount": "49.17",
+            "currency": "GBP"
+          },
+          "remittanceInformationUnstructured": "TXN47129721",
+          "proprietaryBankTransactionCode": "POS"
+        }
+      ],
+      "booked": []
+    }
+  },
+  {
+    "metadata": {
+      "accountId": "0c64fe56-e31d-63a7-1296-61eebd9f39c7",
+      "requisitionId": "a56933df-2309-48e2-bd0e-e121dc3498cd",
+      "createdAt": "2025-07-11T10:50:31.858Z",
+      "traceId": "5d360a2a-0ee1-41da-806a-6670de6adba8"
+    },
+    "payload": {
+      "pending": [
+        {
+          "bookingDate": "2025-07-16",
+          "bookingDateTime": "2025-07-16T00:00:00.000Z",
+          "transactionAmount": {
+            "amount": "-4.61",
+            "currency": "GBP"
+          },
+          "remittanceInformationUnstructured": "TXN79644153",
+          "proprietaryBankTransactionCode": "POS"
+        },
+        {
+          "bookingDate": "2025-07-16",
+          "bookingDateTime": "2025-07-16T00:00:00.000Z",
+          "transactionAmount": {
+            "amount": "-4.90",
+            "currency": "GBP"
+          },
+          "remittanceInformationUnstructured": "ORD41859908",
+          "proprietaryBankTransactionCode": "POS"
+        },
+        {
+          "bookingDate": "2025-07-16",
+          "bookingDateTime": "2025-07-16T00:00:00.000Z",
+          "transactionAmount": {
+            "amount": "-0.11",
+            "currency": "GBP"
+          },
+          "remittanceInformationUnstructured": "TXN50130737",
+          "proprietaryBankTransactionCode": "POS"
+        },
+        {
+          "bookingDate": "2025-07-15",
+          "bookingDateTime": "2025-07-15T00:00:00.000Z",
+          "transactionAmount": {
+            "amount": "-3.68",
+            "currency": "GBP"
+          },
+          "remittanceInformationUnstructured": "INV87500675",
+          "proprietaryBankTransactionCode": "POS"
+        },
+        {
+          "bookingDate": "2025-07-11",
+          "bookingDateTime": "2025-07-11T00:00:00.000Z",
+          "transactionAmount": {
+            "amount": "135.38",
+            "currency": "GBP"
+          },
+          "remittanceInformationUnstructured": "203O71109 DWP UC",
+          "proprietaryBankTransactionCode": "BAC"
+        }
+      ],
+      "booked": []
+    }
+  },
+  {
+    "metadata": {
+      "accountId": "0c64fe56-e31d-63a7-1296-61eebd9f39c7",
+      "requisitionId": "b9eb8566-f34c-4516-a9f6-ce838e51d346",
+      "createdAt": "2025-07-11T22:43:56.700Z",
+      "traceId": "b552d659-1305-44db-8759-bae018018045"
+    },
+    "payload": {
+      "pending": [
+        {
+          "bookingDate": "2025-07-17",
+          "bookingDateTime": "2025-07-17T00:00:00.000Z",
+          "transactionAmount": {
+            "amount": "-34.58",
+            "currency": "GBP"
+          },
+          "remittanceInformationUnstructured": "TRF60976222",
+          "proprietaryBankTransactionCode": "POS"
+        }
+      ],
+      "booked": [
+        {
+          "transactionId": "9b971f36ee36605ed7b94c23b88da2e5ef9160cc663bdc9054f82d1e26523fa5",
+          "bookingDate": "2025-07-11",
+          "bookingDateTime": "2025-07-11T00:00:00.000Z",
+          "transactionAmount": {
+            "amount": "-4.90",
+            "currency": "GBP"
+          },
+          "creditorName": "MARKS & SPENCER",
+          "remittanceInformationUnstructured": "9935 10JUL25 CD   CHAIIWALA TRAFFORDCEN               M'STER M17 GB",
+          "proprietaryBankTransactionCode": "POS",
+          "internalTransactionId": "fa04c218212307483a99aa673c13e7fb"
+        },
+        {
+          "transactionId": "b0f29069e1f715da7cb6f109ebce47f926c37b7e5e716e71cf1fcef8503f7df4",
+          "bookingDate": "2025-07-11",
+          "bookingDateTime": "2025-07-11T00:00:00.000Z",
+          "transactionAmount": {
+            "amount": "-4.61",
+            "currency": "GBP"
+          },
+          "creditorName": "SCREWFIX",
+          "remittanceInformationUnstructured": "9586 10JUL25      PRIME             VIDEO*R79JH4O54   AMZN.UK/BILL GB",
+          "proprietaryBankTransactionCode": "POS",
+          "internalTransactionId": "6b145d1c240f19c4ed38312a5c01a395"
+        },
+        {
+          "transactionId": "86bc9b64e91c23875f55a2e14ab7b33d5a253924ee5f160f8a994af65028a496",
+          "bookingDate": "2025-07-11",
+          "bookingDateTime": "2025-07-11T00:00:00.000Z",
+          "transactionAmount": {
+            "amount": "-3.64",
+            "currency": "GBP"
+          },
+          "creditorName": "MCDONALD'S",
+          "remittanceInformationUnstructured": "7899 10JUL25 CD   BEENETWORK.       COM/CHARGES       7899 244 7899 GB",
+          "proprietaryBankTransactionCode": "POS",
+          "internalTransactionId": "42ce5cdbc09352c24a1640a68d33eedf"
+        },
+        {
+          "transactionId": "99a3761373070969437636f33cf785f83237d73f1a74c28167f6a140071b6886",
+          "bookingDate": "2025-07-11",
+          "bookingDateTime": "2025-07-11T00:00:00.000Z",
+          "transactionAmount": {
+            "amount": "-3.68",
+            "currency": "GBP"
+          },
+          "creditorName": "BOOTS",
+          "remittanceInformationUnstructured": "4365 09JUL25 CD   NEWSPOINT TC      TRAFFORD GB",
+          "proprietaryBankTransactionCode": "POS",
+          "internalTransactionId": "69e375ffa58bc63c83378f09aa49598b"
+        },
+        {
+          "transactionId": "d1c8c5d5402412ec2e6cd5b4619119604ff1b7f93c4f65b40d66cd61a32fece7",
+          "bookingDate": "2025-07-11",
+          "bookingDateTime": "2025-07-11T00:00:00.000Z",
+          "transactionAmount": {
+            "amount": "135.38",
+            "currency": "GBP"
+          },
+          "remittanceInformationUnstructured": "203O71109 DWP UC",
+          "proprietaryBankTransactionCode": "BAC",
+          "internalTransactionId": "13abd9702680fced4fc836f0cd40a50b"
+        },
+        {
+          "transactionId": "fd48c0377195d85dc9e440d952ba7de364c76ca9dd0474934420952302ad78f7",
+          "bookingDate": "2025-07-11",
+          "bookingDateTime": "2025-07-11T00:00:00.000Z",
+          "transactionAmount": {
+            "amount": "49.17",
+            "currency": "GBP"
+          },
+          "debtorName": "SARAH WATSON",
+          "remittanceInformationUnstructured": "5422 11JUL25      PAYPAL*ROUSE FIONNLEICESTER       GBCREDIT",
+          "proprietaryBankTransactionCode": "POS",
+          "internalTransactionId": "810f0135dfabc9e5d3f6927bfea8ea79"
+        }
+      ]
+    }
+  },
+  {
+    "metadata": {
+      "accountId": "5cf749a9-fa6a-eaf8-270a-378b3293363d",
+      "requisitionId": "6b650fa6-73f0-40b0-a7f5-98485f6a8a53",
+      "createdAt": "2025-07-11T03:23:42.628Z",
+      "traceId": "05550b0f-a4cf-4e39-8df9-a724fd5a4e95"
+    },
+    "payload": {
+      "pending": [
+        {
+          "transactionId": "TXNe6bfb7d53baefd3e",
+          "bookingDate": "2025-07-10",
+          "bookingDateTime": "2025-07-10T17:28:14.177Z",
+          "transactionAmount": {
+            "amount": "-4.89",
+            "currency": "GBP"
+          },
+          "currencyExchange": {
+            "instructedAmount": {
+              "amount": "5.00",
+              "currency": "GBP"
+            },
+            "sourceCurrency": "GBP",
+            "exchangeRate": "1.0"
+          },
+          "creditorName": "BOOTS",
+          "remittanceInformationUnstructured": "TXN18443825",
+          "proprietaryBankTransactionCode": "PURCHASE",
+          "merchantCategoryCode": "4112"
+        },
+        {
+          "transactionId": "TXN3a070fca19c0d212",
+          "bookingDate": "2025-07-10",
+          "bookingDateTime": "2025-07-10T14:05:06.208Z",
+          "transactionAmount": {
+            "amount": "-5.86",
+            "currency": "GBP"
+          },
+          "currencyExchange": {
+            "instructedAmount": {
+              "amount": "6.20",
+              "currency": "EUR"
+            },
+            "sourceCurrency": "EUR",
+            "exchangeRate": "0.8629032"
+          },
+          "creditorName": "BOLT",
+          "remittanceInformationUnstructured": "Ur 790618 Airport Bar",
+          "proprietaryBankTransactionCode": "PURCHASE",
+          "merchantCategoryCode": "5811"
+        },
+        {
+          "transactionId": "TXN0d7d3819ad7dce0b",
+          "bookingDate": "2025-07-10",
+          "bookingDateTime": "2025-07-10T13:20:29.837Z",
+          "transactionAmount": {
+            "amount": "-15.59",
+            "currency": "GBP"
+          },
+          "currencyExchange": {
+            "instructedAmount": {
+              "amount": "16.65",
+              "currency": "EUR"
+            },
+            "sourceCurrency": "EUR",
+            "exchangeRate": "0.8636637"
+          },
+          "creditorName": "BP",
+          "remittanceInformationUnstructured": "TRF3337350",
+          "proprietaryBankTransactionCode": "PURCHASE",
+          "merchantCategoryCode": "5811"
+        },
+        {
+          "transactionId": "TXN671421cbbad9d231",
+          "bookingDate": "2025-07-10",
+          "bookingDateTime": "2025-07-10T11:19:46.46Z",
+          "transactionAmount": {
+            "amount": "-2.30",
+            "currency": "GBP"
+          },
+          "currencyExchange": {
+            "instructedAmount": {
+              "amount": "2.50",
+              "currency": "EUR"
+            },
+            "sourceCurrency": "EUR",
+            "exchangeRate": "0.864"
+          },
+          "creditorName": "WAITROSE",
+          "remittanceInformationUnstructured": "INV51410963",
+          "proprietaryBankTransactionCode": "PURCHASE",
+          "merchantCategoryCode": "5499"
+        },
+        {
+          "transactionId": "TXNa1bc0cd9f39d131c",
+          "bookingDate": "2025-07-10",
+          "bookingDateTime": "2025-07-10T09:13:02.66Z",
+          "transactionAmount": {
+            "amount": "-1.83",
+            "currency": "GBP"
+          },
+          "currencyExchange": {
+            "instructedAmount": {
+              "amount": "1.95",
+              "currency": "EUR"
+            },
+            "sourceCurrency": "EUR",
+            "exchangeRate": "0.8615385"
+          },
+          "creditorName": "DELIVEROO",
+          "remittanceInformationUnstructured": "TRF28310646",
+          "proprietaryBankTransactionCode": "PURCHASE",
+          "merchantCategoryCode": "5994"
+        }
+      ],
+      "booked": [
+        {
+          "transactionId": "TXN400e4febe2cdc191",
+          "bookingDate": "2025-07-10",
+          "bookingDateTime": "2025-07-10T14:05:06.607Z",
+          "transactionAmount": {
+            "amount": "-0.68",
+            "currency": "GBP"
+          },
+          "remittanceInformationUnstructured": "PMT04244813",
+          "proprietaryBankTransactionCode": "SWEEP",
+          "internalTransactionId": "0530e42448283bf9810c6daa3a9b34d0"
+        },
+        {
+          "transactionId": "TXN861811eede269286",
+          "bookingDate": "2025-07-10",
+          "bookingDateTime": "2025-07-10T13:20:30.246Z",
+          "transactionAmount": {
+            "amount": "-0.58",
+            "currency": "GBP"
+          },
+          "remittanceInformationUnstructured": "PMT04244813",
+          "proprietaryBankTransactionCode": "SWEEP",
+          "internalTransactionId": "864859fed12fb013f7f832e4e83462ae"
+        },
+        {
+          "transactionId": "TXN58af8c91b45bf57e",
+          "bookingDate": "2025-07-10",
+          "bookingDateTime": "2025-07-10T11:19:47.001Z",
+          "transactionAmount": {
+            "amount": "-0.86",
+            "currency": "GBP"
+          },
+          "remittanceInformationUnstructured": "PMT04244813",
+          "proprietaryBankTransactionCode": "SWEEP",
+          "internalTransactionId": "04e1de88e54b3dade5a95d5cb8332e75"
+        },
+        {
+          "transactionId": "TXN39dfeec77fc6ec85",
+          "bookingDate": "2025-07-10",
+          "bookingDateTime": "2025-07-10T09:13:03.247Z",
+          "transactionAmount": {
+            "amount": "-0.31",
+            "currency": "GBP"
+          },
+          "remittanceInformationUnstructured": "PMT04244813",
+          "proprietaryBankTransactionCode": "SWEEP",
+          "internalTransactionId": "232b10fb51e23da1592c08b91d9bc960"
+        },
+        {
+          "transactionId": "TXN2440663f580f9c2f",
+          "bookingDate": "2025-07-10",
+          "bookingDateTime": "2025-07-10T08:46:10.396Z",
+          "transactionAmount": {
+            "amount": "-0.37",
+            "currency": "GBP"
+          },
+          "remittanceInformationUnstructured": "PMT04244813",
+          "proprietaryBankTransactionCode": "SWEEP",
+          "internalTransactionId": "349d1e1c28efffdc6ae884e47d8af7de"
+        },
+        {
+          "transactionId": "TXNd30f2614fd23e5ac",
+          "bookingDate": "2025-07-10",
+          "bookingDateTime": "2025-07-10T08:46:09.887Z",
+          "transactionAmount": {
+            "amount": "-2.80",
+            "currency": "GBP"
+          },
+          "currencyExchange": {
+            "instructedAmount": {
+              "amount": "3.00",
+              "currency": "EUR"
+            },
+            "sourceCurrency": "EUR",
+            "exchangeRate": "0.8633333"
+          },
+          "creditorName": "HOMEBASE",
+          "remittanceInformationUnstructured": "TRF27114118",
+          "proprietaryBankTransactionCode": "PURCHASE",
+          "merchantCategoryCode": "4111",
+          "internalTransactionId": "c11cb610deed6b04b363f747fbb8d786"
+        }
+      ]
+    }
+  },
+  {
+    "metadata": {
+      "accountId": "5cf749a9-fa6a-eaf8-270a-378b3293363d",
+      "requisitionId": "68647597-d5a3-4a4b-9839-e71bd3a5e281",
+      "createdAt": "2025-07-11T11:31:42.727Z",
+      "traceId": "a351a9ef-edc4-4fd8-8d46-3620d76e9b22"
+    },
+    "payload": {
+      "pending": [
+        {
+          "transactionId": "TXNe6bfb7d53baefd3e",
+          "bookingDate": "2025-07-10",
+          "bookingDateTime": "2025-07-10T17:28:14.177Z",
+          "transactionAmount": {
+            "amount": "-4.89",
+            "currency": "GBP"
+          },
+          "currencyExchange": {
+            "instructedAmount": {
+              "amount": "5.00",
+              "currency": "GBP"
+            },
+            "sourceCurrency": "GBP",
+            "exchangeRate": "1.0"
+          },
+          "creditorName": "BOOTS",
+          "remittanceInformationUnstructured": "TXN18443825",
+          "proprietaryBankTransactionCode": "PURCHASE",
+          "merchantCategoryCode": "4112"
+        },
+        {
+          "transactionId": "TXN3a070fca19c0d212",
+          "bookingDate": "2025-07-10",
+          "bookingDateTime": "2025-07-10T14:05:06.208Z",
+          "transactionAmount": {
+            "amount": "-5.86",
+            "currency": "GBP"
+          },
+          "currencyExchange": {
+            "instructedAmount": {
+              "amount": "6.20",
+              "currency": "EUR"
+            },
+            "sourceCurrency": "EUR",
+            "exchangeRate": "0.8629032"
+          },
+          "creditorName": "BOLT",
+          "remittanceInformationUnstructured": "Ur 790618 Airport Bar",
+          "proprietaryBankTransactionCode": "PURCHASE",
+          "merchantCategoryCode": "5811"
+        },
+        {
+          "transactionId": "TXN0d7d3819ad7dce0b",
+          "bookingDate": "2025-07-10",
+          "bookingDateTime": "2025-07-10T13:20:29.837Z",
+          "transactionAmount": {
+            "amount": "-15.59",
+            "currency": "GBP"
+          },
+          "currencyExchange": {
+            "instructedAmount": {
+              "amount": "16.65",
+              "currency": "EUR"
+            },
+            "sourceCurrency": "EUR",
+            "exchangeRate": "0.8636637"
+          },
+          "creditorName": "BP",
+          "remittanceInformationUnstructured": "TRF3337350",
+          "proprietaryBankTransactionCode": "PURCHASE",
+          "merchantCategoryCode": "5811"
+        },
+        {
+          "transactionId": "TXN671421cbbad9d231",
+          "bookingDate": "2025-07-10",
+          "bookingDateTime": "2025-07-10T11:19:46.46Z",
+          "transactionAmount": {
+            "amount": "-2.30",
+            "currency": "GBP"
+          },
+          "currencyExchange": {
+            "instructedAmount": {
+              "amount": "2.50",
+              "currency": "EUR"
+            },
+            "sourceCurrency": "EUR",
+            "exchangeRate": "0.864"
+          },
+          "creditorName": "WAITROSE",
+          "remittanceInformationUnstructured": "INV51410963",
+          "proprietaryBankTransactionCode": "PURCHASE",
+          "merchantCategoryCode": "5499"
+        },
+        {
+          "transactionId": "TXNa1bc0cd9f39d131c",
+          "bookingDate": "2025-07-10",
+          "bookingDateTime": "2025-07-10T09:13:02.66Z",
+          "transactionAmount": {
+            "amount": "-1.83",
+            "currency": "GBP"
+          },
+          "currencyExchange": {
+            "instructedAmount": {
+              "amount": "1.95",
+              "currency": "EUR"
+            },
+            "sourceCurrency": "EUR",
+            "exchangeRate": "0.8615385"
+          },
+          "creditorName": "DELIVEROO",
+          "remittanceInformationUnstructured": "TRF28310646",
+          "proprietaryBankTransactionCode": "PURCHASE",
+          "merchantCategoryCode": "5994"
+        }
+      ],
+      "booked": [
+        {
+          "transactionId": "TXN400e4febe2cdc191",
+          "bookingDate": "2025-07-10",
+          "bookingDateTime": "2025-07-10T14:05:06.607Z",
+          "transactionAmount": {
+            "amount": "-0.68",
+            "currency": "GBP"
+          },
+          "remittanceInformationUnstructured": "PMT04244813",
+          "proprietaryBankTransactionCode": "SWEEP",
+          "internalTransactionId": "0530e42448283bf9810c6daa3a9b34d0"
+        },
+        {
+          "transactionId": "TXN861811eede269286",
+          "bookingDate": "2025-07-10",
+          "bookingDateTime": "2025-07-10T13:20:30.246Z",
+          "transactionAmount": {
+            "amount": "-0.58",
+            "currency": "GBP"
+          },
+          "remittanceInformationUnstructured": "PMT04244813",
+          "proprietaryBankTransactionCode": "SWEEP",
+          "internalTransactionId": "864859fed12fb013f7f832e4e83462ae"
+        },
+        {
+          "transactionId": "TXN58af8c91b45bf57e",
+          "bookingDate": "2025-07-10",
+          "bookingDateTime": "2025-07-10T11:19:47.001Z",
+          "transactionAmount": {
+            "amount": "-0.86",
+            "currency": "GBP"
+          },
+          "remittanceInformationUnstructured": "PMT04244813",
+          "proprietaryBankTransactionCode": "SWEEP",
+          "internalTransactionId": "04e1de88e54b3dade5a95d5cb8332e75"
+        },
+        {
+          "transactionId": "TXN39dfeec77fc6ec85",
+          "bookingDate": "2025-07-10",
+          "bookingDateTime": "2025-07-10T09:13:03.247Z",
+          "transactionAmount": {
+            "amount": "-0.31",
+            "currency": "GBP"
+          },
+          "remittanceInformationUnstructured": "PMT04244813",
+          "proprietaryBankTransactionCode": "SWEEP",
+          "internalTransactionId": "232b10fb51e23da1592c08b91d9bc960"
+        },
+        {
+          "transactionId": "TXN2440663f580f9c2f",
+          "bookingDate": "2025-07-10",
+          "bookingDateTime": "2025-07-10T08:46:10.396Z",
+          "transactionAmount": {
+            "amount": "-0.37",
+            "currency": "GBP"
+          },
+          "remittanceInformationUnstructured": "PMT04244813",
+          "proprietaryBankTransactionCode": "SWEEP",
+          "internalTransactionId": "349d1e1c28efffdc6ae884e47d8af7de"
+        },
+        {
+          "transactionId": "TXNd30f2614fd23e5ac",
+          "bookingDate": "2025-07-10",
+          "bookingDateTime": "2025-07-10T08:46:09.887Z",
+          "transactionAmount": {
+            "amount": "-2.80",
+            "currency": "GBP"
+          },
+          "currencyExchange": {
+            "instructedAmount": {
+              "amount": "3.00",
+              "currency": "EUR"
+            },
+            "sourceCurrency": "EUR",
+            "exchangeRate": "0.8633333"
+          },
+          "creditorName": "HOMEBASE",
+          "remittanceInformationUnstructured": "TRF27114118",
+          "proprietaryBankTransactionCode": "PURCHASE",
+          "merchantCategoryCode": "4111",
+          "internalTransactionId": "c11cb610deed6b04b363f747fbb8d786"
+        }
+      ]
+    }
+  },
+  {
+    "metadata": {
+      "accountId": "5cf749a9-fa6a-eaf8-270a-378b3293363d",
+      "requisitionId": "72ba8987-8b07-4bb7-9cbb-610e62d93cc8",
+      "createdAt": "2025-07-11T20:23:36.067Z",
+      "traceId": "98f99f03-c769-47b9-958e-e44191f738fe"
+    },
+    "payload": {
+      "pending": [],
+      "booked": [
+        {
+          "transactionId": "TXNe6bfb7d53baefd3e",
+          "bookingDate": "2025-07-10",
+          "bookingDateTime": "2025-07-10T17:28:14.177Z",
+          "transactionAmount": {
+            "amount": "-4.89",
+            "currency": "GBP"
+          },
+          "currencyExchange": {
+            "instructedAmount": {
+              "amount": "5.00",
+              "currency": "GBP"
+            },
+            "sourceCurrency": "GBP",
+            "exchangeRate": "1.0"
+          },
+          "creditorName": "BOOTS",
+          "remittanceInformationUnstructured": "TXN18443825",
+          "proprietaryBankTransactionCode": "PURCHASE",
+          "merchantCategoryCode": "4112",
+          "internalTransactionId": "4d8b173536c984076d46660413b6da01"
+        },
+        {
+          "transactionId": "TXN400e4febe2cdc191",
+          "bookingDate": "2025-07-10",
+          "bookingDateTime": "2025-07-10T14:05:06.607Z",
+          "transactionAmount": {
+            "amount": "-0.68",
+            "currency": "GBP"
+          },
+          "remittanceInformationUnstructured": "PMT04244813",
+          "proprietaryBankTransactionCode": "SWEEP",
+          "internalTransactionId": "0530e42448283bf9810c6daa3a9b34d0"
+        },
+        {
+          "transactionId": "TXN3a070fca19c0d212",
+          "bookingDate": "2025-07-10",
+          "bookingDateTime": "2025-07-10T14:05:06.208Z",
+          "transactionAmount": {
+            "amount": "-5.86",
+            "currency": "GBP"
+          },
+          "currencyExchange": {
+            "instructedAmount": {
+              "amount": "6.20",
+              "currency": "EUR"
+            },
+            "sourceCurrency": "EUR",
+            "exchangeRate": "0.8629032"
+          },
+          "creditorName": "BOLT",
+          "remittanceInformationUnstructured": "Ur 790618 Airport Bar",
+          "proprietaryBankTransactionCode": "PURCHASE",
+          "merchantCategoryCode": "5811",
+          "internalTransactionId": "b57190b7e097721c83b81b3e471a8f50"
+        },
+        {
+          "transactionId": "TXN861811eede269286",
+          "bookingDate": "2025-07-10",
+          "bookingDateTime": "2025-07-10T13:20:30.246Z",
+          "transactionAmount": {
+            "amount": "-0.58",
+            "currency": "GBP"
+          },
+          "remittanceInformationUnstructured": "PMT04244813",
+          "proprietaryBankTransactionCode": "SWEEP",
+          "internalTransactionId": "864859fed12fb013f7f832e4e83462ae"
+        },
+        {
+          "transactionId": "TXN0d7d3819ad7dce0b",
+          "bookingDate": "2025-07-10",
+          "bookingDateTime": "2025-07-10T13:20:29.837Z",
+          "transactionAmount": {
+            "amount": "-15.59",
+            "currency": "GBP"
+          },
+          "currencyExchange": {
+            "instructedAmount": {
+              "amount": "16.65",
+              "currency": "EUR"
+            },
+            "sourceCurrency": "EUR",
+            "exchangeRate": "0.8636636"
+          },
+          "creditorName": "BP",
+          "remittanceInformationUnstructured": "TRF3337350",
+          "proprietaryBankTransactionCode": "PURCHASE",
+          "merchantCategoryCode": "5811",
+          "internalTransactionId": "1fa3dc4672b95cac9e944ceda57c005c"
+        },
+        {
+          "transactionId": "TXN58af8c91b45bf57e",
+          "bookingDate": "2025-07-10",
+          "bookingDateTime": "2025-07-10T11:19:47.001Z",
+          "transactionAmount": {
+            "amount": "-0.86",
+            "currency": "GBP"
+          },
+          "remittanceInformationUnstructured": "PMT04244813",
+          "proprietaryBankTransactionCode": "SWEEP",
+          "internalTransactionId": "04e1de88e54b3dade5a95d5cb8332e75"
+        },
+        {
+          "transactionId": "TXN671421cbbad9d231",
+          "bookingDate": "2025-07-10",
+          "bookingDateTime": "2025-07-10T11:19:46.46Z",
+          "transactionAmount": {
+            "amount": "-2.30",
+            "currency": "GBP"
+          },
+          "currencyExchange": {
+            "instructedAmount": {
+              "amount": "2.50",
+              "currency": "EUR"
+            },
+            "sourceCurrency": "EUR",
+            "exchangeRate": "0.864"
+          },
+          "creditorName": "WAITROSE",
+          "remittanceInformationUnstructured": "INV51410963",
+          "proprietaryBankTransactionCode": "PURCHASE",
+          "merchantCategoryCode": "5499",
+          "internalTransactionId": "6a1065698d577b533f6eab9ef5a8815e"
+        },
+        {
+          "transactionId": "TXN39dfeec77fc6ec85",
+          "bookingDate": "2025-07-10",
+          "bookingDateTime": "2025-07-10T09:13:03.247Z",
+          "transactionAmount": {
+            "amount": "-0.31",
+            "currency": "GBP"
+          },
+          "remittanceInformationUnstructured": "PMT04244813",
+          "proprietaryBankTransactionCode": "SWEEP",
+          "internalTransactionId": "232b10fb51e23da1592c08b91d9bc960"
+        },
+        {
+          "transactionId": "TXNa1bc0cd9f39d131c",
+          "bookingDate": "2025-07-10",
+          "bookingDateTime": "2025-07-10T09:13:02.66Z",
+          "transactionAmount": {
+            "amount": "-1.83",
+            "currency": "GBP"
+          },
+          "currencyExchange": {
+            "instructedAmount": {
+              "amount": "1.95",
+              "currency": "EUR"
+            },
+            "sourceCurrency": "EUR",
+            "exchangeRate": "0.8615384"
+          },
+          "creditorName": "DELIVEROO",
+          "remittanceInformationUnstructured": "TRF28310646",
+          "proprietaryBankTransactionCode": "PURCHASE",
+          "merchantCategoryCode": "5994",
+          "internalTransactionId": "573d3cf6b14aad8d1a941fec58a0bfad"
+        },
+        {
+          "transactionId": "TXN2440663f580f9c2f",
+          "bookingDate": "2025-07-10",
+          "bookingDateTime": "2025-07-10T08:46:10.396Z",
+          "transactionAmount": {
+            "amount": "-0.37",
+            "currency": "GBP"
+          },
+          "remittanceInformationUnstructured": "PMT04244813",
+          "proprietaryBankTransactionCode": "SWEEP",
+          "internalTransactionId": "349d1e1c28efffdc6ae884e47d8af7de"
+        },
+        {
+          "transactionId": "TXNd30f2614fd23e5ac",
+          "bookingDate": "2025-07-10",
+          "bookingDateTime": "2025-07-10T08:46:09.887Z",
+          "transactionAmount": {
+            "amount": "-2.80",
+            "currency": "GBP"
+          },
+          "currencyExchange": {
+            "instructedAmount": {
+              "amount": "3.00",
+              "currency": "EUR"
+            },
+            "sourceCurrency": "EUR",
+            "exchangeRate": "0.8633333"
+          },
+          "creditorName": "HOMEBASE",
+          "remittanceInformationUnstructured": "TRF27114118",
+          "proprietaryBankTransactionCode": "PURCHASE",
+          "merchantCategoryCode": "4111",
+          "internalTransactionId": "c11cb610deed6b04b363f747fbb8d786"
+        }
+      ]
+    }
+  },
+  {
+    "metadata": {
+      "accountId": "5cf749a9-fa6a-eaf8-270a-378b3293363d",
+      "requisitionId": "579fa29e-b465-4748-8ea7-2dafcc666e06",
+      "createdAt": "2025-07-11T23:22:24.994Z",
+      "traceId": "518827b5-706f-415a-89c9-d49245031cb3"
+    },
+    "payload": {
+      "pending": [],
+      "booked": [
+        {
+          "transactionId": "TXNe6bfb7d53baefd3e",
+          "bookingDate": "2025-07-10",
+          "bookingDateTime": "2025-07-10T17:28:14.177Z",
+          "transactionAmount": {
+            "amount": "-4.89",
+            "currency": "GBP"
+          },
+          "currencyExchange": {
+            "instructedAmount": {
+              "amount": "5.00",
+              "currency": "GBP"
+            },
+            "sourceCurrency": "GBP",
+            "exchangeRate": "1.0"
+          },
+          "creditorName": "BOOTS",
+          "remittanceInformationUnstructured": "TXN18443825",
+          "proprietaryBankTransactionCode": "PURCHASE",
+          "merchantCategoryCode": "4112",
+          "internalTransactionId": "4d8b173536c984076d46660413b6da01"
+        },
+        {
+          "transactionId": "TXN400e4febe2cdc191",
+          "bookingDate": "2025-07-10",
+          "bookingDateTime": "2025-07-10T14:05:06.607Z",
+          "transactionAmount": {
+            "amount": "-0.68",
+            "currency": "GBP"
+          },
+          "remittanceInformationUnstructured": "PMT04244813",
+          "proprietaryBankTransactionCode": "SWEEP",
+          "internalTransactionId": "0530e42448283bf9810c6daa3a9b34d0"
+        },
+        {
+          "transactionId": "TXN3a070fca19c0d212",
+          "bookingDate": "2025-07-10",
+          "bookingDateTime": "2025-07-10T14:05:06.208Z",
+          "transactionAmount": {
+            "amount": "-5.86",
+            "currency": "GBP"
+          },
+          "currencyExchange": {
+            "instructedAmount": {
+              "amount": "6.20",
+              "currency": "EUR"
+            },
+            "sourceCurrency": "EUR",
+            "exchangeRate": "0.8629032"
+          },
+          "creditorName": "BOLT",
+          "remittanceInformationUnstructured": "Ur 790618 Airport Bar",
+          "proprietaryBankTransactionCode": "PURCHASE",
+          "merchantCategoryCode": "5811",
+          "internalTransactionId": "b57190b7e097721c83b81b3e471a8f50"
+        },
+        {
+          "transactionId": "TXN861811eede269286",
+          "bookingDate": "2025-07-10",
+          "bookingDateTime": "2025-07-10T13:20:30.246Z",
+          "transactionAmount": {
+            "amount": "-0.58",
+            "currency": "GBP"
+          },
+          "remittanceInformationUnstructured": "PMT04244813",
+          "proprietaryBankTransactionCode": "SWEEP",
+          "internalTransactionId": "864859fed12fb013f7f832e4e83462ae"
+        },
+        {
+          "transactionId": "TXN0d7d3819ad7dce0b",
+          "bookingDate": "2025-07-10",
+          "bookingDateTime": "2025-07-10T13:20:29.837Z",
+          "transactionAmount": {
+            "amount": "-15.59",
+            "currency": "GBP"
+          },
+          "currencyExchange": {
+            "instructedAmount": {
+              "amount": "16.65",
+              "currency": "EUR"
+            },
+            "sourceCurrency": "EUR",
+            "exchangeRate": "0.8636636"
+          },
+          "creditorName": "BP",
+          "remittanceInformationUnstructured": "TRF3337350",
+          "proprietaryBankTransactionCode": "PURCHASE",
+          "merchantCategoryCode": "5811",
+          "internalTransactionId": "1fa3dc4672b95cac9e944ceda57c005c"
+        },
+        {
+          "transactionId": "TXN58af8c91b45bf57e",
+          "bookingDate": "2025-07-10",
+          "bookingDateTime": "2025-07-10T11:19:47.001Z",
+          "transactionAmount": {
+            "amount": "-0.86",
+            "currency": "GBP"
+          },
+          "remittanceInformationUnstructured": "PMT04244813",
+          "proprietaryBankTransactionCode": "SWEEP",
+          "internalTransactionId": "04e1de88e54b3dade5a95d5cb8332e75"
+        },
+        {
+          "transactionId": "TXN671421cbbad9d231",
+          "bookingDate": "2025-07-10",
+          "bookingDateTime": "2025-07-10T11:19:46.46Z",
+          "transactionAmount": {
+            "amount": "-2.30",
+            "currency": "GBP"
+          },
+          "currencyExchange": {
+            "instructedAmount": {
+              "amount": "2.50",
+              "currency": "EUR"
+            },
+            "sourceCurrency": "EUR",
+            "exchangeRate": "0.864"
+          },
+          "creditorName": "WAITROSE",
+          "remittanceInformationUnstructured": "INV51410963",
+          "proprietaryBankTransactionCode": "PURCHASE",
+          "merchantCategoryCode": "5499",
+          "internalTransactionId": "6a1065698d577b533f6eab9ef5a8815e"
+        },
+        {
+          "transactionId": "TXN39dfeec77fc6ec85",
+          "bookingDate": "2025-07-10",
+          "bookingDateTime": "2025-07-10T09:13:03.247Z",
+          "transactionAmount": {
+            "amount": "-0.31",
+            "currency": "GBP"
+          },
+          "remittanceInformationUnstructured": "PMT04244813",
+          "proprietaryBankTransactionCode": "SWEEP",
+          "internalTransactionId": "232b10fb51e23da1592c08b91d9bc960"
+        },
+        {
+          "transactionId": "TXNa1bc0cd9f39d131c",
+          "bookingDate": "2025-07-10",
+          "bookingDateTime": "2025-07-10T09:13:02.66Z",
+          "transactionAmount": {
+            "amount": "-1.83",
+            "currency": "GBP"
+          },
+          "currencyExchange": {
+            "instructedAmount": {
+              "amount": "1.95",
+              "currency": "EUR"
+            },
+            "sourceCurrency": "EUR",
+            "exchangeRate": "0.8615384"
+          },
+          "creditorName": "DELIVEROO",
+          "remittanceInformationUnstructured": "TRF28310646",
+          "proprietaryBankTransactionCode": "PURCHASE",
+          "merchantCategoryCode": "5994",
+          "internalTransactionId": "573d3cf6b14aad8d1a941fec58a0bfad"
+        },
+        {
+          "transactionId": "TXN2440663f580f9c2f",
+          "bookingDate": "2025-07-10",
+          "bookingDateTime": "2025-07-10T08:46:10.396Z",
+          "transactionAmount": {
+            "amount": "-0.37",
+            "currency": "GBP"
+          },
+          "remittanceInformationUnstructured": "PMT04244813",
+          "proprietaryBankTransactionCode": "SWEEP",
+          "internalTransactionId": "349d1e1c28efffdc6ae884e47d8af7de"
+        },
+        {
+          "transactionId": "TXNd30f2614fd23e5ac",
+          "bookingDate": "2025-07-10",
+          "bookingDateTime": "2025-07-10T08:46:09.887Z",
+          "transactionAmount": {
+            "amount": "-2.80",
+            "currency": "GBP"
+          },
+          "currencyExchange": {
+            "instructedAmount": {
+              "amount": "3.00",
+              "currency": "EUR"
+            },
+            "sourceCurrency": "EUR",
+            "exchangeRate": "0.8633333"
+          },
+          "creditorName": "HOMEBASE",
+          "remittanceInformationUnstructured": "TRF27114118",
+          "proprietaryBankTransactionCode": "PURCHASE",
+          "merchantCategoryCode": "4111",
+          "internalTransactionId": "c11cb610deed6b04b363f747fbb8d786"
+        }
+      ]
+    }
+  },
+  {
+    "metadata": {
+      "accountId": "5cf749a9-fa6a-eaf8-270a-378b3293363d",
+      "requisitionId": "c51da15e-34c6-4f6e-885f-203d81910fde",
+      "createdAt": "2025-07-11T16:24:09.523Z",
+      "traceId": "34ead6f3-faec-44e4-97b8-3ffc64851591"
+    },
+    "payload": {
+      "pending": [],
+      "booked": [
+        {
+          "transactionId": "TXNe6bfb7d53baefd3e",
+          "bookingDate": "2025-07-10",
+          "bookingDateTime": "2025-07-10T17:28:14.177Z",
+          "transactionAmount": {
+            "amount": "-4.89",
+            "currency": "GBP"
+          },
+          "currencyExchange": {
+            "instructedAmount": {
+              "amount": "5.00",
+              "currency": "GBP"
+            },
+            "sourceCurrency": "GBP",
+            "exchangeRate": "1.0"
+          },
+          "creditorName": "BOOTS",
+          "remittanceInformationUnstructured": "TXN18443825",
+          "proprietaryBankTransactionCode": "PURCHASE",
+          "merchantCategoryCode": "4112",
+          "internalTransactionId": "4d8b173536c984076d46660413b6da01"
+        },
+        {
+          "transactionId": "TXN400e4febe2cdc191",
+          "bookingDate": "2025-07-10",
+          "bookingDateTime": "2025-07-10T14:05:06.607Z",
+          "transactionAmount": {
+            "amount": "-0.68",
+            "currency": "GBP"
+          },
+          "remittanceInformationUnstructured": "PMT04244813",
+          "proprietaryBankTransactionCode": "SWEEP",
+          "internalTransactionId": "0530e42448283bf9810c6daa3a9b34d0"
+        },
+        {
+          "transactionId": "TXN3a070fca19c0d212",
+          "bookingDate": "2025-07-10",
+          "bookingDateTime": "2025-07-10T14:05:06.208Z",
+          "transactionAmount": {
+            "amount": "-5.86",
+            "currency": "GBP"
+          },
+          "currencyExchange": {
+            "instructedAmount": {
+              "amount": "6.20",
+              "currency": "EUR"
+            },
+            "sourceCurrency": "EUR",
+            "exchangeRate": "0.8629032"
+          },
+          "creditorName": "BOLT",
+          "remittanceInformationUnstructured": "Ur 790618 Airport Bar",
+          "proprietaryBankTransactionCode": "PURCHASE",
+          "merchantCategoryCode": "5811",
+          "internalTransactionId": "b57190b7e097721c83b81b3e471a8f50"
+        },
+        {
+          "transactionId": "TXN861811eede269286",
+          "bookingDate": "2025-07-10",
+          "bookingDateTime": "2025-07-10T13:20:30.246Z",
+          "transactionAmount": {
+            "amount": "-0.58",
+            "currency": "GBP"
+          },
+          "remittanceInformationUnstructured": "PMT04244813",
+          "proprietaryBankTransactionCode": "SWEEP",
+          "internalTransactionId": "864859fed12fb013f7f832e4e83462ae"
+        },
+        {
+          "transactionId": "TXN0d7d3819ad7dce0b",
+          "bookingDate": "2025-07-10",
+          "bookingDateTime": "2025-07-10T13:20:29.837Z",
+          "transactionAmount": {
+            "amount": "-15.59",
+            "currency": "GBP"
+          },
+          "currencyExchange": {
+            "instructedAmount": {
+              "amount": "16.65",
+              "currency": "EUR"
+            },
+            "sourceCurrency": "EUR",
+            "exchangeRate": "0.8636636"
+          },
+          "creditorName": "BP",
+          "remittanceInformationUnstructured": "TRF3337350",
+          "proprietaryBankTransactionCode": "PURCHASE",
+          "merchantCategoryCode": "5811",
+          "internalTransactionId": "1fa3dc4672b95cac9e944ceda57c005c"
+        },
+        {
+          "transactionId": "TXN58af8c91b45bf57e",
+          "bookingDate": "2025-07-10",
+          "bookingDateTime": "2025-07-10T11:19:47.001Z",
+          "transactionAmount": {
+            "amount": "-0.86",
+            "currency": "GBP"
+          },
+          "remittanceInformationUnstructured": "PMT04244813",
+          "proprietaryBankTransactionCode": "SWEEP",
+          "internalTransactionId": "04e1de88e54b3dade5a95d5cb8332e75"
+        },
+        {
+          "transactionId": "TXN671421cbbad9d231",
+          "bookingDate": "2025-07-10",
+          "bookingDateTime": "2025-07-10T11:19:46.46Z",
+          "transactionAmount": {
+            "amount": "-2.30",
+            "currency": "GBP"
+          },
+          "currencyExchange": {
+            "instructedAmount": {
+              "amount": "2.50",
+              "currency": "EUR"
+            },
+            "sourceCurrency": "EUR",
+            "exchangeRate": "0.864"
+          },
+          "creditorName": "WAITROSE",
+          "remittanceInformationUnstructured": "INV51410963",
+          "proprietaryBankTransactionCode": "PURCHASE",
+          "merchantCategoryCode": "5499",
+          "internalTransactionId": "6a1065698d577b533f6eab9ef5a8815e"
+        },
+        {
+          "transactionId": "TXN39dfeec77fc6ec85",
+          "bookingDate": "2025-07-10",
+          "bookingDateTime": "2025-07-10T09:13:03.247Z",
+          "transactionAmount": {
+            "amount": "-0.31",
+            "currency": "GBP"
+          },
+          "remittanceInformationUnstructured": "PMT04244813",
+          "proprietaryBankTransactionCode": "SWEEP",
+          "internalTransactionId": "232b10fb51e23da1592c08b91d9bc960"
+        },
+        {
+          "transactionId": "TXNa1bc0cd9f39d131c",
+          "bookingDate": "2025-07-10",
+          "bookingDateTime": "2025-07-10T09:13:02.66Z",
+          "transactionAmount": {
+            "amount": "-1.83",
+            "currency": "GBP"
+          },
+          "currencyExchange": {
+            "instructedAmount": {
+              "amount": "1.95",
+              "currency": "EUR"
+            },
+            "sourceCurrency": "EUR",
+            "exchangeRate": "0.8615384"
+          },
+          "creditorName": "DELIVEROO",
+          "remittanceInformationUnstructured": "TRF28310646",
+          "proprietaryBankTransactionCode": "PURCHASE",
+          "merchantCategoryCode": "5994",
+          "internalTransactionId": "573d3cf6b14aad8d1a941fec58a0bfad"
+        },
+        {
+          "transactionId": "TXN2440663f580f9c2f",
+          "bookingDate": "2025-07-10",
+          "bookingDateTime": "2025-07-10T08:46:10.396Z",
+          "transactionAmount": {
+            "amount": "-0.37",
+            "currency": "GBP"
+          },
+          "remittanceInformationUnstructured": "PMT04244813",
+          "proprietaryBankTransactionCode": "SWEEP",
+          "internalTransactionId": "349d1e1c28efffdc6ae884e47d8af7de"
+        },
+        {
+          "transactionId": "TXNd30f2614fd23e5ac",
+          "bookingDate": "2025-07-10",
+          "bookingDateTime": "2025-07-10T08:46:09.887Z",
+          "transactionAmount": {
+            "amount": "-2.80",
+            "currency": "GBP"
+          },
+          "currencyExchange": {
+            "instructedAmount": {
+              "amount": "3.00",
+              "currency": "EUR"
+            },
+            "sourceCurrency": "EUR",
+            "exchangeRate": "0.8633333"
+          },
+          "creditorName": "HOMEBASE",
+          "remittanceInformationUnstructured": "TRF27114118",
+          "proprietaryBankTransactionCode": "PURCHASE",
+          "merchantCategoryCode": "4111",
+          "internalTransactionId": "c11cb610deed6b04b363f747fbb8d786"
+        }
+      ]
+    }
+  },
+  {
+    "metadata": {
+      "accountId": "39b47a4f-4dee-37ac-deb9-1471090618a0",
+      "requisitionId": "8e3d1b19-d19d-4a40-b3c8-43986077810d",
+      "createdAt": "2025-07-11T11:34:36.169Z",
+      "traceId": "041e102a-4c35-442e-bcae-e7ee7399cf4c"
+    },
+    "payload": {
+      "pending": [
+        {
+          "transactionId": "TXN116816224d99760e",
+          "bookingDate": "2025-07-11",
+          "bookingDateTime": "2025-07-11T00:00:00Z",
+          "transactionAmount": {
+            "amount": "-14.98",
+            "currency": "GBP"
+          },
+          "creditorName": "TFL",
+          "creditorAccount": {},
+          "remittanceInformationUnstructured": "ORD21448076",
+          "proprietaryBankTransactionCode": "PrenotificationType: 166"
+        },
+        {
+          "transactionId": "TXN0d687e715e4e8169",
+          "bookingDate": "2025-07-11",
+          "bookingDateTime": "2025-07-11T00:00:00Z",
+          "transactionAmount": {
+            "amount": "-2.80",
+            "currency": "GBP"
+          },
+          "creditorName": "ESSO",
+          "creditorAccount": {},
+          "remittanceInformationUnstructured": "DD84776295",
+          "proprietaryBankTransactionCode": "PrenotificationType: 166"
+        },
+        {
+          "transactionId": "TXNeba0b348b57ecf43",
+          "bookingDate": "2025-07-10",
+          "bookingDateTime": "2025-07-10T00:00:00Z",
+          "transactionAmount": {
+            "amount": "-0.71",
+            "currency": "GBP"
+          },
+          "creditorName": "SKY",
+          "creditorAccount": {},
+          "remittanceInformationUnstructured": "VISA Debit Transaction TESCO STORES 8522",
+          "proprietaryBankTransactionCode": "PrenotificationType: 166"
+        },
+        {
+          "transactionId": "TXN669189a5fa90de42",
+          "bookingDate": "2025-07-10",
+          "bookingDateTime": "2025-07-10T00:00:00Z",
+          "transactionAmount": {
+            "amount": "-8.07",
+            "currency": "GBP"
+          },
+          "creditorName": "REVOLUT BIRMINGHAM",
+          "creditorAccount": {},
+          "remittanceInformationUnstructured": "TXN96011457",
+          "proprietaryBankTransactionCode": "PrenotificationType: 166"
+        },
+        {
+          "transactionId": "TXNbbfd56f114518e35",
+          "bookingDate": "2025-07-10",
+          "bookingDateTime": "2025-07-10T00:00:00Z",
+          "transactionAmount": {
+            "amount": "-6.84",
+            "currency": "GBP"
+          },
+          "creditorName": "YO! SUSHI",
+          "creditorAccount": {},
+          "remittanceInformationUnstructured": "PAY65092658",
+          "proprietaryBankTransactionCode": "PrenotificationType: 166"
+        },
+        {
+          "transactionId": "TXN40c549acaaf618b6",
+          "bookingDate": "2025-07-10",
+          "bookingDateTime": "2025-07-10T00:00:00Z",
+          "transactionAmount": {
+            "amount": "-8.07",
+            "currency": "GBP"
+          },
+          "creditorName": "YO! SUSHI",
+          "creditorAccount": {},
+          "remittanceInformationUnstructured": "PAY65092658",
+          "proprietaryBankTransactionCode": "PrenotificationType: 166"
+        }
+      ],
+      "booked": [
+        {
+          "transactionId": "TXNf519f9cdc745d7dc",
+          "bookingDate": "2025-07-10",
+          "valueDate": "2025-07-10",
+          "bookingDateTime": "2025-07-10T00:00:00Z",
+          "valueDateTime": "2025-07-10T00:00:00Z",
+          "transactionAmount": {
+            "amount": "-5.43",
+            "currency": "GBP"
+          },
+          "creditorName": "STARLING BANK MANCHESTER",
+          "creditorAccount": {},
+          "remittanceInformationUnstructured": "Contactless Payment MANCHESTER REGIONAL AR APPLEPAY 1060",
+          "proprietaryBankTransactionCode": "PaymentType: VP",
+          "internalTransactionId": "fef4e2c5ec96579cdb5533358e5c7378"
+        },
+        {
+          "transactionId": "TXNfa7705d9ece460a2",
+          "bookingDate": "2025-07-10",
+          "valueDate": "2025-07-10",
+          "bookingDateTime": "2025-07-10T00:00:00Z",
+          "valueDateTime": "2025-07-10T00:00:00Z",
+          "transactionAmount": {
+            "amount": "-4.10",
+            "currency": "GBP"
+          },
+          "creditorName": "JOHN LEWIS",
+          "creditorAccount": {},
+          "remittanceInformationUnstructured": "Contactless Payment SAINSBURYS S/MKTS APPLEPAY 9013",
+          "proprietaryBankTransactionCode": "PaymentType: VP",
+          "internalTransactionId": "a51a467fc8d9c221993ba7a8172311dd"
+        }
+      ]
+    }
+  },
+  {
+    "metadata": {
+      "accountId": "39b47a4f-4dee-37ac-deb9-1471090618a0",
+      "requisitionId": "65ba74e1-5c33-41b9-9710-d6947752da34",
+      "createdAt": "2025-07-11T20:26:22.415Z",
+      "traceId": "d76ccf00-8a81-4c57-a7ca-9b664afd39ad"
+    },
+    "payload": {
+      "pending": [
+        {
+          "transactionId": "TXN0d687e715e4e8169",
+          "bookingDate": "2025-07-11",
+          "bookingDateTime": "2025-07-11T00:00:00Z",
+          "transactionAmount": {
+            "amount": "-2.80",
+            "currency": "GBP"
+          },
+          "creditorName": "ESSO",
+          "creditorAccount": {},
+          "remittanceInformationUnstructured": "DD84776295",
+          "proprietaryBankTransactionCode": "PrenotificationType: 166"
+        },
+        {
+          "transactionId": "TXNabf4a741c8980088",
+          "bookingDate": "2025-07-11",
+          "bookingDateTime": "2025-07-11T00:00:00Z",
+          "transactionAmount": {
+            "amount": "-4.16",
+            "currency": "GBP"
+          },
+          "creditorName": "SCREWFIX",
+          "creditorAccount": {},
+          "remittanceInformationUnstructured": "PMT52322685",
+          "proprietaryBankTransactionCode": "PrenotificationType: 166"
+        }
+      ],
+      "booked": [
+        {
+          "transactionId": "TXN6fbf561174745e57",
+          "bookingDate": "2025-07-11",
+          "valueDate": "2025-07-11",
+          "bookingDateTime": "2025-07-11T00:00:00Z",
+          "valueDateTime": "2025-07-11T00:00:00Z",
+          "transactionAmount": {
+            "amount": "-14.98",
+            "currency": "GBP"
+          },
+          "creditorName": "TFL",
+          "creditorAccount": {},
+          "remittanceInformationUnstructured": "Contactless Payment Black Cat Club APPLEPAY 3004",
+          "proprietaryBankTransactionCode": "PaymentType: VP",
+          "internalTransactionId": "88447066fd886811674523c3d68ebfeb"
+        },
+        {
+          "transactionId": "TXN07ca9b2919f60983",
+          "bookingDate": "2025-07-11",
+          "valueDate": "2025-07-11",
+          "bookingDateTime": "2025-07-11T00:00:00Z",
+          "valueDateTime": "2025-07-11T00:00:00Z",
+          "transactionAmount": {
+            "amount": "-8.07",
+            "currency": "GBP"
+          },
+          "creditorName": "REVOLUT BIRMINGHAM",
+          "creditorAccount": {},
+          "remittanceInformationUnstructured": "Contactless Payment SQ *THE BIG MANCHESTER BA APPLEPAY 6835",
+          "proprietaryBankTransactionCode": "PaymentType: VP",
+          "internalTransactionId": "536e2a0aaa7c2b9e1d239abd652ea312"
+        },
+        {
+          "transactionId": "TXN28bdfe083c8394d3",
+          "bookingDate": "2025-07-11",
+          "valueDate": "2025-07-11",
+          "bookingDateTime": "2025-07-11T00:00:00Z",
+          "valueDateTime": "2025-07-11T00:00:00Z",
+          "transactionAmount": {
+            "amount": "-8.07",
+            "currency": "GBP"
+          },
+          "creditorName": "YO! SUSHI",
+          "creditorAccount": {},
+          "remittanceInformationUnstructured": "Visa purchase HTTPS://YARDANDCOOP.ME APPLEPAY 7179",
+          "proprietaryBankTransactionCode": "PaymentType: VP",
+          "internalTransactionId": "24f71fd79a9ce2b6a6f072078085a589"
+        },
+        {
+          "transactionId": "TXN0b7afa131a9b4b49",
+          "bookingDate": "2025-07-11",
+          "valueDate": "2025-07-11",
+          "bookingDateTime": "2025-07-11T00:00:00Z",
+          "valueDateTime": "2025-07-11T00:00:00Z",
+          "transactionAmount": {
+            "amount": "-6.84",
+            "currency": "GBP"
+          },
+          "creditorName": "YO! SUSHI",
+          "creditorAccount": {},
+          "remittanceInformationUnstructured": "Visa purchase HTTPS://YARDANDCOOP.ME APPLEPAY 7179",
+          "proprietaryBankTransactionCode": "PaymentType: VP",
+          "internalTransactionId": "4e44b3f1997bbe520d905c963c1bea0b"
+        },
+        {
+          "transactionId": "TXN19a711a539342f15",
+          "bookingDate": "2025-07-11",
+          "valueDate": "2025-07-11",
+          "bookingDateTime": "2025-07-11T00:00:00Z",
+          "valueDateTime": "2025-07-11T00:00:00Z",
+          "transactionAmount": {
+            "amount": "-0.71",
+            "currency": "GBP"
+          },
+          "creditorName": "SKY",
+          "creditorAccount": {},
+          "remittanceInformationUnstructured": "Contactless Payment TESCO STORES 2665 APPLEPAY 2665",
+          "proprietaryBankTransactionCode": "PaymentType: VP",
+          "internalTransactionId": "184d7f4df0ffe68c23abec775b280eaf"
+        }
+      ]
+    }
+  },
+  {
+    "metadata": {
+      "accountId": "39b47a4f-4dee-37ac-deb9-1471090618a0",
+      "requisitionId": "91d3938f-6b0b-4410-adf5-16cd6391b900",
+      "createdAt": "2025-07-11T03:26:44.531Z",
+      "traceId": "8eb471c2-1a12-4158-abcc-f3bca5e1e59b"
+    },
+    "payload": {
+      "pending": [
+        {
+          "transactionId": "TXN116816224d99760e",
+          "bookingDate": "2025-07-11",
+          "bookingDateTime": "2025-07-11T00:00:00Z",
+          "transactionAmount": {
+            "amount": "-14.98",
+            "currency": "GBP"
+          },
+          "creditorName": "TFL",
+          "creditorAccount": {},
+          "remittanceInformationUnstructured": "ORD21448076",
+          "proprietaryBankTransactionCode": "PrenotificationType: 166"
+        },
+        {
+          "transactionId": "TXNeba0b348b57ecf43",
+          "bookingDate": "2025-07-10",
+          "bookingDateTime": "2025-07-10T00:00:00Z",
+          "transactionAmount": {
+            "amount": "-0.71",
+            "currency": "GBP"
+          },
+          "creditorName": "SKY",
+          "creditorAccount": {},
+          "remittanceInformationUnstructured": "VISA Debit Transaction TESCO STORES 8522",
+          "proprietaryBankTransactionCode": "PrenotificationType: 166"
+        },
+        {
+          "transactionId": "TXN669189a5fa90de42",
+          "bookingDate": "2025-07-10",
+          "bookingDateTime": "2025-07-10T00:00:00Z",
+          "transactionAmount": {
+            "amount": "-8.07",
+            "currency": "GBP"
+          },
+          "creditorName": "REVOLUT BIRMINGHAM",
+          "creditorAccount": {},
+          "remittanceInformationUnstructured": "TXN96011457",
+          "proprietaryBankTransactionCode": "PrenotificationType: 166"
+        },
+        {
+          "transactionId": "TXNbbfd56f114518e35",
+          "bookingDate": "2025-07-10",
+          "bookingDateTime": "2025-07-10T00:00:00Z",
+          "transactionAmount": {
+            "amount": "-6.84",
+            "currency": "GBP"
+          },
+          "creditorName": "YO! SUSHI",
+          "creditorAccount": {},
+          "remittanceInformationUnstructured": "PAY65092658",
+          "proprietaryBankTransactionCode": "PrenotificationType: 166"
+        },
+        {
+          "transactionId": "TXN40c549acaaf618b6",
+          "bookingDate": "2025-07-10",
+          "bookingDateTime": "2025-07-10T00:00:00Z",
+          "transactionAmount": {
+            "amount": "-8.07",
+            "currency": "GBP"
+          },
+          "creditorName": "YO! SUSHI",
+          "creditorAccount": {},
+          "remittanceInformationUnstructured": "PAY65092658",
+          "proprietaryBankTransactionCode": "PrenotificationType: 166"
+        }
+      ],
+      "booked": [
+        {
+          "transactionId": "TXNf519f9cdc745d7dc",
+          "bookingDate": "2025-07-10",
+          "valueDate": "2025-07-10",
+          "bookingDateTime": "2025-07-10T00:00:00Z",
+          "valueDateTime": "2025-07-10T00:00:00Z",
+          "transactionAmount": {
+            "amount": "-5.43",
+            "currency": "GBP"
+          },
+          "creditorName": "STARLING BANK MANCHESTER",
+          "creditorAccount": {},
+          "remittanceInformationUnstructured": "Contactless Payment MANCHESTER REGIONAL AR APPLEPAY 1060",
+          "proprietaryBankTransactionCode": "PaymentType: VP",
+          "internalTransactionId": "fef4e2c5ec96579cdb5533358e5c7378"
+        },
+        {
+          "transactionId": "TXNfa7705d9ece460a2",
+          "bookingDate": "2025-07-10",
+          "valueDate": "2025-07-10",
+          "bookingDateTime": "2025-07-10T00:00:00Z",
+          "valueDateTime": "2025-07-10T00:00:00Z",
+          "transactionAmount": {
+            "amount": "-4.10",
+            "currency": "GBP"
+          },
+          "creditorName": "JOHN LEWIS",
+          "creditorAccount": {},
+          "remittanceInformationUnstructured": "Contactless Payment SAINSBURYS S/MKTS APPLEPAY 9013",
+          "proprietaryBankTransactionCode": "PaymentType: VP",
+          "internalTransactionId": "a51a467fc8d9c221993ba7a8172311dd"
+        }
+      ]
+    }
+  },
+  {
+    "metadata": {
+      "accountId": "39b47a4f-4dee-37ac-deb9-1471090618a0",
+      "requisitionId": "0fbe9eec-0389-4c46-a749-6383b94b6fa3",
+      "createdAt": "2025-07-11T16:26:52.106Z",
+      "traceId": "e60e00b0-a8e9-432a-a956-761df559f56b"
+    },
+    "payload": {
+      "pending": [
+        {
+          "transactionId": "TXN0d687e715e4e8169",
+          "bookingDate": "2025-07-11",
+          "bookingDateTime": "2025-07-11T00:00:00Z",
+          "transactionAmount": {
+            "amount": "-2.80",
+            "currency": "GBP"
+          },
+          "creditorName": "ESSO",
+          "creditorAccount": {},
+          "remittanceInformationUnstructured": "DD84776295",
+          "proprietaryBankTransactionCode": "PrenotificationType: 166"
+        },
+        {
+          "transactionId": "TXNabf4a741c8980088",
+          "bookingDate": "2025-07-11",
+          "bookingDateTime": "2025-07-11T00:00:00Z",
+          "transactionAmount": {
+            "amount": "-4.16",
+            "currency": "GBP"
+          },
+          "creditorName": "SCREWFIX",
+          "creditorAccount": {},
+          "remittanceInformationUnstructured": "PMT52322685",
+          "proprietaryBankTransactionCode": "PrenotificationType: 166"
+        }
+      ],
+      "booked": [
+        {
+          "transactionId": "TXN6fbf561174745e57",
+          "bookingDate": "2025-07-11",
+          "valueDate": "2025-07-11",
+          "bookingDateTime": "2025-07-11T00:00:00Z",
+          "valueDateTime": "2025-07-11T00:00:00Z",
+          "transactionAmount": {
+            "amount": "-14.98",
+            "currency": "GBP"
+          },
+          "creditorName": "TFL",
+          "creditorAccount": {},
+          "remittanceInformationUnstructured": "Contactless Payment Black Cat Club APPLEPAY 3004",
+          "proprietaryBankTransactionCode": "PaymentType: VP",
+          "internalTransactionId": "88447066fd886811674523c3d68ebfeb"
+        },
+        {
+          "transactionId": "TXN07ca9b2919f60983",
+          "bookingDate": "2025-07-11",
+          "valueDate": "2025-07-11",
+          "bookingDateTime": "2025-07-11T00:00:00Z",
+          "valueDateTime": "2025-07-11T00:00:00Z",
+          "transactionAmount": {
+            "amount": "-8.07",
+            "currency": "GBP"
+          },
+          "creditorName": "REVOLUT BIRMINGHAM",
+          "creditorAccount": {},
+          "remittanceInformationUnstructured": "Contactless Payment SQ *THE BIG MANCHESTER BA APPLEPAY 6835",
+          "proprietaryBankTransactionCode": "PaymentType: VP",
+          "internalTransactionId": "536e2a0aaa7c2b9e1d239abd652ea312"
+        },
+        {
+          "transactionId": "TXN28bdfe083c8394d3",
+          "bookingDate": "2025-07-11",
+          "valueDate": "2025-07-11",
+          "bookingDateTime": "2025-07-11T00:00:00Z",
+          "valueDateTime": "2025-07-11T00:00:00Z",
+          "transactionAmount": {
+            "amount": "-8.07",
+            "currency": "GBP"
+          },
+          "creditorName": "YO! SUSHI",
+          "creditorAccount": {},
+          "remittanceInformationUnstructured": "Visa purchase HTTPS://YARDANDCOOP.ME APPLEPAY 7179",
+          "proprietaryBankTransactionCode": "PaymentType: VP",
+          "internalTransactionId": "24f71fd79a9ce2b6a6f072078085a589"
+        },
+        {
+          "transactionId": "TXN0b7afa131a9b4b49",
+          "bookingDate": "2025-07-11",
+          "valueDate": "2025-07-11",
+          "bookingDateTime": "2025-07-11T00:00:00Z",
+          "valueDateTime": "2025-07-11T00:00:00Z",
+          "transactionAmount": {
+            "amount": "-6.84",
+            "currency": "GBP"
+          },
+          "creditorName": "YO! SUSHI",
+          "creditorAccount": {},
+          "remittanceInformationUnstructured": "Visa purchase HTTPS://YARDANDCOOP.ME APPLEPAY 7179",
+          "proprietaryBankTransactionCode": "PaymentType: VP",
+          "internalTransactionId": "4e44b3f1997bbe520d905c963c1bea0b"
+        },
+        {
+          "transactionId": "TXN19a711a539342f15",
+          "bookingDate": "2025-07-11",
+          "valueDate": "2025-07-11",
+          "bookingDateTime": "2025-07-11T00:00:00Z",
+          "valueDateTime": "2025-07-11T00:00:00Z",
+          "transactionAmount": {
+            "amount": "-0.71",
+            "currency": "GBP"
+          },
+          "creditorName": "SKY",
+          "creditorAccount": {},
+          "remittanceInformationUnstructured": "Contactless Payment TESCO STORES 2665 APPLEPAY 2665",
+          "proprietaryBankTransactionCode": "PaymentType: VP",
+          "internalTransactionId": "184d7f4df0ffe68c23abec775b280eaf"
+        },
+        {
+          "transactionId": "TXNf519f9cdc745d7dc",
+          "bookingDate": "2025-07-10",
+          "valueDate": "2025-07-10",
+          "bookingDateTime": "2025-07-10T00:00:00Z",
+          "valueDateTime": "2025-07-10T00:00:00Z",
+          "transactionAmount": {
+            "amount": "-5.43",
+            "currency": "GBP"
+          },
+          "creditorName": "STARLING BANK MANCHESTER",
+          "creditorAccount": {},
+          "remittanceInformationUnstructured": "Contactless Payment MANCHESTER REGIONAL AR APPLEPAY 1060",
+          "proprietaryBankTransactionCode": "PaymentType: VP",
+          "internalTransactionId": "fef4e2c5ec96579cdb5533358e5c7378"
+        },
+        {
+          "transactionId": "TXNfa7705d9ece460a2",
+          "bookingDate": "2025-07-10",
+          "valueDate": "2025-07-10",
+          "bookingDateTime": "2025-07-10T00:00:00Z",
+          "valueDateTime": "2025-07-10T00:00:00Z",
+          "transactionAmount": {
+            "amount": "-4.10",
+            "currency": "GBP"
+          },
+          "creditorName": "JOHN LEWIS",
+          "creditorAccount": {},
+          "remittanceInformationUnstructured": "Contactless Payment SAINSBURYS S/MKTS APPLEPAY 9013",
+          "proprietaryBankTransactionCode": "PaymentType: VP",
+          "internalTransactionId": "a51a467fc8d9c221993ba7a8172311dd"
+        }
+      ]
+    }
+  },
+  {
+    "metadata": {
+      "accountId": "39b47a4f-4dee-37ac-deb9-1471090618a0",
+      "requisitionId": "78ab95cc-5210-4eae-b4dd-ddabf95b93af",
+      "createdAt": "2025-07-11T23:24:58.111Z",
+      "traceId": "43978b8b-bf1e-4824-b48f-d2ac2e734883"
+    },
+    "payload": {
+      "pending": [
+        {
+          "transactionId": "TXN0d687e715e4e8169",
+          "bookingDate": "2025-07-11",
+          "bookingDateTime": "2025-07-11T00:00:00Z",
+          "transactionAmount": {
+            "amount": "-2.80",
+            "currency": "GBP"
+          },
+          "creditorName": "ESSO",
+          "creditorAccount": {},
+          "remittanceInformationUnstructured": "DD84776295",
+          "proprietaryBankTransactionCode": "PrenotificationType: 166"
+        },
+        {
+          "transactionId": "TXNabf4a741c8980088",
+          "bookingDate": "2025-07-11",
+          "bookingDateTime": "2025-07-11T00:00:00Z",
+          "transactionAmount": {
+            "amount": "-4.16",
+            "currency": "GBP"
+          },
+          "creditorName": "SCREWFIX",
+          "creditorAccount": {},
+          "remittanceInformationUnstructured": "PMT52322685",
+          "proprietaryBankTransactionCode": "PrenotificationType: 166"
+        }
+      ],
+      "booked": [
+        {
+          "transactionId": "TXN6fbf561174745e57",
+          "bookingDate": "2025-07-11",
+          "valueDate": "2025-07-11",
+          "bookingDateTime": "2025-07-11T00:00:00Z",
+          "valueDateTime": "2025-07-11T00:00:00Z",
+          "transactionAmount": {
+            "amount": "-14.98",
+            "currency": "GBP"
+          },
+          "creditorName": "TFL",
+          "creditorAccount": {},
+          "remittanceInformationUnstructured": "Contactless Payment Black Cat Club APPLEPAY 3004",
+          "proprietaryBankTransactionCode": "PaymentType: VP",
+          "internalTransactionId": "88447066fd886811674523c3d68ebfeb"
+        },
+        {
+          "transactionId": "TXN07ca9b2919f60983",
+          "bookingDate": "2025-07-11",
+          "valueDate": "2025-07-11",
+          "bookingDateTime": "2025-07-11T00:00:00Z",
+          "valueDateTime": "2025-07-11T00:00:00Z",
+          "transactionAmount": {
+            "amount": "-8.07",
+            "currency": "GBP"
+          },
+          "creditorName": "REVOLUT BIRMINGHAM",
+          "creditorAccount": {},
+          "remittanceInformationUnstructured": "Contactless Payment SQ *THE BIG MANCHESTER BA APPLEPAY 6835",
+          "proprietaryBankTransactionCode": "PaymentType: VP",
+          "internalTransactionId": "536e2a0aaa7c2b9e1d239abd652ea312"
+        },
+        {
+          "transactionId": "TXN28bdfe083c8394d3",
+          "bookingDate": "2025-07-11",
+          "valueDate": "2025-07-11",
+          "bookingDateTime": "2025-07-11T00:00:00Z",
+          "valueDateTime": "2025-07-11T00:00:00Z",
+          "transactionAmount": {
+            "amount": "-8.07",
+            "currency": "GBP"
+          },
+          "creditorName": "YO! SUSHI",
+          "creditorAccount": {},
+          "remittanceInformationUnstructured": "Visa purchase HTTPS://YARDANDCOOP.ME APPLEPAY 7179",
+          "proprietaryBankTransactionCode": "PaymentType: VP",
+          "internalTransactionId": "24f71fd79a9ce2b6a6f072078085a589"
+        },
+        {
+          "transactionId": "TXN0b7afa131a9b4b49",
+          "bookingDate": "2025-07-11",
+          "valueDate": "2025-07-11",
+          "bookingDateTime": "2025-07-11T00:00:00Z",
+          "valueDateTime": "2025-07-11T00:00:00Z",
+          "transactionAmount": {
+            "amount": "-6.84",
+            "currency": "GBP"
+          },
+          "creditorName": "YO! SUSHI",
+          "creditorAccount": {},
+          "remittanceInformationUnstructured": "Visa purchase HTTPS://YARDANDCOOP.ME APPLEPAY 7179",
+          "proprietaryBankTransactionCode": "PaymentType: VP",
+          "internalTransactionId": "4e44b3f1997bbe520d905c963c1bea0b"
+        },
+        {
+          "transactionId": "TXN19a711a539342f15",
+          "bookingDate": "2025-07-11",
+          "valueDate": "2025-07-11",
+          "bookingDateTime": "2025-07-11T00:00:00Z",
+          "valueDateTime": "2025-07-11T00:00:00Z",
+          "transactionAmount": {
+            "amount": "-0.71",
+            "currency": "GBP"
+          },
+          "creditorName": "SKY",
+          "creditorAccount": {},
+          "remittanceInformationUnstructured": "Contactless Payment TESCO STORES 2665 APPLEPAY 2665",
+          "proprietaryBankTransactionCode": "PaymentType: VP",
+          "internalTransactionId": "184d7f4df0ffe68c23abec775b280eaf"
+        }
+      ]
+    }
+  },
+  {
+    "metadata": {
+      "accountId": "40b9090c-91a3-d428-10b2-9e85b29e68c5",
+      "requisitionId": "21f6a121-4f6d-42f5-a936-d91c904d7bac",
+      "createdAt": "2025-07-11T16:12:52.159Z",
+      "traceId": "d149daf4-b709-4c04-a661-c5cd21ec9626"
+    },
+    "payload": {
+      "pending": [
+        {
+          "transactionId": "15bd2dc9dda9d939743154b8afb04504c6679b56c4c765757711d02a8226a9b2",
+          "entryReference": "TRF94326846",
+          "bookingDate": "2025-07-14",
+          "bookingDateTime": "2025-07-14T00:00:00+00:00",
+          "transactionAmount": {
+            "amount": "-56.17",
+            "currency": "GBP"
+          },
+          "remittanceInformationUnstructured": "TRF94326846",
+          "additionalInformation": "TRF94326846",
+          "proprietaryBankTransactionCode": "DD"
+        },
+        {
+          "transactionId": "aab672bc3dd7ce9a6a68053efa29837b78ffb15f3c7e5e85ed183b4052b28399",
+          "entryReference": "ORD7115004",
+          "bookingDate": "2025-07-14",
+          "bookingDateTime": "2025-07-14T00:00:00+00:00",
+          "transactionAmount": {
+            "amount": "-224.72",
+            "currency": "GBP"
+          },
+          "remittanceInformationUnstructured": "ORD7115004",
+          "additionalInformation": "ORD7115004",
+          "proprietaryBankTransactionCode": "DD"
+        }
+      ],
+      "booked": []
+    }
+  },
+  {
+    "metadata": {
+      "accountId": "40b9090c-91a3-d428-10b2-9e85b29e68c5",
+      "requisitionId": "36ca500f-3333-41d6-8d17-42119e15e368",
+      "createdAt": "2025-07-11T20:12:48.930Z",
+      "traceId": "04826931-67ce-45e2-925b-b5584ec495d4"
+    },
+    "payload": {
+      "pending": [
+        {
+          "transactionId": "15bd2dc9dda9d939743154b8afb04504c6679b56c4c765757711d02a8226a9b2",
+          "entryReference": "TRF94326846",
+          "bookingDate": "2025-07-14",
+          "bookingDateTime": "2025-07-14T00:00:00+00:00",
+          "transactionAmount": {
+            "amount": "-56.17",
+            "currency": "GBP"
+          },
+          "remittanceInformationUnstructured": "TRF94326846",
+          "additionalInformation": "TRF94326846",
+          "proprietaryBankTransactionCode": "DD"
+        },
+        {
+          "transactionId": "aab672bc3dd7ce9a6a68053efa29837b78ffb15f3c7e5e85ed183b4052b28399",
+          "entryReference": "ORD7115004",
+          "bookingDate": "2025-07-14",
+          "bookingDateTime": "2025-07-14T00:00:00+00:00",
+          "transactionAmount": {
+            "amount": "-224.72",
+            "currency": "GBP"
+          },
+          "remittanceInformationUnstructured": "ORD7115004",
+          "additionalInformation": "ORD7115004",
+          "proprietaryBankTransactionCode": "DD"
+        }
+      ],
+      "booked": []
+    }
+  },
+  {
+    "metadata": {
+      "accountId": "40b9090c-91a3-d428-10b2-9e85b29e68c5",
+      "requisitionId": "bf10c5eb-baac-46dd-9cbc-be638fae1ebe",
+      "createdAt": "2025-07-11T11:19:49.237Z",
+      "traceId": "1517041c-a2ec-4fd6-952d-9bf1232afd00"
+    },
+    "payload": {
+      "pending": [
+        {
+          "transactionId": "15bd2dc9dda9d939743154b8afb04504c6679b56c4c765757711d02a8226a9b2",
+          "entryReference": "TRF94326846",
+          "bookingDate": "2025-07-14",
+          "bookingDateTime": "2025-07-14T00:00:00+00:00",
+          "transactionAmount": {
+            "amount": "-56.17",
+            "currency": "GBP"
+          },
+          "remittanceInformationUnstructured": "TRF94326846",
+          "additionalInformation": "TRF94326846",
+          "proprietaryBankTransactionCode": "DD"
+        },
+        {
+          "transactionId": "aab672bc3dd7ce9a6a68053efa29837b78ffb15f3c7e5e85ed183b4052b28399",
+          "entryReference": "ORD7115004",
+          "bookingDate": "2025-07-14",
+          "bookingDateTime": "2025-07-14T00:00:00+00:00",
+          "transactionAmount": {
+            "amount": "-224.72",
+            "currency": "GBP"
+          },
+          "remittanceInformationUnstructured": "ORD7115004",
+          "additionalInformation": "ORD7115004",
+          "proprietaryBankTransactionCode": "DD"
+        }
+      ],
+      "booked": []
+    }
+  },
+  {
+    "metadata": {
+      "accountId": "40b9090c-91a3-d428-10b2-9e85b29e68c5",
+      "requisitionId": "554e2153-6b29-46da-bc12-27f327d2bef1",
+      "createdAt": "2025-07-11T23:11:19.485Z",
+      "traceId": "84cfd16e-5037-4471-9420-86add5f06d24"
+    },
+    "payload": {
+      "pending": [
+        {
+          "transactionId": "15bd2dc9dda9d939743154b8afb04504c6679b56c4c765757711d02a8226a9b2",
+          "entryReference": "TRF94326846",
+          "bookingDate": "2025-07-14",
+          "bookingDateTime": "2025-07-14T00:00:00+00:00",
+          "transactionAmount": {
+            "amount": "-56.17",
+            "currency": "GBP"
+          },
+          "remittanceInformationUnstructured": "TRF94326846",
+          "additionalInformation": "TRF94326846",
+          "proprietaryBankTransactionCode": "DD"
+        },
+        {
+          "transactionId": "aab672bc3dd7ce9a6a68053efa29837b78ffb15f3c7e5e85ed183b4052b28399",
+          "entryReference": "ORD7115004",
+          "bookingDate": "2025-07-14",
+          "bookingDateTime": "2025-07-14T00:00:00+00:00",
+          "transactionAmount": {
+            "amount": "-224.72",
+            "currency": "GBP"
+          },
+          "remittanceInformationUnstructured": "ORD7115004",
+          "additionalInformation": "ORD7115004",
+          "proprietaryBankTransactionCode": "DD"
+        }
+      ],
+      "booked": []
+    }
+  },
+  {
+    "metadata": {
+      "accountId": "40b9090c-91a3-d428-10b2-9e85b29e68c5",
+      "requisitionId": "19654eed-5cf7-42f9-b82f-7324964acdfb",
+      "createdAt": "2025-07-11T03:11:02.112Z",
+      "traceId": "7650c81a-8a6f-458b-82e2-7d468cf579b0"
+    },
+    "payload": {
+      "pending": [
+        {
+          "transactionId": "15bd2dc9dda9d939743154b8afb04504c6679b56c4c765757711d02a8226a9b2",
+          "entryReference": "TRF94326846",
+          "bookingDate": "2025-07-14",
+          "bookingDateTime": "2025-07-14T00:00:00+00:00",
+          "transactionAmount": {
+            "amount": "-56.17",
+            "currency": "GBP"
+          },
+          "remittanceInformationUnstructured": "TRF94326846",
+          "additionalInformation": "TRF94326846",
+          "proprietaryBankTransactionCode": "DD"
+        },
+        {
+          "transactionId": "aab672bc3dd7ce9a6a68053efa29837b78ffb15f3c7e5e85ed183b4052b28399",
+          "entryReference": "ORD7115004",
+          "bookingDate": "2025-07-14",
+          "bookingDateTime": "2025-07-14T00:00:00+00:00",
+          "transactionAmount": {
+            "amount": "-224.72",
+            "currency": "GBP"
+          },
+          "remittanceInformationUnstructured": "ORD7115004",
+          "additionalInformation": "ORD7115004",
+          "proprietaryBankTransactionCode": "DD"
+        }
+      ],
+      "booked": [
+        {
+          "transactionId": "830e2444f0474518242b789096abefa26df738f395170a275752d782ac35e5df",
+          "entryReference": "TXN51948561",
+          "bookingDate": "2025-07-09",
+          "bookingDateTime": "2025-07-09T00:00:00+00:00",
+          "transactionAmount": {
+            "amount": "-31.40",
+            "currency": "GBP"
+          },
+          "remittanceInformationUnstructured": "TXN51948561",
+          "additionalInformation": "TXN51948561",
+          "proprietaryBankTransactionCode": "MAS",
+          "internalTransactionId": "e94805d132e1dc00c873dc3207deda01"
+        },
+        {
+          "transactionId": "e3219d58e5e7e5f28a580c1ec963257e56a906d97752c8e1da7126f745b02f38",
+          "entryReference": "TRF94326846",
+          "bookingDate": "2025-07-08",
+          "bookingDateTime": "2025-07-08T00:00:00+00:00",
+          "transactionAmount": {
+            "amount": "-90.83",
+            "currency": "GBP"
+          },
+          "remittanceInformationUnstructured": "TRF94326846",
+          "additionalInformation": "TRF94326846",
+          "proprietaryBankTransactionCode": "DD",
+          "internalTransactionId": "b3a6e2fa290d452e9ca0543a1530b90f"
+        }
+      ]
+    }
+  },
+  {
+    "metadata": {
+      "accountId": "7b908220-29cb-391c-7cf3-a4ddd5fd805f",
+      "requisitionId": "88618f70-08f9-4135-97c5-3e05ffd042b6",
+      "createdAt": "2025-07-11T19:02:04.518Z",
+      "traceId": "873f209e-d735-476f-b2a4-93c68133c29c"
+    },
+    "payload": {
+      "pending": [],
+      "booked": [
+        {
+          "transactionId": "tx_843536b4cb0937f8dd6a",
+          "bookingDate": "2025-07-10",
+          "bookingDateTime": "2025-07-10T18:05:04.535Z",
+          "transactionAmount": {
+            "amount": "60.57",
+            "currency": "GBP"
+          },
+          "remittanceInformationUnstructured": "DD60757175",
+          "proprietaryBankTransactionCode": "monzo_flex",
+          "internalTransactionId": "a9596ebdfc0ad93b9cadcc4a4e0e361a"
+        },
+        {
+          "transactionId": "tx_008b0c5f830b3fe3931e",
+          "bookingDate": "2025-07-10",
+          "bookingDateTime": "2025-07-10T18:04:47.147Z",
+          "transactionAmount": {
+            "amount": "-61.95",
+            "currency": "GBP"
+          },
+          "creditorName": "NANDOS",
+          "remittanceInformationUnstructured": "DD60757175",
+          "proprietaryBankTransactionCode": "mastercard",
+          "merchantCategoryCode": "5691",
+          "internalTransactionId": "260f4fef5bb8c61264841617b2738300"
+        },
+        {
+          "transactionId": "tx_7dbd9397f92b2d4e49d3",
+          "bookingDate": "2025-07-10",
+          "bookingDateTime": "2025-07-10T14:40:31.115Z",
+          "transactionAmount": {
+            "amount": "-0.96",
+            "currency": "GBP"
+          },
+          "creditorName": "SAINSBURY'S",
+          "remittanceInformationUnstructured": "TRF18402894",
+          "proprietaryBankTransactionCode": "mastercard",
+          "merchantCategoryCode": "5411",
+          "internalTransactionId": "01e417bb78e62a6cd77c031f2ff15d12"
+        },
+        {
+          "transactionId": "tx_347ccbba8cc370adc4ff",
+          "bookingDate": "2025-07-10",
+          "bookingDateTime": "2025-07-10T08:22:31.868Z",
+          "transactionAmount": {
+            "amount": "-0.16",
+            "currency": "GBP"
+          },
+          "remittanceInformationUnstructured": "ORD73378220",
+          "proprietaryBankTransactionCode": "uk_retail_pot",
+          "internalTransactionId": "0fceb9b768bebe5e67c3a1a40c3692d5"
+        },
+        {
+          "transactionId": "tx_ae4ca51531c71a4e3e47",
+          "bookingDate": "2025-07-10",
+          "bookingDateTime": "2025-07-10T08:22:28.799Z",
+          "transactionAmount": {
+            "amount": "-3.57",
+            "currency": "GBP"
+          },
+          "creditorName": "H&M",
+          "remittanceInformationUnstructured": "INV3310227",
+          "proprietaryBankTransactionCode": "mastercard",
+          "merchantCategoryCode": "5411",
+          "internalTransactionId": "2a60b19672becd9ccf776866350e52a4"
+        },
+        {
+          "transactionId": "tx_e27bee1ee1a4e0fc102e",
+          "bookingDate": "2025-07-10",
+          "bookingDateTime": "2025-07-10T08:21:43.9Z",
+          "transactionAmount": {
+            "amount": "-0.40",
+            "currency": "GBP"
+          },
+          "remittanceInformationUnstructured": "ORD73378220",
+          "proprietaryBankTransactionCode": "uk_retail_pot",
+          "internalTransactionId": "7a2bc38fb758e566185156b57baa265d"
+        },
+        {
+          "transactionId": "tx_b51fd2ae640d821babbf",
+          "bookingDate": "2025-07-10",
+          "bookingDateTime": "2025-07-10T08:21:03.666Z",
+          "transactionAmount": {
+            "amount": "-1.50",
+            "currency": "GBP"
+          },
+          "creditorName": "H&M",
+          "remittanceInformationUnstructured": "INV3310227",
+          "proprietaryBankTransactionCode": "mastercard",
+          "merchantCategoryCode": "5411",
+          "internalTransactionId": "d3cf8ae57c2eee3a04142e46f05b6570"
+        }
+      ]
+    }
+  },
+  {
+    "metadata": {
+      "accountId": "7b908220-29cb-391c-7cf3-a4ddd5fd805f",
+      "requisitionId": "6a502a1e-1002-4b6b-8608-763828122da3",
+      "createdAt": "2025-07-11T15:01:44.614Z",
+      "traceId": "a3d8aea2-3521-4d5b-bdee-12e6bf184894"
+    },
+    "payload": {
+      "pending": [],
+      "booked": [
+        {
+          "transactionId": "tx_843536b4cb0937f8dd6a",
+          "bookingDate": "2025-07-10",
+          "bookingDateTime": "2025-07-10T18:05:04.535Z",
+          "transactionAmount": {
+            "amount": "60.57",
+            "currency": "GBP"
+          },
+          "remittanceInformationUnstructured": "DD60757175",
+          "proprietaryBankTransactionCode": "monzo_flex",
+          "internalTransactionId": "a9596ebdfc0ad93b9cadcc4a4e0e361a"
+        },
+        {
+          "transactionId": "tx_008b0c5f830b3fe3931e",
+          "bookingDate": "2025-07-10",
+          "bookingDateTime": "2025-07-10T18:04:47.147Z",
+          "transactionAmount": {
+            "amount": "-61.95",
+            "currency": "GBP"
+          },
+          "creditorName": "NANDOS",
+          "remittanceInformationUnstructured": "DD60757175",
+          "proprietaryBankTransactionCode": "mastercard",
+          "merchantCategoryCode": "5691",
+          "internalTransactionId": "260f4fef5bb8c61264841617b2738300"
+        },
+        {
+          "transactionId": "tx_7dbd9397f92b2d4e49d3",
+          "bookingDate": "2025-07-10",
+          "bookingDateTime": "2025-07-10T14:40:31.115Z",
+          "transactionAmount": {
+            "amount": "-0.96",
+            "currency": "GBP"
+          },
+          "creditorName": "SAINSBURY'S",
+          "remittanceInformationUnstructured": "TRF18402894",
+          "proprietaryBankTransactionCode": "mastercard",
+          "merchantCategoryCode": "5411",
+          "internalTransactionId": "01e417bb78e62a6cd77c031f2ff15d12"
+        },
+        {
+          "transactionId": "tx_347ccbba8cc370adc4ff",
+          "bookingDate": "2025-07-10",
+          "bookingDateTime": "2025-07-10T08:22:31.868Z",
+          "transactionAmount": {
+            "amount": "-0.16",
+            "currency": "GBP"
+          },
+          "remittanceInformationUnstructured": "ORD73378220",
+          "proprietaryBankTransactionCode": "uk_retail_pot",
+          "internalTransactionId": "0fceb9b768bebe5e67c3a1a40c3692d5"
+        },
+        {
+          "transactionId": "tx_ae4ca51531c71a4e3e47",
+          "bookingDate": "2025-07-10",
+          "bookingDateTime": "2025-07-10T08:22:28.799Z",
+          "transactionAmount": {
+            "amount": "-3.57",
+            "currency": "GBP"
+          },
+          "creditorName": "H&M",
+          "remittanceInformationUnstructured": "INV3310227",
+          "proprietaryBankTransactionCode": "mastercard",
+          "merchantCategoryCode": "5411",
+          "internalTransactionId": "2a60b19672becd9ccf776866350e52a4"
+        },
+        {
+          "transactionId": "tx_e27bee1ee1a4e0fc102e",
+          "bookingDate": "2025-07-10",
+          "bookingDateTime": "2025-07-10T08:21:43.9Z",
+          "transactionAmount": {
+            "amount": "-0.40",
+            "currency": "GBP"
+          },
+          "remittanceInformationUnstructured": "ORD73378220",
+          "proprietaryBankTransactionCode": "uk_retail_pot",
+          "internalTransactionId": "7a2bc38fb758e566185156b57baa265d"
+        },
+        {
+          "transactionId": "tx_b51fd2ae640d821babbf",
+          "bookingDate": "2025-07-10",
+          "bookingDateTime": "2025-07-10T08:21:03.666Z",
+          "transactionAmount": {
+            "amount": "-1.50",
+            "currency": "GBP"
+          },
+          "creditorName": "H&M",
+          "remittanceInformationUnstructured": "INV3310227",
+          "proprietaryBankTransactionCode": "mastercard",
+          "merchantCategoryCode": "5411",
+          "internalTransactionId": "d3cf8ae57c2eee3a04142e46f05b6570"
+        }
+      ]
+    }
+  },
+  {
+    "metadata": {
+      "accountId": "7b908220-29cb-391c-7cf3-a4ddd5fd805f",
+      "requisitionId": "0b4005bf-dcd6-4c59-ba40-d0b20d578bb9",
+      "createdAt": "2025-07-11T02:00:57.098Z",
+      "traceId": "33fc6ef0-6c26-45ae-bdfa-c23c506669d0"
+    },
+    "payload": {
+      "pending": [
+        {
+          "transactionId": "tx_b51fd2ae640d821babbf",
+          "bookingDate": "2025-07-10",
+          "bookingDateTime": "2025-07-10T08:21:03.666Z",
+          "transactionAmount": {
+            "amount": "-1.50",
+            "currency": "GBP"
+          },
+          "creditorName": "H&M",
+          "remittanceInformationUnstructured": "INV3310227",
+          "proprietaryBankTransactionCode": "mastercard",
+          "merchantCategoryCode": "5411"
+        },
+        {
+          "transactionId": "tx_ae4ca51531c71a4e3e47",
+          "bookingDate": "2025-07-10",
+          "bookingDateTime": "2025-07-10T08:22:28.799Z",
+          "transactionAmount": {
+            "amount": "-3.57",
+            "currency": "GBP"
+          },
+          "creditorName": "H&M",
+          "remittanceInformationUnstructured": "INV3310227",
+          "proprietaryBankTransactionCode": "mastercard",
+          "merchantCategoryCode": "5411"
+        },
+        {
+          "transactionId": "tx_7dbd9397f92b2d4e49d3",
+          "bookingDate": "2025-07-10",
+          "bookingDateTime": "2025-07-10T14:40:31.115Z",
+          "transactionAmount": {
+            "amount": "-0.96",
+            "currency": "GBP"
+          },
+          "creditorName": "SAINSBURY'S",
+          "remittanceInformationUnstructured": "TRF18402894",
+          "proprietaryBankTransactionCode": "mastercard",
+          "merchantCategoryCode": "5411"
+        },
+        {
+          "transactionId": "tx_008b0c5f830b3fe3931e",
+          "bookingDate": "2025-07-10",
+          "bookingDateTime": "2025-07-10T18:04:47.147Z",
+          "transactionAmount": {
+            "amount": "-61.95",
+            "currency": "GBP"
+          },
+          "creditorName": "NANDOS",
+          "remittanceInformationUnstructured": "DD60757175",
+          "proprietaryBankTransactionCode": "mastercard",
+          "merchantCategoryCode": "5691"
+        }
+      ],
+      "booked": [
+        {
+          "transactionId": "tx_843536b4cb0937f8dd6a",
+          "bookingDate": "2025-07-10",
+          "bookingDateTime": "2025-07-10T18:05:04.535Z",
+          "transactionAmount": {
+            "amount": "60.57",
+            "currency": "GBP"
+          },
+          "remittanceInformationUnstructured": "DD60757175",
+          "proprietaryBankTransactionCode": "monzo_flex",
+          "internalTransactionId": "a9596ebdfc0ad93b9cadcc4a4e0e361a"
+        },
+        {
+          "transactionId": "tx_347ccbba8cc370adc4ff",
+          "bookingDate": "2025-07-10",
+          "bookingDateTime": "2025-07-10T08:22:31.868Z",
+          "transactionAmount": {
+            "amount": "-0.16",
+            "currency": "GBP"
+          },
+          "remittanceInformationUnstructured": "ORD73378220",
+          "proprietaryBankTransactionCode": "uk_retail_pot",
+          "internalTransactionId": "0fceb9b768bebe5e67c3a1a40c3692d5"
+        },
+        {
+          "transactionId": "tx_e27bee1ee1a4e0fc102e",
+          "bookingDate": "2025-07-10",
+          "bookingDateTime": "2025-07-10T08:21:43.9Z",
+          "transactionAmount": {
+            "amount": "-0.40",
+            "currency": "GBP"
+          },
+          "remittanceInformationUnstructured": "ORD73378220",
+          "proprietaryBankTransactionCode": "uk_retail_pot",
+          "internalTransactionId": "7a2bc38fb758e566185156b57baa265d"
+        }
+      ]
+    }
+  },
+  {
+    "metadata": {
+      "accountId": "7b908220-29cb-391c-7cf3-a4ddd5fd805f",
+      "requisitionId": "f4036cd9-4547-4afc-8c45-b49ae2c6da31",
+      "createdAt": "2025-07-11T22:02:14.397Z",
+      "traceId": "a52a0845-4096-4269-b3fe-da88b0d1d371"
+    },
+    "payload": {
+      "pending": [],
+      "booked": [
+        {
+          "transactionId": "tx_843536b4cb0937f8dd6a",
+          "bookingDate": "2025-07-10",
+          "bookingDateTime": "2025-07-10T18:05:04.535Z",
+          "transactionAmount": {
+            "amount": "60.57",
+            "currency": "GBP"
+          },
+          "remittanceInformationUnstructured": "DD60757175",
+          "proprietaryBankTransactionCode": "monzo_flex",
+          "internalTransactionId": "a9596ebdfc0ad93b9cadcc4a4e0e361a"
+        },
+        {
+          "transactionId": "tx_008b0c5f830b3fe3931e",
+          "bookingDate": "2025-07-10",
+          "bookingDateTime": "2025-07-10T18:04:47.147Z",
+          "transactionAmount": {
+            "amount": "-61.95",
+            "currency": "GBP"
+          },
+          "creditorName": "NANDOS",
+          "remittanceInformationUnstructured": "DD60757175",
+          "proprietaryBankTransactionCode": "mastercard",
+          "merchantCategoryCode": "5691",
+          "internalTransactionId": "260f4fef5bb8c61264841617b2738300"
+        },
+        {
+          "transactionId": "tx_7dbd9397f92b2d4e49d3",
+          "bookingDate": "2025-07-10",
+          "bookingDateTime": "2025-07-10T14:40:31.115Z",
+          "transactionAmount": {
+            "amount": "-0.96",
+            "currency": "GBP"
+          },
+          "creditorName": "SAINSBURY'S",
+          "remittanceInformationUnstructured": "TRF18402894",
+          "proprietaryBankTransactionCode": "mastercard",
+          "merchantCategoryCode": "5411",
+          "internalTransactionId": "01e417bb78e62a6cd77c031f2ff15d12"
+        },
+        {
+          "transactionId": "tx_347ccbba8cc370adc4ff",
+          "bookingDate": "2025-07-10",
+          "bookingDateTime": "2025-07-10T08:22:31.868Z",
+          "transactionAmount": {
+            "amount": "-0.16",
+            "currency": "GBP"
+          },
+          "remittanceInformationUnstructured": "ORD73378220",
+          "proprietaryBankTransactionCode": "uk_retail_pot",
+          "internalTransactionId": "0fceb9b768bebe5e67c3a1a40c3692d5"
+        },
+        {
+          "transactionId": "tx_ae4ca51531c71a4e3e47",
+          "bookingDate": "2025-07-10",
+          "bookingDateTime": "2025-07-10T08:22:28.799Z",
+          "transactionAmount": {
+            "amount": "-3.57",
+            "currency": "GBP"
+          },
+          "creditorName": "H&M",
+          "remittanceInformationUnstructured": "INV3310227",
+          "proprietaryBankTransactionCode": "mastercard",
+          "merchantCategoryCode": "5411",
+          "internalTransactionId": "2a60b19672becd9ccf776866350e52a4"
+        },
+        {
+          "transactionId": "tx_e27bee1ee1a4e0fc102e",
+          "bookingDate": "2025-07-10",
+          "bookingDateTime": "2025-07-10T08:21:43.9Z",
+          "transactionAmount": {
+            "amount": "-0.40",
+            "currency": "GBP"
+          },
+          "remittanceInformationUnstructured": "ORD73378220",
+          "proprietaryBankTransactionCode": "uk_retail_pot",
+          "internalTransactionId": "7a2bc38fb758e566185156b57baa265d"
+        },
+        {
+          "transactionId": "tx_b51fd2ae640d821babbf",
+          "bookingDate": "2025-07-10",
+          "bookingDateTime": "2025-07-10T08:21:03.666Z",
+          "transactionAmount": {
+            "amount": "-1.50",
+            "currency": "GBP"
+          },
+          "creditorName": "H&M",
+          "remittanceInformationUnstructured": "INV3310227",
+          "proprietaryBankTransactionCode": "mastercard",
+          "merchantCategoryCode": "5411",
+          "internalTransactionId": "d3cf8ae57c2eee3a04142e46f05b6570"
+        }
+      ]
+    }
+  },
+  {
+    "metadata": {
+      "accountId": "7b908220-29cb-391c-7cf3-a4ddd5fd805f",
+      "requisitionId": "8b478191-12fa-4c82-a348-59a080a87561",
+      "createdAt": "2025-07-11T10:01:35.488Z",
+      "traceId": "8e2b9247-721d-4a15-9c1e-ad2e5a38d225"
+    },
+    "payload": {
+      "pending": [
+        {
+          "transactionId": "tx_b51fd2ae640d821babbf",
+          "bookingDate": "2025-07-10",
+          "bookingDateTime": "2025-07-10T08:21:03.666Z",
+          "transactionAmount": {
+            "amount": "-1.50",
+            "currency": "GBP"
+          },
+          "creditorName": "H&M",
+          "remittanceInformationUnstructured": "INV3310227",
+          "proprietaryBankTransactionCode": "mastercard",
+          "merchantCategoryCode": "5411"
+        },
+        {
+          "transactionId": "tx_ae4ca51531c71a4e3e47",
+          "bookingDate": "2025-07-10",
+          "bookingDateTime": "2025-07-10T08:22:28.799Z",
+          "transactionAmount": {
+            "amount": "-3.57",
+            "currency": "GBP"
+          },
+          "creditorName": "H&M",
+          "remittanceInformationUnstructured": "INV3310227",
+          "proprietaryBankTransactionCode": "mastercard",
+          "merchantCategoryCode": "5411"
+        }
+      ],
+      "booked": [
+        {
+          "transactionId": "tx_843536b4cb0937f8dd6a",
+          "bookingDate": "2025-07-10",
+          "bookingDateTime": "2025-07-10T18:05:04.535Z",
+          "transactionAmount": {
+            "amount": "60.57",
+            "currency": "GBP"
+          },
+          "remittanceInformationUnstructured": "DD60757175",
+          "proprietaryBankTransactionCode": "monzo_flex",
+          "internalTransactionId": "a9596ebdfc0ad93b9cadcc4a4e0e361a"
+        },
+        {
+          "transactionId": "tx_008b0c5f830b3fe3931e",
+          "bookingDate": "2025-07-10",
+          "bookingDateTime": "2025-07-10T18:04:47.147Z",
+          "transactionAmount": {
+            "amount": "-61.95",
+            "currency": "GBP"
+          },
+          "creditorName": "NANDOS",
+          "remittanceInformationUnstructured": "DD60757175",
+          "proprietaryBankTransactionCode": "mastercard",
+          "merchantCategoryCode": "5691",
+          "internalTransactionId": "260f4fef5bb8c61264841617b2738300"
+        },
+        {
+          "transactionId": "tx_7dbd9397f92b2d4e49d3",
+          "bookingDate": "2025-07-10",
+          "bookingDateTime": "2025-07-10T14:40:31.115Z",
+          "transactionAmount": {
+            "amount": "-0.96",
+            "currency": "GBP"
+          },
+          "creditorName": "SAINSBURY'S",
+          "remittanceInformationUnstructured": "TRF18402894",
+          "proprietaryBankTransactionCode": "mastercard",
+          "merchantCategoryCode": "5411",
+          "internalTransactionId": "01e417bb78e62a6cd77c031f2ff15d12"
+        },
+        {
+          "transactionId": "tx_347ccbba8cc370adc4ff",
+          "bookingDate": "2025-07-10",
+          "bookingDateTime": "2025-07-10T08:22:31.868Z",
+          "transactionAmount": {
+            "amount": "-0.16",
+            "currency": "GBP"
+          },
+          "remittanceInformationUnstructured": "ORD73378220",
+          "proprietaryBankTransactionCode": "uk_retail_pot",
+          "internalTransactionId": "0fceb9b768bebe5e67c3a1a40c3692d5"
+        },
+        {
+          "transactionId": "tx_e27bee1ee1a4e0fc102e",
+          "bookingDate": "2025-07-10",
+          "bookingDateTime": "2025-07-10T08:21:43.9Z",
+          "transactionAmount": {
+            "amount": "-0.40",
+            "currency": "GBP"
+          },
+          "remittanceInformationUnstructured": "ORD73378220",
+          "proprietaryBankTransactionCode": "uk_retail_pot",
+          "internalTransactionId": "7a2bc38fb758e566185156b57baa265d"
+        }
+      ]
+    }
+  },
+  {
+    "metadata": {
+      "accountId": "7b908220-29cb-391c-7cf3-a4ddd5fd805f",
+      "requisitionId": "4718ba18-1250-4e91-9a58-01e2121ced37",
+      "createdAt": "2025-07-11T10:07:06.555Z",
+      "traceId": "710daabd-4976-4f22-b015-28739206d3ec"
+    },
+    "payload": {
+      "pending": [
+        {
+          "transactionId": "tx_b51fd2ae640d821babbf",
+          "bookingDate": "2025-07-10",
+          "bookingDateTime": "2025-07-10T08:21:03.666Z",
+          "transactionAmount": {
+            "amount": "-1.50",
+            "currency": "GBP"
+          },
+          "creditorName": "H&M",
+          "remittanceInformationUnstructured": "INV3310227",
+          "proprietaryBankTransactionCode": "mastercard",
+          "merchantCategoryCode": "5411"
+        },
+        {
+          "transactionId": "tx_ae4ca51531c71a4e3e47",
+          "bookingDate": "2025-07-10",
+          "bookingDateTime": "2025-07-10T08:22:28.799Z",
+          "transactionAmount": {
+            "amount": "-3.57",
+            "currency": "GBP"
+          },
+          "creditorName": "H&M",
+          "remittanceInformationUnstructured": "INV3310227",
+          "proprietaryBankTransactionCode": "mastercard",
+          "merchantCategoryCode": "5411"
+        }
+      ],
+      "booked": [
+        {
+          "transactionId": "tx_843536b4cb0937f8dd6a",
+          "bookingDate": "2025-07-10",
+          "bookingDateTime": "2025-07-10T18:05:04.535Z",
+          "transactionAmount": {
+            "amount": "60.57",
+            "currency": "GBP"
+          },
+          "remittanceInformationUnstructured": "DD60757175",
+          "proprietaryBankTransactionCode": "monzo_flex",
+          "internalTransactionId": "a9596ebdfc0ad93b9cadcc4a4e0e361a"
+        },
+        {
+          "transactionId": "tx_008b0c5f830b3fe3931e",
+          "bookingDate": "2025-07-10",
+          "bookingDateTime": "2025-07-10T18:04:47.147Z",
+          "transactionAmount": {
+            "amount": "-61.95",
+            "currency": "GBP"
+          },
+          "creditorName": "NANDOS",
+          "remittanceInformationUnstructured": "DD60757175",
+          "proprietaryBankTransactionCode": "mastercard",
+          "merchantCategoryCode": "5691",
+          "internalTransactionId": "260f4fef5bb8c61264841617b2738300"
+        },
+        {
+          "transactionId": "tx_7dbd9397f92b2d4e49d3",
+          "bookingDate": "2025-07-10",
+          "bookingDateTime": "2025-07-10T14:40:31.115Z",
+          "transactionAmount": {
+            "amount": "-0.96",
+            "currency": "GBP"
+          },
+          "creditorName": "SAINSBURY'S",
+          "remittanceInformationUnstructured": "TRF18402894",
+          "proprietaryBankTransactionCode": "mastercard",
+          "merchantCategoryCode": "5411",
+          "internalTransactionId": "01e417bb78e62a6cd77c031f2ff15d12"
+        },
+        {
+          "transactionId": "tx_347ccbba8cc370adc4ff",
+          "bookingDate": "2025-07-10",
+          "bookingDateTime": "2025-07-10T08:22:31.868Z",
+          "transactionAmount": {
+            "amount": "-0.16",
+            "currency": "GBP"
+          },
+          "remittanceInformationUnstructured": "ORD73378220",
+          "proprietaryBankTransactionCode": "uk_retail_pot",
+          "internalTransactionId": "0fceb9b768bebe5e67c3a1a40c3692d5"
+        },
+        {
+          "transactionId": "tx_e27bee1ee1a4e0fc102e",
+          "bookingDate": "2025-07-10",
+          "bookingDateTime": "2025-07-10T08:21:43.9Z",
+          "transactionAmount": {
+            "amount": "-0.40",
+            "currency": "GBP"
+          },
+          "remittanceInformationUnstructured": "ORD73378220",
+          "proprietaryBankTransactionCode": "uk_retail_pot",
+          "internalTransactionId": "7a2bc38fb758e566185156b57baa265d"
+        }
+      ]
+    }
+  },
+  {
+    "metadata": {
+      "accountId": "c984eb0e-2611-c332-b2e5-b9b4c0e72721",
+      "requisitionId": "f128a731-5865-4f83-9063-11118110107b",
+      "createdAt": "2025-07-11T23:22:44.662Z",
+      "traceId": "d062bd6f-aae3-4c48-a4cd-b9d52247032a"
+    },
+    "payload": {
+      "pending": [],
+      "booked": [
+        {
+          "transactionId": "3cc223dcf970e893b0dc6cb803c5077378e2cd3600fe18e4cea4a490ca4660b4",
+          "bookingDate": "2025-07-07",
+          "bookingDateTime": "2025-07-07T00:00:00.000Z",
+          "transactionAmount": {
+            "amount": "-0.98",
+            "currency": "GBP"
+          },
+          "remittanceInformationUnstructured": "KITTY RESCUE BURY FP 07/07/25 30    59525952595259520N",
+          "proprietaryBankTransactionCode": "S/O",
+          "internalTransactionId": "b9a59a607e480642cf019af74983099d"
+        },
+        {
+          "transactionId": "53a047312af730fd8336e9508dfa37d6934fdc68af2e10a6fb8ad022322bcf0b",
+          "bookingDate": "2025-07-07",
+          "bookingDateTime": "2025-07-07T00:00:00.000Z",
+          "transactionAmount": {
+            "amount": "-20.39",
+            "currency": "GBP"
+          },
+          "creditorName": "PRIMARK BIRMINGHAM",
+          "remittanceInformationUnstructured": "2077 05JUL25  D   WWW.BLOOMAN       DWILD.COM         LONDON GB",
+          "proprietaryBankTransactionCode": "POS",
+          "internalTransactionId": "770b485115530f6824cc57759ef5c8f6"
+        },
+        {
+          "transactionId": "789d6422bd7fccb7e6af42144d3754a44b63ee24c8631893dea83aecf38f54b3",
+          "bookingDate": "2025-07-07",
+          "bookingDateTime": "2025-07-07T00:00:00.000Z",
+          "transactionAmount": {
+            "amount": "0.76",
+            "currency": "GBP"
+          },
+          "remittanceInformationUnstructured": "From A/C 98609860 WALSH T & HARRIS CVia Mobile Xfer",
+          "proprietaryBankTransactionCode": "DPC",
+          "internalTransactionId": "5b83e3b13096b5ee361c81cd9cfcf7a7"
+        },
+        {
+          "transactionId": "66eb898280400ca8701ebb47206cceac498ee41e2197e10d80f6016743850a2e",
+          "bookingDate": "2025-07-07",
+          "bookingDateTime": "2025-07-07T00:00:00.000Z",
+          "transactionAmount": {
+            "amount": "0.36",
+            "currency": "GBP"
+          },
+          "remittanceInformationUnstructured": "From A/C 73727372 Car Money         Via Mobile Xfer",
+          "proprietaryBankTransactionCode": "DPC",
+          "internalTransactionId": "846a716c760da78cc04c4f9351b90963"
+        },
+        {
+          "transactionId": "a9852e69481a880b939381c39f478a9a8b314b18e8f87c60572c1bc602ac25cc",
+          "bookingDate": "2025-07-07",
+          "bookingDateTime": "2025-07-07T00:00:00.000Z",
+          "transactionAmount": {
+            "amount": "19.79",
+            "currency": "GBP"
+          },
+          "debtorName": "JOHN HILL",
+          "remittanceInformationUnstructured": "CHLOE ALEXANDRA HAPLUM FINTECH      FP 05/07/25 2237  MODUGB29FAKE0123456789WYHJX6",
+          "proprietaryBankTransactionCode": "BAC",
+          "internalTransactionId": "445234cda4d93053acd2797c7508dca4"
+        }
+      ]
+    }
+  },
+  {
+    "metadata": {
+      "accountId": "c984eb0e-2611-c332-b2e5-b9b4c0e72721",
+      "requisitionId": "433b592e-ef81-4efa-bd2a-caab38508f0f",
+      "createdAt": "2025-07-11T16:24:33.247Z",
+      "traceId": "cbf9c700-59cb-4b9f-bb38-550e8d1bf6a3"
+    },
+    "payload": {
+      "pending": [],
+      "booked": [
+        {
+          "transactionId": "3cc223dcf970e893b0dc6cb803c5077378e2cd3600fe18e4cea4a490ca4660b4",
+          "bookingDate": "2025-07-07",
+          "bookingDateTime": "2025-07-07T00:00:00.000Z",
+          "transactionAmount": {
+            "amount": "-0.98",
+            "currency": "GBP"
+          },
+          "remittanceInformationUnstructured": "KITTY RESCUE BURY FP 07/07/25 30    59525952595259520N",
+          "proprietaryBankTransactionCode": "S/O",
+          "internalTransactionId": "b9a59a607e480642cf019af74983099d"
+        },
+        {
+          "transactionId": "53a047312af730fd8336e9508dfa37d6934fdc68af2e10a6fb8ad022322bcf0b",
+          "bookingDate": "2025-07-07",
+          "bookingDateTime": "2025-07-07T00:00:00.000Z",
+          "transactionAmount": {
+            "amount": "-20.39",
+            "currency": "GBP"
+          },
+          "creditorName": "PRIMARK BIRMINGHAM",
+          "remittanceInformationUnstructured": "2077 05JUL25  D   WWW.BLOOMAN       DWILD.COM         LONDON GB",
+          "proprietaryBankTransactionCode": "POS",
+          "internalTransactionId": "770b485115530f6824cc57759ef5c8f6"
+        },
+        {
+          "transactionId": "789d6422bd7fccb7e6af42144d3754a44b63ee24c8631893dea83aecf38f54b3",
+          "bookingDate": "2025-07-07",
+          "bookingDateTime": "2025-07-07T00:00:00.000Z",
+          "transactionAmount": {
+            "amount": "0.76",
+            "currency": "GBP"
+          },
+          "remittanceInformationUnstructured": "From A/C 98609860 WALSH T & HARRIS CVia Mobile Xfer",
+          "proprietaryBankTransactionCode": "DPC",
+          "internalTransactionId": "5b83e3b13096b5ee361c81cd9cfcf7a7"
+        },
+        {
+          "transactionId": "66eb898280400ca8701ebb47206cceac498ee41e2197e10d80f6016743850a2e",
+          "bookingDate": "2025-07-07",
+          "bookingDateTime": "2025-07-07T00:00:00.000Z",
+          "transactionAmount": {
+            "amount": "0.36",
+            "currency": "GBP"
+          },
+          "remittanceInformationUnstructured": "From A/C 73727372 Car Money         Via Mobile Xfer",
+          "proprietaryBankTransactionCode": "DPC",
+          "internalTransactionId": "846a716c760da78cc04c4f9351b90963"
+        },
+        {
+          "transactionId": "a9852e69481a880b939381c39f478a9a8b314b18e8f87c60572c1bc602ac25cc",
+          "bookingDate": "2025-07-07",
+          "bookingDateTime": "2025-07-07T00:00:00.000Z",
+          "transactionAmount": {
+            "amount": "19.79",
+            "currency": "GBP"
+          },
+          "debtorName": "JOHN HILL",
+          "remittanceInformationUnstructured": "CHLOE ALEXANDRA HAPLUM FINTECH      FP 05/07/25 2237  MODUGB29FAKE0123456789WYHJX6",
+          "proprietaryBankTransactionCode": "BAC",
+          "internalTransactionId": "445234cda4d93053acd2797c7508dca4"
+        }
+      ]
+    }
+  },
+  {
+    "metadata": {
+      "accountId": "c984eb0e-2611-c332-b2e5-b9b4c0e72721",
+      "requisitionId": "1a76d9e5-7de0-49a1-8acb-ec8d61d896d9",
+      "createdAt": "2025-07-11T11:32:08.628Z",
+      "traceId": "16104056-3901-46f2-b52e-ca2856a71095"
+    },
+    "payload": {
+      "pending": [],
+      "booked": [
+        {
+          "transactionId": "3cc223dcf970e893b0dc6cb803c5077378e2cd3600fe18e4cea4a490ca4660b4",
+          "bookingDate": "2025-07-07",
+          "bookingDateTime": "2025-07-07T00:00:00.000Z",
+          "transactionAmount": {
+            "amount": "-0.98",
+            "currency": "GBP"
+          },
+          "remittanceInformationUnstructured": "KITTY RESCUE BURY FP 07/07/25 30    59525952595259520N",
+          "proprietaryBankTransactionCode": "S/O",
+          "internalTransactionId": "b9a59a607e480642cf019af74983099d"
+        },
+        {
+          "transactionId": "53a047312af730fd8336e9508dfa37d6934fdc68af2e10a6fb8ad022322bcf0b",
+          "bookingDate": "2025-07-07",
+          "bookingDateTime": "2025-07-07T00:00:00.000Z",
+          "transactionAmount": {
+            "amount": "-20.39",
+            "currency": "GBP"
+          },
+          "creditorName": "PRIMARK BIRMINGHAM",
+          "remittanceInformationUnstructured": "2077 05JUL25  D   WWW.BLOOMAN       DWILD.COM         LONDON GB",
+          "proprietaryBankTransactionCode": "POS",
+          "internalTransactionId": "770b485115530f6824cc57759ef5c8f6"
+        },
+        {
+          "transactionId": "789d6422bd7fccb7e6af42144d3754a44b63ee24c8631893dea83aecf38f54b3",
+          "bookingDate": "2025-07-07",
+          "bookingDateTime": "2025-07-07T00:00:00.000Z",
+          "transactionAmount": {
+            "amount": "0.76",
+            "currency": "GBP"
+          },
+          "remittanceInformationUnstructured": "From A/C 98609860 WALSH T & HARRIS CVia Mobile Xfer",
+          "proprietaryBankTransactionCode": "DPC",
+          "internalTransactionId": "5b83e3b13096b5ee361c81cd9cfcf7a7"
+        },
+        {
+          "transactionId": "66eb898280400ca8701ebb47206cceac498ee41e2197e10d80f6016743850a2e",
+          "bookingDate": "2025-07-07",
+          "bookingDateTime": "2025-07-07T00:00:00.000Z",
+          "transactionAmount": {
+            "amount": "0.36",
+            "currency": "GBP"
+          },
+          "remittanceInformationUnstructured": "From A/C 73727372 Car Money         Via Mobile Xfer",
+          "proprietaryBankTransactionCode": "DPC",
+          "internalTransactionId": "846a716c760da78cc04c4f9351b90963"
+        },
+        {
+          "transactionId": "a9852e69481a880b939381c39f478a9a8b314b18e8f87c60572c1bc602ac25cc",
+          "bookingDate": "2025-07-07",
+          "bookingDateTime": "2025-07-07T00:00:00.000Z",
+          "transactionAmount": {
+            "amount": "19.79",
+            "currency": "GBP"
+          },
+          "debtorName": "JOHN HILL",
+          "remittanceInformationUnstructured": "CHLOE ALEXANDRA HAPLUM FINTECH      FP 05/07/25 2237  MODUGB29FAKE0123456789WYHJX6",
+          "proprietaryBankTransactionCode": "BAC",
+          "internalTransactionId": "445234cda4d93053acd2797c7508dca4"
+        }
+      ]
+    }
+  },
+  {
+    "metadata": {
+      "accountId": "c984eb0e-2611-c332-b2e5-b9b4c0e72721",
+      "requisitionId": "89326ee1-a1f5-49cc-8aa4-1223830d84dd",
+      "createdAt": "2025-07-11T03:24:08.167Z",
+      "traceId": "c49b7be4-75af-4e86-9a7f-4606ece3449b"
+    },
+    "payload": {
+      "pending": [],
+      "booked": [
+        {
+          "transactionId": "3cc223dcf970e893b0dc6cb803c5077378e2cd3600fe18e4cea4a490ca4660b4",
+          "bookingDate": "2025-07-07",
+          "bookingDateTime": "2025-07-07T00:00:00.000Z",
+          "transactionAmount": {
+            "amount": "-0.98",
+            "currency": "GBP"
+          },
+          "remittanceInformationUnstructured": "KITTY RESCUE BURY FP 07/07/25 30    59525952595259520N",
+          "proprietaryBankTransactionCode": "S/O",
+          "internalTransactionId": "b9a59a607e480642cf019af74983099d"
+        },
+        {
+          "transactionId": "53a047312af730fd8336e9508dfa37d6934fdc68af2e10a6fb8ad022322bcf0b",
+          "bookingDate": "2025-07-07",
+          "bookingDateTime": "2025-07-07T00:00:00.000Z",
+          "transactionAmount": {
+            "amount": "-20.39",
+            "currency": "GBP"
+          },
+          "creditorName": "PRIMARK BIRMINGHAM",
+          "remittanceInformationUnstructured": "2077 05JUL25  D   WWW.BLOOMAN       DWILD.COM         LONDON GB",
+          "proprietaryBankTransactionCode": "POS",
+          "internalTransactionId": "770b485115530f6824cc57759ef5c8f6"
+        },
+        {
+          "transactionId": "789d6422bd7fccb7e6af42144d3754a44b63ee24c8631893dea83aecf38f54b3",
+          "bookingDate": "2025-07-07",
+          "bookingDateTime": "2025-07-07T00:00:00.000Z",
+          "transactionAmount": {
+            "amount": "0.76",
+            "currency": "GBP"
+          },
+          "remittanceInformationUnstructured": "From A/C 98609860 WALSH T & HARRIS CVia Mobile Xfer",
+          "proprietaryBankTransactionCode": "DPC",
+          "internalTransactionId": "5b83e3b13096b5ee361c81cd9cfcf7a7"
+        },
+        {
+          "transactionId": "66eb898280400ca8701ebb47206cceac498ee41e2197e10d80f6016743850a2e",
+          "bookingDate": "2025-07-07",
+          "bookingDateTime": "2025-07-07T00:00:00.000Z",
+          "transactionAmount": {
+            "amount": "0.36",
+            "currency": "GBP"
+          },
+          "remittanceInformationUnstructured": "From A/C 73727372 Car Money         Via Mobile Xfer",
+          "proprietaryBankTransactionCode": "DPC",
+          "internalTransactionId": "846a716c760da78cc04c4f9351b90963"
+        },
+        {
+          "transactionId": "a9852e69481a880b939381c39f478a9a8b314b18e8f87c60572c1bc602ac25cc",
+          "bookingDate": "2025-07-07",
+          "bookingDateTime": "2025-07-07T00:00:00.000Z",
+          "transactionAmount": {
+            "amount": "19.79",
+            "currency": "GBP"
+          },
+          "debtorName": "JOHN HILL",
+          "remittanceInformationUnstructured": "CHLOE ALEXANDRA HAPLUM FINTECH      FP 05/07/25 2237  MODUGB29FAKE0123456789WYHJX6",
+          "proprietaryBankTransactionCode": "BAC",
+          "internalTransactionId": "445234cda4d93053acd2797c7508dca4"
+        }
+      ]
+    }
+  },
+  {
+    "metadata": {
+      "accountId": "c984eb0e-2611-c332-b2e5-b9b4c0e72721",
+      "requisitionId": "db8b06ab-92ee-4611-9776-15647e28df79",
+      "createdAt": "2025-07-11T20:23:59.939Z",
+      "traceId": "8a3870d0-1d14-431a-8736-4e4a18845f27"
+    },
+    "payload": {
+      "pending": [],
+      "booked": [
+        {
+          "transactionId": "3cc223dcf970e893b0dc6cb803c5077378e2cd3600fe18e4cea4a490ca4660b4",
+          "bookingDate": "2025-07-07",
+          "bookingDateTime": "2025-07-07T00:00:00.000Z",
+          "transactionAmount": {
+            "amount": "-0.98",
+            "currency": "GBP"
+          },
+          "remittanceInformationUnstructured": "KITTY RESCUE BURY FP 07/07/25 30    59525952595259520N",
+          "proprietaryBankTransactionCode": "S/O",
+          "internalTransactionId": "b9a59a607e480642cf019af74983099d"
+        },
+        {
+          "transactionId": "53a047312af730fd8336e9508dfa37d6934fdc68af2e10a6fb8ad022322bcf0b",
+          "bookingDate": "2025-07-07",
+          "bookingDateTime": "2025-07-07T00:00:00.000Z",
+          "transactionAmount": {
+            "amount": "-20.39",
+            "currency": "GBP"
+          },
+          "creditorName": "PRIMARK BIRMINGHAM",
+          "remittanceInformationUnstructured": "2077 05JUL25  D   WWW.BLOOMAN       DWILD.COM         LONDON GB",
+          "proprietaryBankTransactionCode": "POS",
+          "internalTransactionId": "770b485115530f6824cc57759ef5c8f6"
+        },
+        {
+          "transactionId": "789d6422bd7fccb7e6af42144d3754a44b63ee24c8631893dea83aecf38f54b3",
+          "bookingDate": "2025-07-07",
+          "bookingDateTime": "2025-07-07T00:00:00.000Z",
+          "transactionAmount": {
+            "amount": "0.76",
+            "currency": "GBP"
+          },
+          "remittanceInformationUnstructured": "From A/C 98609860 WALSH T & HARRIS CVia Mobile Xfer",
+          "proprietaryBankTransactionCode": "DPC",
+          "internalTransactionId": "5b83e3b13096b5ee361c81cd9cfcf7a7"
+        },
+        {
+          "transactionId": "66eb898280400ca8701ebb47206cceac498ee41e2197e10d80f6016743850a2e",
+          "bookingDate": "2025-07-07",
+          "bookingDateTime": "2025-07-07T00:00:00.000Z",
+          "transactionAmount": {
+            "amount": "0.36",
+            "currency": "GBP"
+          },
+          "remittanceInformationUnstructured": "From A/C 73727372 Car Money         Via Mobile Xfer",
+          "proprietaryBankTransactionCode": "DPC",
+          "internalTransactionId": "846a716c760da78cc04c4f9351b90963"
+        },
+        {
+          "transactionId": "a9852e69481a880b939381c39f478a9a8b314b18e8f87c60572c1bc602ac25cc",
+          "bookingDate": "2025-07-07",
+          "bookingDateTime": "2025-07-07T00:00:00.000Z",
+          "transactionAmount": {
+            "amount": "19.79",
+            "currency": "GBP"
+          },
+          "debtorName": "JOHN HILL",
+          "remittanceInformationUnstructured": "CHLOE ALEXANDRA HAPLUM FINTECH      FP 05/07/25 2237  MODUGB29FAKE0123456789WYHJX6",
+          "proprietaryBankTransactionCode": "BAC",
+          "internalTransactionId": "445234cda4d93053acd2797c7508dca4"
+        }
+      ]
+    }
+  },
+  {
+    "metadata": {
+      "accountId": "a86a2c64-22e1-1f3d-e5af-ca803c9d4d29",
+      "requisitionId": "2d294cb4-2c4f-4e4b-922f-bf01821935ff",
+      "createdAt": "2025-07-11T02:02:51.480Z",
+      "traceId": "f6857316-98a7-4509-a429-a1f5acd506ec"
+    },
+    "payload": {
+      "pending": [],
+      "booked": [
+        {
+          "transactionId": "T5f89994531c38fb19e9616d2dd78c86",
+          "entryReference": "TRF76536510",
+          "bookingDate": "2025-07-10",
+          "valueDate": "2025-07-10",
+          "transactionAmount": {
+            "amount": "-25.00",
+            "currency": "GBP"
+          },
+          "remittanceInformationUnstructured": "TXN3753097",
+          "additionalInformation": "TRF76536510",
+          "proprietaryBankTransactionCode": "DD",
+          "internalTransactionId": "2bd95b59bd1b8fdeb901119186ab0811"
+        },
+        {
+          "transactionId": "T9586dc60604d9131c9d8e89abfeeca0",
+          "bookingDate": "2025-07-10",
+          "valueDate": "2025-07-09",
+          "transactionAmount": {
+            "amount": "-85.88",
+            "currency": "GBP"
+          },
+          "creditorName": "CURRYS",
+          "remittanceInformationUnstructured": "INV11002859",
+          "proprietaryBankTransactionCode": "DEB",
+          "merchantCategoryCode": "5812",
+          "internalTransactionId": "49513ba7d10385d6b36a5d048951dee3"
+        },
+        {
+          "transactionId": "Te216afc454cf332eed8cf971cfcfa47",
+          "bookingDate": "2025-07-10",
+          "valueDate": "2025-07-09",
+          "transactionAmount": {
+            "amount": "-87.13",
+            "currency": "GBP"
+          },
+          "creditorName": "IKEA",
+          "remittanceInformationUnstructured": "TRF4696366",
+          "proprietaryBankTransactionCode": "DEB",
+          "merchantCategoryCode": "5812",
+          "internalTransactionId": "e0e089b6c46723a84cb80cd38fbe59bf"
+        },
+        {
+          "transactionId": "T0769bd625f772efa11879c8b171355f",
+          "bookingDate": "2025-07-10",
+          "valueDate": "2025-07-09",
+          "transactionAmount": {
+            "amount": "-44.79",
+            "currency": "GBP"
+          },
+          "creditorName": "PRIMARK",
+          "remittanceInformationUnstructured": "INV89535171",
+          "proprietaryBankTransactionCode": "DEB",
+          "merchantCategoryCode": "5977",
+          "internalTransactionId": "6e13c120a3ea5175525a7c612593226f"
+        },
+        {
+          "transactionId": "Td74fc1827e5eb6be296b348bfbd75b3",
+          "bookingDate": "2025-07-10",
+          "valueDate": "2025-07-09",
+          "transactionAmount": {
+            "amount": "-0.98",
+            "currency": "GBP"
+          },
+          "creditorName": "PRIMARK",
+          "remittanceInformationUnstructured": "PMT22676029",
+          "proprietaryBankTransactionCode": "DEB",
+          "merchantCategoryCode": "4789",
+          "internalTransactionId": "3dfaacb52e71a4f7fc607ac2c36e43f4"
+        },
+        {
+          "transactionId": "Tbbe1e1f84da7ce51d97727b7e02f96a",
+          "bookingDate": "2025-07-09",
+          "valueDate": "2025-07-08",
+          "transactionAmount": {
+            "amount": "-9.29",
+            "currency": "GBP"
+          },
+          "creditorName": "WAGAMAMA",
+          "remittanceInformationUnstructured": "ORD1798988",
+          "proprietaryBankTransactionCode": "DEB",
+          "merchantCategoryCode": "8699",
+          "internalTransactionId": "67954c581a3f01aea0bed687c82e797e"
+        }
+      ]
+    }
+  },
+  {
+    "metadata": {
+      "accountId": "a86a2c64-22e1-1f3d-e5af-ca803c9d4d29",
+      "requisitionId": "31b3cae2-e41e-4e70-b66a-2ff2fba12910",
+      "createdAt": "2025-07-11T10:08:44.569Z",
+      "traceId": "d4044eac-e5df-49d3-89b3-38c5e660b692"
+    },
+    "payload": {
+      "pending": [
+        {
+          "bookingDate": "2025-07-11",
+          "transactionAmount": {
+            "amount": "-12.16",
+            "currency": "GBP"
+          },
+          "creditorName": "MARKS & SPENCER",
+          "proprietaryBankTransactionCode": "DEB",
+          "merchantCategoryCode": "5411"
+        }
+      ],
+      "booked": []
+    }
+  },
+  {
+    "metadata": {
+      "accountId": "a86a2c64-22e1-1f3d-e5af-ca803c9d4d29",
+      "requisitionId": "3d1b5c69-cef9-42bd-b636-9aaf0565d40c",
+      "createdAt": "2025-07-11T10:03:22.800Z",
+      "traceId": "f6899fc7-53f2-4b31-9a61-3feddde19813"
+    },
+    "payload": {
+      "pending": [
+        {
+          "bookingDate": "2025-07-11",
+          "transactionAmount": {
+            "amount": "-12.16",
+            "currency": "GBP"
+          },
+          "creditorName": "MARKS & SPENCER",
+          "proprietaryBankTransactionCode": "DEB",
+          "merchantCategoryCode": "5411"
+        }
+      ],
+      "booked": [
+        {
+          "transactionId": "T5f89994531c38fb19e9616d2dd78c86",
+          "entryReference": "TRF76536510",
+          "bookingDate": "2025-07-10",
+          "valueDate": "2025-07-10",
+          "transactionAmount": {
+            "amount": "-25.00",
+            "currency": "GBP"
+          },
+          "remittanceInformationUnstructured": "TXN3753097",
+          "additionalInformation": "TRF76536510",
+          "proprietaryBankTransactionCode": "DD",
+          "internalTransactionId": "2bd95b59bd1b8fdeb901119186ab0811"
+        },
+        {
+          "transactionId": "T9586dc60604d9131c9d8e89abfeeca0",
+          "bookingDate": "2025-07-10",
+          "valueDate": "2025-07-09",
+          "transactionAmount": {
+            "amount": "-85.88",
+            "currency": "GBP"
+          },
+          "creditorName": "CURRYS",
+          "remittanceInformationUnstructured": "INV11002859",
+          "proprietaryBankTransactionCode": "DEB",
+          "merchantCategoryCode": "5812",
+          "internalTransactionId": "49513ba7d10385d6b36a5d048951dee3"
+        },
+        {
+          "transactionId": "Te216afc454cf332eed8cf971cfcfa47",
+          "bookingDate": "2025-07-10",
+          "valueDate": "2025-07-09",
+          "transactionAmount": {
+            "amount": "-87.13",
+            "currency": "GBP"
+          },
+          "creditorName": "IKEA",
+          "remittanceInformationUnstructured": "TRF4696366",
+          "proprietaryBankTransactionCode": "DEB",
+          "merchantCategoryCode": "5812",
+          "internalTransactionId": "e0e089b6c46723a84cb80cd38fbe59bf"
+        },
+        {
+          "transactionId": "T0769bd625f772efa11879c8b171355f",
+          "bookingDate": "2025-07-10",
+          "valueDate": "2025-07-09",
+          "transactionAmount": {
+            "amount": "-44.79",
+            "currency": "GBP"
+          },
+          "creditorName": "PRIMARK",
+          "remittanceInformationUnstructured": "INV89535171",
+          "proprietaryBankTransactionCode": "DEB",
+          "merchantCategoryCode": "5977",
+          "internalTransactionId": "6e13c120a3ea5175525a7c612593226f"
+        },
+        {
+          "transactionId": "Td74fc1827e5eb6be296b348bfbd75b3",
+          "bookingDate": "2025-07-10",
+          "valueDate": "2025-07-09",
+          "transactionAmount": {
+            "amount": "-0.98",
+            "currency": "GBP"
+          },
+          "creditorName": "PRIMARK",
+          "remittanceInformationUnstructured": "PMT22676029",
+          "proprietaryBankTransactionCode": "DEB",
+          "merchantCategoryCode": "4789",
+          "internalTransactionId": "3dfaacb52e71a4f7fc607ac2c36e43f4"
+        },
+        {
+          "transactionId": "Tbbe1e1f84da7ce51d97727b7e02f96a",
+          "bookingDate": "2025-07-09",
+          "valueDate": "2025-07-08",
+          "transactionAmount": {
+            "amount": "-9.29",
+            "currency": "GBP"
+          },
+          "creditorName": "WAGAMAMA",
+          "remittanceInformationUnstructured": "ORD1798988",
+          "proprietaryBankTransactionCode": "DEB",
+          "merchantCategoryCode": "8699",
+          "internalTransactionId": "67954c581a3f01aea0bed687c82e797e"
+        }
+      ]
+    }
+  },
+  {
+    "metadata": {
+      "accountId": "a86a2c64-22e1-1f3d-e5af-ca803c9d4d29",
+      "requisitionId": "3ddda0a3-bacc-4ebe-bd82-64cd9e7b6858",
+      "createdAt": "2025-07-11T19:03:47.204Z",
+      "traceId": "8f55b9fc-2028-4536-976d-19e1029c08dd"
+    },
+    "payload": {
+      "pending": [
+        {
+          "bookingDate": "2025-07-11",
+          "transactionAmount": {
+            "amount": "-53.39",
+            "currency": "GBP"
+          },
+          "creditorName": "CINEMA CITY",
+          "proprietaryBankTransactionCode": "DEB",
+          "merchantCategoryCode": "5411"
+        },
+        {
+          "bookingDate": "2025-07-11",
+          "transactionAmount": {
+            "amount": "-3.86",
+            "currency": "GBP"
+          },
+          "creditorName": "BOOTS",
+          "proprietaryBankTransactionCode": "DEB",
+          "merchantCategoryCode": "5411"
+        },
+        {
+          "bookingDate": "2025-07-11",
+          "transactionAmount": {
+            "amount": "-2.11",
+            "currency": "GBP"
+          },
+          "creditorName": "SUBWAY",
+          "proprietaryBankTransactionCode": "DEB",
+          "merchantCategoryCode": "5947"
+        },
+        {
+          "bookingDate": "2025-07-11",
+          "transactionAmount": {
+            "amount": "-12.16",
+            "currency": "GBP"
+          },
+          "creditorName": "MARKS & SPENCER",
+          "proprietaryBankTransactionCode": "DEB",
+          "merchantCategoryCode": "5411"
+        }
+      ],
+      "booked": []
+    }
+  },
+  {
+    "metadata": {
+      "accountId": "a86a2c64-22e1-1f3d-e5af-ca803c9d4d29",
+      "requisitionId": "b0cf31d4-5f9e-4d4f-8647-cad151a4913b",
+      "createdAt": "2025-07-11T22:04:23.001Z",
+      "traceId": "2f9cd0a4-dbe4-4822-97ce-3a6862f845e8"
+    },
+    "payload": {
+      "pending": [
+        {
+          "bookingDate": "2025-07-11",
+          "transactionAmount": {
+            "amount": "-53.39",
+            "currency": "GBP"
+          },
+          "creditorName": "CINEMA CITY",
+          "proprietaryBankTransactionCode": "DEB",
+          "merchantCategoryCode": "5411"
+        },
+        {
+          "bookingDate": "2025-07-11",
+          "transactionAmount": {
+            "amount": "-3.86",
+            "currency": "GBP"
+          },
+          "creditorName": "BOOTS",
+          "proprietaryBankTransactionCode": "DEB",
+          "merchantCategoryCode": "5411"
+        },
+        {
+          "bookingDate": "2025-07-11",
+          "transactionAmount": {
+            "amount": "-2.11",
+            "currency": "GBP"
+          },
+          "creditorName": "SUBWAY",
+          "proprietaryBankTransactionCode": "DEB",
+          "merchantCategoryCode": "5947"
+        },
+        {
+          "bookingDate": "2025-07-11",
+          "transactionAmount": {
+            "amount": "-12.16",
+            "currency": "GBP"
+          },
+          "creditorName": "MARKS & SPENCER",
+          "proprietaryBankTransactionCode": "DEB",
+          "merchantCategoryCode": "5411"
+        }
+      ],
+      "booked": []
+    }
+  },
+  {
+    "metadata": {
+      "accountId": "a86a2c64-22e1-1f3d-e5af-ca803c9d4d29",
+      "requisitionId": "00698fe7-d22b-4c2d-afba-0127da956a6f",
+      "createdAt": "2025-07-11T15:03:39.023Z",
+      "traceId": "7aa1ab21-5072-4589-a170-693e054f0c8b"
+    },
+    "payload": {
+      "pending": [
+        {
+          "bookingDate": "2025-07-11",
+          "transactionAmount": {
+            "amount": "-3.86",
+            "currency": "GBP"
+          },
+          "creditorName": "BOOTS",
+          "proprietaryBankTransactionCode": "DEB",
+          "merchantCategoryCode": "5411"
+        },
+        {
+          "bookingDate": "2025-07-11",
+          "transactionAmount": {
+            "amount": "-2.11",
+            "currency": "GBP"
+          },
+          "creditorName": "SUBWAY",
+          "proprietaryBankTransactionCode": "DEB",
+          "merchantCategoryCode": "5947"
+        },
+        {
+          "bookingDate": "2025-07-11",
+          "transactionAmount": {
+            "amount": "-12.16",
+            "currency": "GBP"
+          },
+          "creditorName": "MARKS & SPENCER",
+          "proprietaryBankTransactionCode": "DEB",
+          "merchantCategoryCode": "5411"
+        }
+      ],
+      "booked": []
+    }
+  },
+  {
+    "metadata": {
+      "accountId": "78efe815-b3ac-57f9-0283-dd1f7aeba903",
+      "requisitionId": "cfdb7066-6ec4-42e7-8927-50a906d774dc",
+      "createdAt": "2025-07-11T03:14:21.358Z",
+      "traceId": "62ce0580-a969-428a-b18e-3a7ed5a4796e"
+    },
+    "payload": {
+      "pending": [
+        {
+          "bookingDate": "2025-07-15",
+          "bookingDateTime": "2025-07-15T00:00:00.000Z",
+          "transactionAmount": {
+            "amount": "-6.60",
+            "currency": "GBP"
+          },
+          "remittanceInformationUnstructured": "TRF60976222",
+          "proprietaryBankTransactionCode": "POS"
+        },
+        {
+          "bookingDate": "2025-07-14",
+          "bookingDateTime": "2025-07-14T00:00:00.000Z",
+          "transactionAmount": {
+            "amount": "-24.85",
+            "currency": "GBP"
+          },
+          "remittanceInformationUnstructured": "TXN51483217",
+          "proprietaryBankTransactionCode": "POS"
+        },
+        {
+          "bookingDate": "2025-07-11",
+          "bookingDateTime": "2025-07-11T00:00:00.000Z",
+          "transactionAmount": {
+            "amount": "-10.87",
+            "currency": "GBP"
+          },
+          "remittanceInformationUnstructured": "DD65801431",
+          "proprietaryBankTransactionCode": "DPC"
+        },
+        {
+          "bookingDate": "2025-07-11",
+          "bookingDateTime": "2025-07-11T00:00:00.000Z",
+          "transactionAmount": {
+            "amount": "123.31",
+            "currency": "GBP"
+          },
+          "remittanceInformationUnstructured": "ORD67111308",
+          "proprietaryBankTransactionCode": "POS"
+        },
+        {
+          "bookingDate": "2025-07-11",
+          "bookingDateTime": "2025-07-11T00:00:00.000Z",
+          "transactionAmount": {
+            "amount": "-109.49",
+            "currency": "GBP"
+          },
+          "remittanceInformationUnstructured": "ORD67111308",
+          "proprietaryBankTransactionCode": "POS"
+        }
+      ],
+      "booked": [
+        {
+          "transactionId": "2dc4575d005000566fa78f818629a2495afe8a2c56d9746f239fe4d5c435ba75",
+          "bookingDate": "2025-07-10",
+          "bookingDateTime": "2025-07-10T00:00:00.000Z",
+          "transactionAmount": {
+            "amount": "-1.99",
+            "currency": "GBP"
+          },
+          "creditorName": "TEXACO",
+          "remittanceInformationUnstructured": "2622 09JUL25 CD   B&M 116 -         HARPURHEY         HARPURHEY GB",
+          "proprietaryBankTransactionCode": "POS",
+          "internalTransactionId": "ae0e30499b680e42ebb07e142e72f8c6"
+        },
+        {
+          "transactionId": "053259cc5829dabbb1c4318e46b6782da01c33fe8bd5b89669438bdfe4ce600a",
+          "bookingDate": "2025-07-10",
+          "bookingDateTime": "2025-07-10T00:00:00.000Z",
+          "transactionAmount": {
+            "amount": "-46.25",
+            "currency": "GBP"
+          },
+          "creditorName": "KLARNA LEEDS",
+          "remittanceInformationUnstructured": "4534 09JUL25  D   ZARA.COM          LONDON GB",
+          "proprietaryBankTransactionCode": "POS",
+          "internalTransactionId": "163d8f12c5dd20ebb1d74be088599ede"
+        },
+        {
+          "transactionId": "04d908b168f004629b0e845a404d64c319f357c1250a1de9b6960363ce3df350",
+          "bookingDate": "2025-07-10",
+          "bookingDateTime": "2025-07-10T00:00:00.000Z",
+          "transactionAmount": {
+            "amount": "-0.98",
+            "currency": "GBP"
+          },
+          "creditorName": "VUE CINEMAS GLASGOW",
+          "remittanceInformationUnstructured": "1962 09JUL25 CD   ASDA HARPURHEY    MANCHESTER GB",
+          "proprietaryBankTransactionCode": "POS",
+          "internalTransactionId": "3dfaacb52e71a4f7fc607ac2c36e43f4"
+        },
+        {
+          "transactionId": "30d7b417c5153a7470a04faedfa5ec1db667a4aa563867d5b61602f0e338d42c",
+          "bookingDate": "2025-07-10",
+          "bookingDateTime": "2025-07-10T00:00:00.000Z",
+          "transactionAmount": {
+            "amount": "-10.87",
+            "currency": "GBP"
+          },
+          "remittanceInformationUnstructured": "ME                HOLIDAY           VIA MOBILE - PYMT FP 09/07/25 10    64596459645964590R",
+          "proprietaryBankTransactionCode": "DPC",
+          "internalTransactionId": "394442c16cba30a15ec53baf86f92319"
+        }
+      ]
+    }
+  },
+  {
+    "metadata": {
+      "accountId": "78efe815-b3ac-57f9-0283-dd1f7aeba903",
+      "requisitionId": "fafee065-a488-4702-90df-dce9d3defb7c",
+      "createdAt": "2025-07-11T20:15:07.755Z",
+      "traceId": "3608255b-3496-44ec-a0d2-c24c4caf898b"
+    },
+    "payload": {
+      "pending": [
+        {
+          "bookingDate": "2025-07-16",
+          "bookingDateTime": "2025-07-16T00:00:00.000Z",
+          "transactionAmount": {
+            "amount": "-14.59",
+            "currency": "GBP"
+          },
+          "remittanceInformationUnstructured": "REF64351264",
+          "proprietaryBankTransactionCode": "POS"
+        },
+        {
+          "bookingDate": "2025-07-16",
+          "bookingDateTime": "2025-07-16T00:00:00.000Z",
+          "transactionAmount": {
+            "amount": "-13.31",
+            "currency": "GBP"
+          },
+          "remittanceInformationUnstructured": "BOOTS 0139",
+          "proprietaryBankTransactionCode": "POS"
+        },
+        {
+          "bookingDate": "2025-07-16",
+          "bookingDateTime": "2025-07-16T00:00:00.000Z",
+          "transactionAmount": {
+            "amount": "-1.50",
+            "currency": "GBP"
+          },
+          "remittanceInformationUnstructured": "PAY59373314",
+          "proprietaryBankTransactionCode": "POS"
+        },
+        {
+          "bookingDate": "2025-07-15",
+          "bookingDateTime": "2025-07-15T00:00:00.000Z",
+          "transactionAmount": {
+            "amount": "-6.60",
+            "currency": "GBP"
+          },
+          "remittanceInformationUnstructured": "TRF60976222",
+          "proprietaryBankTransactionCode": "POS"
+        },
+        {
+          "bookingDate": "2025-07-14",
+          "bookingDateTime": "2025-07-14T00:00:00.000Z",
+          "transactionAmount": {
+            "amount": "-24.85",
+            "currency": "GBP"
+          },
+          "remittanceInformationUnstructured": "TXN51483217",
+          "proprietaryBankTransactionCode": "POS"
+        },
+        {
+          "bookingDate": "2025-07-11",
+          "bookingDateTime": "2025-07-11T00:00:00.000Z",
+          "transactionAmount": {
+            "amount": "-10.87",
+            "currency": "GBP"
+          },
+          "remittanceInformationUnstructured": "DD65801431",
+          "proprietaryBankTransactionCode": "DPC"
+        },
+        {
+          "bookingDate": "2025-07-11",
+          "bookingDateTime": "2025-07-11T00:00:00.000Z",
+          "transactionAmount": {
+            "amount": "123.31",
+            "currency": "GBP"
+          },
+          "remittanceInformationUnstructured": "ORD67111308",
+          "proprietaryBankTransactionCode": "POS"
+        },
+        {
+          "bookingDate": "2025-07-11",
+          "bookingDateTime": "2025-07-11T00:00:00.000Z",
+          "transactionAmount": {
+            "amount": "-109.49",
+            "currency": "GBP"
+          },
+          "remittanceInformationUnstructured": "ORD67111308",
+          "proprietaryBankTransactionCode": "POS"
+        }
+      ],
+      "booked": []
+    }
+  },
+  {
+    "metadata": {
+      "accountId": "78efe815-b3ac-57f9-0283-dd1f7aeba903",
+      "requisitionId": "c2d07c52-eb37-4e88-8694-e4cfc31abbe6",
+      "createdAt": "2025-07-11T11:22:10.066Z",
+      "traceId": "b383f2a4-d45e-4a02-8396-fc6455d5b1c2"
+    },
+    "payload": {
+      "pending": [
+        {
+          "bookingDate": "2025-07-16",
+          "bookingDateTime": "2025-07-16T00:00:00.000Z",
+          "transactionAmount": {
+            "amount": "-13.31",
+            "currency": "GBP"
+          },
+          "remittanceInformationUnstructured": "BOOTS 0139",
+          "proprietaryBankTransactionCode": "POS"
+        },
+        {
+          "bookingDate": "2025-07-16",
+          "bookingDateTime": "2025-07-16T00:00:00.000Z",
+          "transactionAmount": {
+            "amount": "-1.50",
+            "currency": "GBP"
+          },
+          "remittanceInformationUnstructured": "PAY59373314",
+          "proprietaryBankTransactionCode": "POS"
+        },
+        {
+          "bookingDate": "2025-07-15",
+          "bookingDateTime": "2025-07-15T00:00:00.000Z",
+          "transactionAmount": {
+            "amount": "-6.60",
+            "currency": "GBP"
+          },
+          "remittanceInformationUnstructured": "TRF60976222",
+          "proprietaryBankTransactionCode": "POS"
+        },
+        {
+          "bookingDate": "2025-07-14",
+          "bookingDateTime": "2025-07-14T00:00:00.000Z",
+          "transactionAmount": {
+            "amount": "-24.85",
+            "currency": "GBP"
+          },
+          "remittanceInformationUnstructured": "TXN51483217",
+          "proprietaryBankTransactionCode": "POS"
+        },
+        {
+          "bookingDate": "2025-07-11",
+          "bookingDateTime": "2025-07-11T00:00:00.000Z",
+          "transactionAmount": {
+            "amount": "-10.87",
+            "currency": "GBP"
+          },
+          "remittanceInformationUnstructured": "DD65801431",
+          "proprietaryBankTransactionCode": "DPC"
+        },
+        {
+          "bookingDate": "2025-07-11",
+          "bookingDateTime": "2025-07-11T00:00:00.000Z",
+          "transactionAmount": {
+            "amount": "123.31",
+            "currency": "GBP"
+          },
+          "remittanceInformationUnstructured": "ORD67111308",
+          "proprietaryBankTransactionCode": "POS"
+        },
+        {
+          "bookingDate": "2025-07-11",
+          "bookingDateTime": "2025-07-11T00:00:00.000Z",
+          "transactionAmount": {
+            "amount": "-109.49",
+            "currency": "GBP"
+          },
+          "remittanceInformationUnstructured": "ORD67111308",
+          "proprietaryBankTransactionCode": "POS"
+        }
+      ],
+      "booked": [
+        {
+          "transactionId": "2dc4575d005000566fa78f818629a2495afe8a2c56d9746f239fe4d5c435ba75",
+          "bookingDate": "2025-07-10",
+          "bookingDateTime": "2025-07-10T00:00:00.000Z",
+          "transactionAmount": {
+            "amount": "-1.99",
+            "currency": "GBP"
+          },
+          "creditorName": "TEXACO",
+          "remittanceInformationUnstructured": "2622 09JUL25 CD   B&M 116 -         HARPURHEY         HARPURHEY GB",
+          "proprietaryBankTransactionCode": "POS",
+          "internalTransactionId": "ae0e30499b680e42ebb07e142e72f8c6"
+        },
+        {
+          "transactionId": "053259cc5829dabbb1c4318e46b6782da01c33fe8bd5b89669438bdfe4ce600a",
+          "bookingDate": "2025-07-10",
+          "bookingDateTime": "2025-07-10T00:00:00.000Z",
+          "transactionAmount": {
+            "amount": "-46.25",
+            "currency": "GBP"
+          },
+          "creditorName": "KLARNA LEEDS",
+          "remittanceInformationUnstructured": "4534 09JUL25  D   ZARA.COM          LONDON GB",
+          "proprietaryBankTransactionCode": "POS",
+          "internalTransactionId": "163d8f12c5dd20ebb1d74be088599ede"
+        },
+        {
+          "transactionId": "04d908b168f004629b0e845a404d64c319f357c1250a1de9b6960363ce3df350",
+          "bookingDate": "2025-07-10",
+          "bookingDateTime": "2025-07-10T00:00:00.000Z",
+          "transactionAmount": {
+            "amount": "-0.98",
+            "currency": "GBP"
+          },
+          "creditorName": "VUE CINEMAS GLASGOW",
+          "remittanceInformationUnstructured": "1962 09JUL25 CD   ASDA HARPURHEY    MANCHESTER GB",
+          "proprietaryBankTransactionCode": "POS",
+          "internalTransactionId": "3dfaacb52e71a4f7fc607ac2c36e43f4"
+        },
+        {
+          "transactionId": "30d7b417c5153a7470a04faedfa5ec1db667a4aa563867d5b61602f0e338d42c",
+          "bookingDate": "2025-07-10",
+          "bookingDateTime": "2025-07-10T00:00:00.000Z",
+          "transactionAmount": {
+            "amount": "-10.87",
+            "currency": "GBP"
+          },
+          "remittanceInformationUnstructured": "ME                HOLIDAY           VIA MOBILE - PYMT FP 09/07/25 10    64596459645964590R",
+          "proprietaryBankTransactionCode": "DPC",
+          "internalTransactionId": "394442c16cba30a15ec53baf86f92319"
+        }
+      ]
+    }
+  },
+  {
+    "metadata": {
+      "accountId": "78efe815-b3ac-57f9-0283-dd1f7aeba903",
+      "requisitionId": "40583124-6e3d-444b-8f7e-3d2a8e3a6a4b",
+      "createdAt": "2025-07-11T16:15:31.870Z",
+      "traceId": "cf998860-4be9-4cb0-af62-dcd6f4880f42"
+    },
+    "payload": {
+      "pending": [
+        {
+          "bookingDate": "2025-07-16",
+          "bookingDateTime": "2025-07-16T00:00:00.000Z",
+          "transactionAmount": {
+            "amount": "-14.59",
+            "currency": "GBP"
+          },
+          "remittanceInformationUnstructured": "REF64351264",
+          "proprietaryBankTransactionCode": "POS"
+        },
+        {
+          "bookingDate": "2025-07-16",
+          "bookingDateTime": "2025-07-16T00:00:00.000Z",
+          "transactionAmount": {
+            "amount": "-13.31",
+            "currency": "GBP"
+          },
+          "remittanceInformationUnstructured": "BOOTS 0139",
+          "proprietaryBankTransactionCode": "POS"
+        },
+        {
+          "bookingDate": "2025-07-16",
+          "bookingDateTime": "2025-07-16T00:00:00.000Z",
+          "transactionAmount": {
+            "amount": "-1.50",
+            "currency": "GBP"
+          },
+          "remittanceInformationUnstructured": "PAY59373314",
+          "proprietaryBankTransactionCode": "POS"
+        },
+        {
+          "bookingDate": "2025-07-15",
+          "bookingDateTime": "2025-07-15T00:00:00.000Z",
+          "transactionAmount": {
+            "amount": "-6.60",
+            "currency": "GBP"
+          },
+          "remittanceInformationUnstructured": "TRF60976222",
+          "proprietaryBankTransactionCode": "POS"
+        },
+        {
+          "bookingDate": "2025-07-14",
+          "bookingDateTime": "2025-07-14T00:00:00.000Z",
+          "transactionAmount": {
+            "amount": "-24.85",
+            "currency": "GBP"
+          },
+          "remittanceInformationUnstructured": "TXN51483217",
+          "proprietaryBankTransactionCode": "POS"
+        },
+        {
+          "bookingDate": "2025-07-11",
+          "bookingDateTime": "2025-07-11T00:00:00.000Z",
+          "transactionAmount": {
+            "amount": "-10.87",
+            "currency": "GBP"
+          },
+          "remittanceInformationUnstructured": "DD65801431",
+          "proprietaryBankTransactionCode": "DPC"
+        },
+        {
+          "bookingDate": "2025-07-11",
+          "bookingDateTime": "2025-07-11T00:00:00.000Z",
+          "transactionAmount": {
+            "amount": "123.31",
+            "currency": "GBP"
+          },
+          "remittanceInformationUnstructured": "ORD67111308",
+          "proprietaryBankTransactionCode": "POS"
+        },
+        {
+          "bookingDate": "2025-07-11",
+          "bookingDateTime": "2025-07-11T00:00:00.000Z",
+          "transactionAmount": {
+            "amount": "-109.49",
+            "currency": "GBP"
+          },
+          "remittanceInformationUnstructured": "ORD67111308",
+          "proprietaryBankTransactionCode": "POS"
+        }
+      ],
+      "booked": []
+    }
+  },
+  {
+    "metadata": {
+      "accountId": "fb1bc4a3-b114-5788-1fbd-f0666e712b34",
+      "requisitionId": "29a9b444-6ea8-4d19-a97c-f8e802b07512",
+      "createdAt": "2025-07-11T11:33:45.365Z",
+      "traceId": "181a9691-a8c2-4849-8576-3831d711c02a"
+    },
+    "payload": {
+      "pending": [
+        {
+          "bookingDate": "2025-07-16",
+          "bookingDateTime": "2025-07-16T00:00:00.000Z",
+          "transactionAmount": {
+            "amount": "-1.23",
+            "currency": "GBP"
+          },
+          "remittanceInformationUnstructured": "INV99650787",
+          "proprietaryBankTransactionCode": "POS"
+        },
+        {
+          "bookingDate": "2025-07-15",
+          "bookingDateTime": "2025-07-15T00:00:00.000Z",
+          "transactionAmount": {
+            "amount": "-43.48",
+            "currency": "GBP"
+          },
+          "remittanceInformationUnstructured": "INV50278099",
+          "proprietaryBankTransactionCode": "POS"
+        },
+        {
+          "bookingDate": "2025-07-15",
+          "bookingDateTime": "2025-07-15T00:00:00.000Z",
+          "transactionAmount": {
+            "amount": "-3.58",
+            "currency": "GBP"
+          },
+          "remittanceInformationUnstructured": "TRF30143798",
+          "proprietaryBankTransactionCode": "POS"
+        },
+        {
+          "bookingDate": "2025-07-15",
+          "bookingDateTime": "2025-07-15T00:00:00.000Z",
+          "transactionAmount": {
+            "amount": "-0.11",
+            "currency": "GBP"
+          },
+          "remittanceInformationUnstructured": "TXN50130737",
+          "proprietaryBankTransactionCode": "POS"
+        },
+        {
+          "bookingDate": "2025-07-15",
+          "bookingDateTime": "2025-07-15T00:00:00.000Z",
+          "transactionAmount": {
+            "amount": "-2.80",
+            "currency": "GBP"
+          },
+          "remittanceInformationUnstructured": "PMT01907549",
+          "proprietaryBankTransactionCode": "POS"
+        },
+        {
+          "bookingDate": "2025-07-11",
+          "bookingDateTime": "2025-07-11T00:00:00.000Z",
+          "transactionAmount": {
+            "amount": "-1039.80",
+            "currency": "GBP"
+          },
+          "remittanceInformationUnstructured": "PMT35457005",
+          "proprietaryBankTransactionCode": "DPC"
+        }
+      ],
+      "booked": [
+        {
+          "transactionId": "0090e2ab09b1f23a8f4486028e1ecb77441c72a910db97eb68b36710f999c772",
+          "bookingDate": "2025-07-10",
+          "bookingDateTime": "2025-07-10T00:00:00.000Z",
+          "transactionAmount": {
+            "amount": "-11.92",
+            "currency": "GBP"
+          },
+          "creditorName": "ASDA",
+          "remittanceInformationUnstructured": "7404 09JUL25  D   TIMELEFT          PARIS FR",
+          "proprietaryBankTransactionCode": "POS",
+          "internalTransactionId": "6673a3ead53170c4c544f442b32060b7"
+        },
+        {
+          "transactionId": "e1a9779fbc0f706c214aa9f3f13705dd95ae7c83764bdb7bff10595e1bd58139",
+          "bookingDate": "2025-07-10",
+          "bookingDateTime": "2025-07-10T00:00:00.000Z",
+          "transactionAmount": {
+            "amount": "-9.75",
+            "currency": "GBP"
+          },
+          "creditorName": "LLOYDS BANK",
+          "remittanceInformationUnstructured": "7372 09JUL25 CD   TESCO STORES 7372 STRETFORD GB",
+          "proprietaryBankTransactionCode": "POS",
+          "internalTransactionId": "dfb1c7b04c7191099f3179090ccd3169"
+        },
+        {
+          "transactionId": "6eab14660a303fc18d5bafe8d96afc14ed6859d9a4dcecab8be28e85846a1229",
+          "bookingDate": "2025-07-10",
+          "bookingDateTime": "2025-07-10T00:00:00.000Z",
+          "transactionAmount": {
+            "amount": "-18.34",
+            "currency": "GBP"
+          },
+          "creditorName": "AMAZON LEEDS",
+          "remittanceInformationUnstructured": "9610 08JUL25  D   UBER   * EATS     PENDING           LONDON GB",
+          "proprietaryBankTransactionCode": "POS",
+          "internalTransactionId": "7873cfbaf44e19ebc6b8e9b6b0fecd2c"
+        },
+        {
+          "transactionId": "d00d26ff49bbdaabe277d8c456dd953c01d1b4d0aaa62670b37143d484e41655",
+          "bookingDate": "2025-07-10",
+          "bookingDateTime": "2025-07-10T00:00:00.000Z",
+          "transactionAmount": {
+            "amount": "-7.86",
+            "currency": "GBP"
+          },
+          "creditorName": "WISE BRISTOL",
+          "remittanceInformationUnstructured": "1139 09JUL25  D   GIRLHOOD UK       MANCHESTER, GB",
+          "proprietaryBankTransactionCode": "POS",
+          "internalTransactionId": "e0e80008398c156436a7115f4c03301e"
+        },
+        {
+          "transactionId": "a8e6a0b649bc4be8ecdf7a6614343fe10b6559dc25b2128bb62b17db65b4ee57",
+          "bookingDate": "2025-07-10",
+          "bookingDateTime": "2025-07-10T00:00:00.000Z",
+          "transactionAmount": {
+            "amount": "-42.66",
+            "currency": "GBP"
+          },
+          "remittanceInformationUnstructured": "PAY85330482",
+          "proprietaryBankTransactionCode": "DPC",
+          "internalTransactionId": "1b9d0047fb282e528db9e1d10189f66b"
+        },
+        {
+          "transactionId": "baa516544d2ac042026f27ce9e986d2c7b706432dda902c5763e1bbd62f79c9e",
+          "bookingDate": "2025-07-10",
+          "bookingDateTime": "2025-07-10T00:00:00.000Z",
+          "transactionAmount": {
+            "amount": "33.89",
+            "currency": "GBP"
+          },
+          "debtorName": "MARK WILSON",
+          "remittanceInformationUnstructured": "CARP LAN CON LTD  CLEANER           FP 10/07/25 0126  GB29FAKE01234567896998451800",
+          "proprietaryBankTransactionCode": "BAC",
+          "internalTransactionId": "5265d542515738efad82bf5cb0330d92"
+        }
+      ]
+    }
+  },
+  {
+    "metadata": {
+      "accountId": "fb1bc4a3-b114-5788-1fbd-f0666e712b34",
+      "requisitionId": "bad1ffc0-1047-4f9b-b733-cbc7d04bb9c3",
+      "createdAt": "2025-07-11T20:25:36.706Z",
+      "traceId": "596e96c7-d948-4a29-837e-942cde724984"
+    },
+    "payload": {
+      "pending": [
+        {
+          "bookingDate": "2025-07-16",
+          "bookingDateTime": "2025-07-16T00:00:00.000Z",
+          "transactionAmount": {
+            "amount": "-22.77",
+            "currency": "GBP"
+          },
+          "remittanceInformationUnstructured": "DD37249815",
+          "proprietaryBankTransactionCode": "POS"
+        },
+        {
+          "bookingDate": "2025-07-16",
+          "bookingDateTime": "2025-07-16T00:00:00.000Z",
+          "transactionAmount": {
+            "amount": "-3.77",
+            "currency": "GBP"
+          },
+          "remittanceInformationUnstructured": "PMT10805165",
+          "proprietaryBankTransactionCode": "POS"
+        },
+        {
+          "bookingDate": "2025-07-16",
+          "bookingDateTime": "2025-07-16T00:00:00.000Z",
+          "transactionAmount": {
+            "amount": "-1.23",
+            "currency": "GBP"
+          },
+          "remittanceInformationUnstructured": "INV99650787",
+          "proprietaryBankTransactionCode": "POS"
+        },
+        {
+          "bookingDate": "2025-07-15",
+          "bookingDateTime": "2025-07-15T00:00:00.000Z",
+          "transactionAmount": {
+            "amount": "-43.48",
+            "currency": "GBP"
+          },
+          "remittanceInformationUnstructured": "INV50278099",
+          "proprietaryBankTransactionCode": "POS"
+        },
+        {
+          "bookingDate": "2025-07-15",
+          "bookingDateTime": "2025-07-15T00:00:00.000Z",
+          "transactionAmount": {
+            "amount": "-3.58",
+            "currency": "GBP"
+          },
+          "remittanceInformationUnstructured": "TRF30143798",
+          "proprietaryBankTransactionCode": "POS"
+        },
+        {
+          "bookingDate": "2025-07-15",
+          "bookingDateTime": "2025-07-15T00:00:00.000Z",
+          "transactionAmount": {
+            "amount": "-0.11",
+            "currency": "GBP"
+          },
+          "remittanceInformationUnstructured": "TXN50130737",
+          "proprietaryBankTransactionCode": "POS"
+        },
+        {
+          "bookingDate": "2025-07-15",
+          "bookingDateTime": "2025-07-15T00:00:00.000Z",
+          "transactionAmount": {
+            "amount": "-2.80",
+            "currency": "GBP"
+          },
+          "remittanceInformationUnstructured": "PMT01907549",
+          "proprietaryBankTransactionCode": "POS"
+        },
+        {
+          "bookingDate": "2025-07-11",
+          "bookingDateTime": "2025-07-11T00:00:00.000Z",
+          "transactionAmount": {
+            "amount": "-1039.80",
+            "currency": "GBP"
+          },
+          "remittanceInformationUnstructured": "PMT35457005",
+          "proprietaryBankTransactionCode": "DPC"
+        }
+      ],
+      "booked": []
+    }
+  },
+  {
+    "metadata": {
+      "accountId": "fb1bc4a3-b114-5788-1fbd-f0666e712b34",
+      "requisitionId": "3afa5d23-7293-47a3-aa0e-ce8362cced6b",
+      "createdAt": "2025-07-11T16:26:10.858Z",
+      "traceId": "70026077-aa79-473c-924d-95ca1dfbd46c"
+    },
+    "payload": {
+      "pending": [
+        {
+          "bookingDate": "2025-07-16",
+          "bookingDateTime": "2025-07-16T00:00:00.000Z",
+          "transactionAmount": {
+            "amount": "-3.77",
+            "currency": "GBP"
+          },
+          "remittanceInformationUnstructured": "PMT10805165",
+          "proprietaryBankTransactionCode": "POS"
+        },
+        {
+          "bookingDate": "2025-07-16",
+          "bookingDateTime": "2025-07-16T00:00:00.000Z",
+          "transactionAmount": {
+            "amount": "-1.23",
+            "currency": "GBP"
+          },
+          "remittanceInformationUnstructured": "INV99650787",
+          "proprietaryBankTransactionCode": "POS"
+        },
+        {
+          "bookingDate": "2025-07-15",
+          "bookingDateTime": "2025-07-15T00:00:00.000Z",
+          "transactionAmount": {
+            "amount": "-43.48",
+            "currency": "GBP"
+          },
+          "remittanceInformationUnstructured": "INV50278099",
+          "proprietaryBankTransactionCode": "POS"
+        },
+        {
+          "bookingDate": "2025-07-15",
+          "bookingDateTime": "2025-07-15T00:00:00.000Z",
+          "transactionAmount": {
+            "amount": "-3.58",
+            "currency": "GBP"
+          },
+          "remittanceInformationUnstructured": "TRF30143798",
+          "proprietaryBankTransactionCode": "POS"
+        },
+        {
+          "bookingDate": "2025-07-15",
+          "bookingDateTime": "2025-07-15T00:00:00.000Z",
+          "transactionAmount": {
+            "amount": "-0.11",
+            "currency": "GBP"
+          },
+          "remittanceInformationUnstructured": "TXN50130737",
+          "proprietaryBankTransactionCode": "POS"
+        },
+        {
+          "bookingDate": "2025-07-15",
+          "bookingDateTime": "2025-07-15T00:00:00.000Z",
+          "transactionAmount": {
+            "amount": "-2.80",
+            "currency": "GBP"
+          },
+          "remittanceInformationUnstructured": "PMT01907549",
+          "proprietaryBankTransactionCode": "POS"
+        },
+        {
+          "bookingDate": "2025-07-11",
+          "bookingDateTime": "2025-07-11T00:00:00.000Z",
+          "transactionAmount": {
+            "amount": "-1039.80",
+            "currency": "GBP"
+          },
+          "remittanceInformationUnstructured": "PMT35457005",
+          "proprietaryBankTransactionCode": "DPC"
+        }
+      ],
+      "booked": []
+    }
+  },
+  {
+    "metadata": {
+      "accountId": "fb1bc4a3-b114-5788-1fbd-f0666e712b34",
+      "requisitionId": "ee925b83-b9fd-4335-bd72-a42889659be5",
+      "createdAt": "2025-07-11T03:25:50.505Z",
+      "traceId": "2b333e82-8155-4e0c-8629-f67def488a24"
+    },
+    "payload": {
+      "pending": [
+        {
+          "bookingDate": "2025-07-15",
+          "bookingDateTime": "2025-07-15T00:00:00.000Z",
+          "transactionAmount": {
+            "amount": "-43.48",
+            "currency": "GBP"
+          },
+          "remittanceInformationUnstructured": "INV50278099",
+          "proprietaryBankTransactionCode": "POS"
+        },
+        {
+          "bookingDate": "2025-07-15",
+          "bookingDateTime": "2025-07-15T00:00:00.000Z",
+          "transactionAmount": {
+            "amount": "-3.58",
+            "currency": "GBP"
+          },
+          "remittanceInformationUnstructured": "TRF30143798",
+          "proprietaryBankTransactionCode": "POS"
+        },
+        {
+          "bookingDate": "2025-07-15",
+          "bookingDateTime": "2025-07-15T00:00:00.000Z",
+          "transactionAmount": {
+            "amount": "-0.11",
+            "currency": "GBP"
+          },
+          "remittanceInformationUnstructured": "TXN50130737",
+          "proprietaryBankTransactionCode": "POS"
+        },
+        {
+          "bookingDate": "2025-07-15",
+          "bookingDateTime": "2025-07-15T00:00:00.000Z",
+          "transactionAmount": {
+            "amount": "-2.80",
+            "currency": "GBP"
+          },
+          "remittanceInformationUnstructured": "PMT01907549",
+          "proprietaryBankTransactionCode": "POS"
+        },
+        {
+          "bookingDate": "2025-07-11",
+          "bookingDateTime": "2025-07-11T00:00:00.000Z",
+          "transactionAmount": {
+            "amount": "-1039.80",
+            "currency": "GBP"
+          },
+          "remittanceInformationUnstructured": "PMT35457005",
+          "proprietaryBankTransactionCode": "DPC"
+        }
+      ],
+      "booked": [
+        {
+          "transactionId": "0090e2ab09b1f23a8f4486028e1ecb77441c72a910db97eb68b36710f999c772",
+          "bookingDate": "2025-07-10",
+          "bookingDateTime": "2025-07-10T00:00:00.000Z",
+          "transactionAmount": {
+            "amount": "-11.92",
+            "currency": "GBP"
+          },
+          "creditorName": "ASDA",
+          "remittanceInformationUnstructured": "7404 09JUL25  D   TIMELEFT          PARIS FR",
+          "proprietaryBankTransactionCode": "POS",
+          "internalTransactionId": "6673a3ead53170c4c544f442b32060b7"
+        },
+        {
+          "transactionId": "e1a9779fbc0f706c214aa9f3f13705dd95ae7c83764bdb7bff10595e1bd58139",
+          "bookingDate": "2025-07-10",
+          "bookingDateTime": "2025-07-10T00:00:00.000Z",
+          "transactionAmount": {
+            "amount": "-9.75",
+            "currency": "GBP"
+          },
+          "creditorName": "LLOYDS BANK",
+          "remittanceInformationUnstructured": "7372 09JUL25 CD   TESCO STORES 7372 STRETFORD GB",
+          "proprietaryBankTransactionCode": "POS",
+          "internalTransactionId": "dfb1c7b04c7191099f3179090ccd3169"
+        },
+        {
+          "transactionId": "6eab14660a303fc18d5bafe8d96afc14ed6859d9a4dcecab8be28e85846a1229",
+          "bookingDate": "2025-07-10",
+          "bookingDateTime": "2025-07-10T00:00:00.000Z",
+          "transactionAmount": {
+            "amount": "-18.34",
+            "currency": "GBP"
+          },
+          "creditorName": "AMAZON LEEDS",
+          "remittanceInformationUnstructured": "9610 08JUL25  D   UBER   * EATS     PENDING           LONDON GB",
+          "proprietaryBankTransactionCode": "POS",
+          "internalTransactionId": "7873cfbaf44e19ebc6b8e9b6b0fecd2c"
+        },
+        {
+          "transactionId": "d00d26ff49bbdaabe277d8c456dd953c01d1b4d0aaa62670b37143d484e41655",
+          "bookingDate": "2025-07-10",
+          "bookingDateTime": "2025-07-10T00:00:00.000Z",
+          "transactionAmount": {
+            "amount": "-7.86",
+            "currency": "GBP"
+          },
+          "creditorName": "WISE BRISTOL",
+          "remittanceInformationUnstructured": "1139 09JUL25  D   GIRLHOOD UK       MANCHESTER, GB",
+          "proprietaryBankTransactionCode": "POS",
+          "internalTransactionId": "e0e80008398c156436a7115f4c03301e"
+        },
+        {
+          "transactionId": "a8e6a0b649bc4be8ecdf7a6614343fe10b6559dc25b2128bb62b17db65b4ee57",
+          "bookingDate": "2025-07-10",
+          "bookingDateTime": "2025-07-10T00:00:00.000Z",
+          "transactionAmount": {
+            "amount": "-42.66",
+            "currency": "GBP"
+          },
+          "remittanceInformationUnstructured": "PAY85330482",
+          "proprietaryBankTransactionCode": "DPC",
+          "internalTransactionId": "1b9d0047fb282e528db9e1d10189f66b"
+        },
+        {
+          "transactionId": "baa516544d2ac042026f27ce9e986d2c7b706432dda902c5763e1bbd62f79c9e",
+          "bookingDate": "2025-07-10",
+          "bookingDateTime": "2025-07-10T00:00:00.000Z",
+          "transactionAmount": {
+            "amount": "33.89",
+            "currency": "GBP"
+          },
+          "debtorName": "MARK WILSON",
+          "remittanceInformationUnstructured": "CARP LAN CON LTD  CLEANER           FP 10/07/25 0126  GB29FAKE01234567896998451800",
+          "proprietaryBankTransactionCode": "BAC",
+          "internalTransactionId": "5265d542515738efad82bf5cb0330d92"
+        }
+      ]
+    }
+  },
+  {
+    "metadata": {
+      "accountId": "daca3742-7881-4b69-f2e2-2aa7a2718c1e",
+      "requisitionId": "0e9ab166-f3d6-4333-b19b-9d673290eeb7",
+      "createdAt": "2025-07-11T20:17:43.334Z",
+      "traceId": "2496fd12-5d31-4756-8313-ff218fdf1c09"
+    },
+    "payload": {
+      "pending": [
+        {
+          "bookingDate": "2025-07-11",
+          "transactionAmount": {
+            "amount": "-53.53",
+            "currency": "GBP"
+          },
+          "creditorName": "O2",
+          "proprietaryBankTransactionCode": "DEB",
+          "merchantCategoryCode": "5812"
+        },
+        {
+          "bookingDate": "2025-07-11",
+          "transactionAmount": {
+            "amount": "-11.62",
+            "currency": "GBP"
+          },
+          "creditorName": "HOLLAND & BARRETT",
+          "proprietaryBankTransactionCode": "DEB",
+          "merchantCategoryCode": "5813"
+        },
+        {
+          "bookingDate": "2025-07-11",
+          "transactionAmount": {
+            "amount": "-2.54",
+            "currency": "GBP"
+          },
+          "creditorName": "REVOLUT",
+          "proprietaryBankTransactionCode": "DEB",
+          "merchantCategoryCode": "5411"
+        },
+        {
+          "bookingDate": "2025-07-11",
+          "transactionAmount": {
+            "amount": "-6.59",
+            "currency": "GBP"
+          },
+          "creditorName": "REVOLUT",
+          "proprietaryBankTransactionCode": "DEB",
+          "merchantCategoryCode": "5411"
+        },
+        {
+          "bookingDate": "2025-07-11",
+          "transactionAmount": {
+            "amount": "-1.83",
+            "currency": "GBP"
+          },
+          "creditorName": "STARBUCKS",
+          "proprietaryBankTransactionCode": "DEB",
+          "merchantCategoryCode": "4121"
+        }
+      ],
+      "booked": [
+        {
+          "transactionId": "T040cbc36f06dbbcc819dd054bb3a73f",
+          "entryReference": "196419641964196467",
+          "bookingDate": "2025-07-11",
+          "valueDate": "2025-07-11",
+          "transactionAmount": {
+            "amount": "-11.62",
+            "currency": "GBP"
+          },
+          "remittanceInformationUnstructured": "ORD57843324",
+          "additionalInformation": "196419641964196467",
+          "proprietaryBankTransactionCode": "FPO",
+          "internalTransactionId": "c01f03071519520721f6b282b749cbe3"
+        },
+        {
+          "transactionId": "T9f7eea02cecdaace4aafb8adcef9a23",
+          "bookingDate": "2025-07-11",
+          "valueDate": "2025-07-10",
+          "transactionAmount": {
+            "amount": "-2.01",
+            "currency": "GBP"
+          },
+          "creditorName": "PAYPAL",
+          "remittanceInformationUnstructured": "TESCO STORES 7812",
+          "proprietaryBankTransactionCode": "DEB",
+          "merchantCategoryCode": "5411",
+          "internalTransactionId": "769c457b71634fe4615fbcd447809e86"
+        },
+        {
+          "transactionId": "T08d8b3e4044a8c03c41a9a6e7d82bd1",
+          "bookingDate": "2025-07-11",
+          "valueDate": "2025-07-10",
+          "transactionAmount": {
+            "amount": "-2.29",
+            "currency": "GBP"
+          },
+          "creditorName": "JOHN LEWIS",
+          "remittanceInformationUnstructured": "TXN85611089",
+          "proprietaryBankTransactionCode": "DEB",
+          "merchantCategoryCode": "5411",
+          "internalTransactionId": "3960f2368033b9708474fa10494f8b71"
+        },
+        {
+          "transactionId": "T54604ed498dcab9cb33206dafd42d03",
+          "bookingDate": "2025-07-11",
+          "valueDate": "2025-07-10",
+          "transactionAmount": {
+            "amount": "-1.71",
+            "currency": "GBP"
+          },
+          "creditorName": "PAYPAL",
+          "remittanceInformationUnstructured": "TESCO STORES 7812",
+          "proprietaryBankTransactionCode": "DEB",
+          "merchantCategoryCode": "5411",
+          "internalTransactionId": "709cf19fbe51dc841b14438fcb727e98"
+        },
+        {
+          "transactionId": "T2e0629b91bee1fc32be50ad30bccb43",
+          "bookingDate": "2025-07-11",
+          "valueDate": "2025-07-10",
+          "transactionAmount": {
+            "amount": "-1.71",
+            "currency": "GBP"
+          },
+          "creditorName": "PRIMARK",
+          "remittanceInformationUnstructured": "INV12573875",
+          "proprietaryBankTransactionCode": "DEB",
+          "merchantCategoryCode": "4121",
+          "internalTransactionId": "afb9b2fb696269a9f8803039584793b2"
+        }
+      ]
+    }
+  },
+  {
+    "metadata": {
+      "accountId": "daca3742-7881-4b69-f2e2-2aa7a2718c1e",
+      "requisitionId": "032be5d2-29df-45d8-b7c4-080a0bd8d916",
+      "createdAt": "2025-07-11T11:25:10.845Z",
+      "traceId": "22d61d45-0c37-4c36-b373-b30b4fd931bd"
+    },
+    "payload": {
+      "pending": [
+        {
+          "bookingDate": "2025-07-11",
+          "transactionAmount": {
+            "amount": "-6.59",
+            "currency": "GBP"
+          },
+          "creditorName": "REVOLUT",
+          "proprietaryBankTransactionCode": "DEB",
+          "merchantCategoryCode": "5411"
+        },
+        {
+          "bookingDate": "2025-07-11",
+          "transactionAmount": {
+            "amount": "-1.83",
+            "currency": "GBP"
+          },
+          "creditorName": "STARBUCKS",
+          "proprietaryBankTransactionCode": "DEB",
+          "merchantCategoryCode": "4121"
+        },
+        {
+          "bookingDate": "2025-07-10",
+          "transactionAmount": {
+            "amount": "-2.29",
+            "currency": "GBP"
+          },
+          "creditorName": "HOLLAND & BARRETT",
+          "proprietaryBankTransactionCode": "DEB",
+          "merchantCategoryCode": "5411"
+        },
+        {
+          "bookingDate": "2025-07-10",
+          "transactionAmount": {
+            "amount": "-1.71",
+            "currency": "GBP"
+          },
+          "creditorName": "PAYPAL",
+          "proprietaryBankTransactionCode": "DEB",
+          "merchantCategoryCode": "5411"
+        },
+        {
+          "bookingDate": "2025-07-10",
+          "transactionAmount": {
+            "amount": "-2.01",
+            "currency": "GBP"
+          },
+          "creditorName": "PAYPAL",
+          "proprietaryBankTransactionCode": "DEB",
+          "merchantCategoryCode": "5411"
+        },
+        {
+          "bookingDate": "2025-07-10",
+          "transactionAmount": {
+            "amount": "-1.71",
+            "currency": "GBP"
+          },
+          "creditorName": "PRIMARK",
+          "proprietaryBankTransactionCode": "DEB",
+          "merchantCategoryCode": "4121"
+        }
+      ],
+      "booked": [
+        {
+          "transactionId": "T475e81ee3838fbe01a5c32d13a16002",
+          "entryReference": "P16771677167716770",
+          "bookingDate": "2025-07-10",
+          "valueDate": "2025-07-10",
+          "transactionAmount": {
+            "amount": "-150.80",
+            "currency": "GBP"
+          },
+          "remittanceInformationUnstructured": "DD6039567",
+          "additionalInformation": "P16771677167716770",
+          "proprietaryBankTransactionCode": "DD",
+          "internalTransactionId": "886df54890d4795b1fdd2fd0cbf4f5e5"
+        },
+        {
+          "transactionId": "T4e1dc9724f35fb4885abea004073bba",
+          "bookingDate": "2025-07-10",
+          "valueDate": "2025-07-09",
+          "transactionAmount": {
+            "amount": "-5.88",
+            "currency": "GBP"
+          },
+          "creditorName": "PURE GYM",
+          "remittanceInformationUnstructured": "TRF5367702",
+          "proprietaryBankTransactionCode": "DEB",
+          "merchantCategoryCode": "5411",
+          "internalTransactionId": "0793dcc2845265f413b3931adf406678"
+        },
+        {
+          "transactionId": "T4382fe27801160bbefe12ec47db527d",
+          "bookingDate": "2025-07-10",
+          "valueDate": "2025-07-09",
+          "transactionAmount": {
+            "amount": "-2.16",
+            "currency": "GBP"
+          },
+          "creditorName": "PAYPAL",
+          "remittanceInformationUnstructured": "TESCO STORES 7812",
+          "proprietaryBankTransactionCode": "DEB",
+          "merchantCategoryCode": "5411",
+          "internalTransactionId": "c87e01e80ade6245dbf5ed40ca7f6154"
+        },
+        {
+          "transactionId": "Tf08164a89e68a8f2d7c03db35d2f98d",
+          "bookingDate": "2025-07-10",
+          "valueDate": "2025-07-09",
+          "transactionAmount": {
+            "amount": "-2.07",
+            "currency": "GBP"
+          },
+          "creditorName": "PAYPAL",
+          "remittanceInformationUnstructured": "TESCO STORES 7812",
+          "proprietaryBankTransactionCode": "DEB",
+          "merchantCategoryCode": "5411",
+          "internalTransactionId": "55215001af9aea1d7cda2f54dec4ce2b"
+        },
+        {
+          "transactionId": "Tc02262feecede62c211659b8bbefdac",
+          "bookingDate": "2025-07-10",
+          "valueDate": "2025-07-09",
+          "transactionAmount": {
+            "amount": "-1.23",
+            "currency": "GBP"
+          },
+          "creditorName": "JOHN LEWIS",
+          "remittanceInformationUnstructured": "TXN85611089",
+          "proprietaryBankTransactionCode": "DEB",
+          "merchantCategoryCode": "5411",
+          "internalTransactionId": "5873ebe1ebfd678da9fc2c1995ebbf1d"
+        },
+        {
+          "transactionId": "T515d44c09c1a19d667c1ff9d6688f90",
+          "bookingDate": "2025-07-10",
+          "valueDate": "2025-07-08",
+          "transactionAmount": {
+            "amount": "-19.26",
+            "currency": "GBP"
+          },
+          "creditorName": "SAINSBURY'S",
+          "remittanceInformationUnstructured": "AMAZON* GB29FAKE01234567894",
+          "proprietaryBankTransactionCode": "DEB",
+          "merchantCategoryCode": "5399",
+          "internalTransactionId": "303430379fb7eb74646a0295f7702a66"
+        }
+      ]
+    }
+  },
+  {
+    "metadata": {
+      "accountId": "daca3742-7881-4b69-f2e2-2aa7a2718c1e",
+      "requisitionId": "c1ebf7a2-431f-4e66-b4c3-782e73987b6d",
+      "createdAt": "2025-07-11T23:16:24.378Z",
+      "traceId": "6cbfce1a-4494-4df3-821f-493a7b412904"
+    },
+    "payload": {
+      "pending": [
+        {
+          "bookingDate": "2025-07-11",
+          "transactionAmount": {
+            "amount": "-53.53",
+            "currency": "GBP"
+          },
+          "creditorName": "O2",
+          "proprietaryBankTransactionCode": "DEB",
+          "merchantCategoryCode": "5812"
+        },
+        {
+          "bookingDate": "2025-07-11",
+          "transactionAmount": {
+            "amount": "-11.62",
+            "currency": "GBP"
+          },
+          "creditorName": "HOLLAND & BARRETT",
+          "proprietaryBankTransactionCode": "DEB",
+          "merchantCategoryCode": "5813"
+        },
+        {
+          "bookingDate": "2025-07-11",
+          "transactionAmount": {
+            "amount": "-2.54",
+            "currency": "GBP"
+          },
+          "creditorName": "REVOLUT",
+          "proprietaryBankTransactionCode": "DEB",
+          "merchantCategoryCode": "5411"
+        },
+        {
+          "bookingDate": "2025-07-11",
+          "transactionAmount": {
+            "amount": "-6.59",
+            "currency": "GBP"
+          },
+          "creditorName": "REVOLUT",
+          "proprietaryBankTransactionCode": "DEB",
+          "merchantCategoryCode": "5411"
+        },
+        {
+          "bookingDate": "2025-07-11",
+          "transactionAmount": {
+            "amount": "-1.83",
+            "currency": "GBP"
+          },
+          "creditorName": "STARBUCKS",
+          "proprietaryBankTransactionCode": "DEB",
+          "merchantCategoryCode": "4121"
+        }
+      ],
+      "booked": [
+        {
+          "transactionId": "T040cbc36f06dbbcc819dd054bb3a73f",
+          "entryReference": "196419641964196467",
+          "bookingDate": "2025-07-11",
+          "valueDate": "2025-07-11",
+          "transactionAmount": {
+            "amount": "-11.62",
+            "currency": "GBP"
+          },
+          "remittanceInformationUnstructured": "ORD57843324",
+          "additionalInformation": "196419641964196467",
+          "proprietaryBankTransactionCode": "FPO",
+          "internalTransactionId": "c01f03071519520721f6b282b749cbe3"
+        },
+        {
+          "transactionId": "T9f7eea02cecdaace4aafb8adcef9a23",
+          "bookingDate": "2025-07-11",
+          "valueDate": "2025-07-10",
+          "transactionAmount": {
+            "amount": "-2.01",
+            "currency": "GBP"
+          },
+          "creditorName": "PAYPAL",
+          "remittanceInformationUnstructured": "TESCO STORES 7812",
+          "proprietaryBankTransactionCode": "DEB",
+          "merchantCategoryCode": "5411",
+          "internalTransactionId": "769c457b71634fe4615fbcd447809e86"
+        },
+        {
+          "transactionId": "T08d8b3e4044a8c03c41a9a6e7d82bd1",
+          "bookingDate": "2025-07-11",
+          "valueDate": "2025-07-10",
+          "transactionAmount": {
+            "amount": "-2.29",
+            "currency": "GBP"
+          },
+          "creditorName": "JOHN LEWIS",
+          "remittanceInformationUnstructured": "TXN85611089",
+          "proprietaryBankTransactionCode": "DEB",
+          "merchantCategoryCode": "5411",
+          "internalTransactionId": "3960f2368033b9708474fa10494f8b71"
+        },
+        {
+          "transactionId": "T54604ed498dcab9cb33206dafd42d03",
+          "bookingDate": "2025-07-11",
+          "valueDate": "2025-07-10",
+          "transactionAmount": {
+            "amount": "-1.71",
+            "currency": "GBP"
+          },
+          "creditorName": "PAYPAL",
+          "remittanceInformationUnstructured": "TESCO STORES 7812",
+          "proprietaryBankTransactionCode": "DEB",
+          "merchantCategoryCode": "5411",
+          "internalTransactionId": "709cf19fbe51dc841b14438fcb727e98"
+        },
+        {
+          "transactionId": "T2e0629b91bee1fc32be50ad30bccb43",
+          "bookingDate": "2025-07-11",
+          "valueDate": "2025-07-10",
+          "transactionAmount": {
+            "amount": "-1.71",
+            "currency": "GBP"
+          },
+          "creditorName": "PRIMARK",
+          "remittanceInformationUnstructured": "INV12573875",
+          "proprietaryBankTransactionCode": "DEB",
+          "merchantCategoryCode": "4121",
+          "internalTransactionId": "afb9b2fb696269a9f8803039584793b2"
+        }
+      ]
+    }
+  },
+  {
+    "metadata": {
+      "accountId": "daca3742-7881-4b69-f2e2-2aa7a2718c1e",
+      "requisitionId": "48c7c519-afbb-438c-9528-eb3008a49618",
+      "createdAt": "2025-07-11T03:17:11.700Z",
+      "traceId": "72896515-c12b-453d-9d47-3fc3fd1cf4e9"
+    },
+    "payload": {
+      "pending": [
+        {
+          "bookingDate": "2025-07-10",
+          "transactionAmount": {
+            "amount": "-2.29",
+            "currency": "GBP"
+          },
+          "creditorName": "HOLLAND & BARRETT",
+          "proprietaryBankTransactionCode": "DEB",
+          "merchantCategoryCode": "5411"
+        },
+        {
+          "bookingDate": "2025-07-10",
+          "transactionAmount": {
+            "amount": "-1.71",
+            "currency": "GBP"
+          },
+          "creditorName": "PAYPAL",
+          "proprietaryBankTransactionCode": "DEB",
+          "merchantCategoryCode": "5411"
+        },
+        {
+          "bookingDate": "2025-07-10",
+          "transactionAmount": {
+            "amount": "-2.01",
+            "currency": "GBP"
+          },
+          "creditorName": "PAYPAL",
+          "proprietaryBankTransactionCode": "DEB",
+          "merchantCategoryCode": "5411"
+        },
+        {
+          "bookingDate": "2025-07-10",
+          "transactionAmount": {
+            "amount": "-1.71",
+            "currency": "GBP"
+          },
+          "creditorName": "PRIMARK",
+          "proprietaryBankTransactionCode": "DEB",
+          "merchantCategoryCode": "4121"
+        }
+      ],
+      "booked": [
+        {
+          "transactionId": "T475e81ee3838fbe01a5c32d13a16002",
+          "entryReference": "P16771677167716770",
+          "bookingDate": "2025-07-10",
+          "valueDate": "2025-07-10",
+          "transactionAmount": {
+            "amount": "-150.80",
+            "currency": "GBP"
+          },
+          "remittanceInformationUnstructured": "DD6039567",
+          "additionalInformation": "P16771677167716770",
+          "proprietaryBankTransactionCode": "DD",
+          "internalTransactionId": "886df54890d4795b1fdd2fd0cbf4f5e5"
+        },
+        {
+          "transactionId": "T4e1dc9724f35fb4885abea004073bba",
+          "bookingDate": "2025-07-10",
+          "valueDate": "2025-07-09",
+          "transactionAmount": {
+            "amount": "-5.88",
+            "currency": "GBP"
+          },
+          "creditorName": "PURE GYM",
+          "remittanceInformationUnstructured": "TRF5367702",
+          "proprietaryBankTransactionCode": "DEB",
+          "merchantCategoryCode": "5411",
+          "internalTransactionId": "0793dcc2845265f413b3931adf406678"
+        },
+        {
+          "transactionId": "T4382fe27801160bbefe12ec47db527d",
+          "bookingDate": "2025-07-10",
+          "valueDate": "2025-07-09",
+          "transactionAmount": {
+            "amount": "-2.16",
+            "currency": "GBP"
+          },
+          "creditorName": "PAYPAL",
+          "remittanceInformationUnstructured": "TESCO STORES 7812",
+          "proprietaryBankTransactionCode": "DEB",
+          "merchantCategoryCode": "5411",
+          "internalTransactionId": "c87e01e80ade6245dbf5ed40ca7f6154"
+        },
+        {
+          "transactionId": "Tf08164a89e68a8f2d7c03db35d2f98d",
+          "bookingDate": "2025-07-10",
+          "valueDate": "2025-07-09",
+          "transactionAmount": {
+            "amount": "-2.07",
+            "currency": "GBP"
+          },
+          "creditorName": "PAYPAL",
+          "remittanceInformationUnstructured": "TESCO STORES 7812",
+          "proprietaryBankTransactionCode": "DEB",
+          "merchantCategoryCode": "5411",
+          "internalTransactionId": "55215001af9aea1d7cda2f54dec4ce2b"
+        },
+        {
+          "transactionId": "Tc02262feecede62c211659b8bbefdac",
+          "bookingDate": "2025-07-10",
+          "valueDate": "2025-07-09",
+          "transactionAmount": {
+            "amount": "-1.23",
+            "currency": "GBP"
+          },
+          "creditorName": "JOHN LEWIS",
+          "remittanceInformationUnstructured": "TXN85611089",
+          "proprietaryBankTransactionCode": "DEB",
+          "merchantCategoryCode": "5411",
+          "internalTransactionId": "5873ebe1ebfd678da9fc2c1995ebbf1d"
+        },
+        {
+          "transactionId": "T515d44c09c1a19d667c1ff9d6688f90",
+          "bookingDate": "2025-07-10",
+          "valueDate": "2025-07-08",
+          "transactionAmount": {
+            "amount": "-19.26",
+            "currency": "GBP"
+          },
+          "creditorName": "SAINSBURY'S",
+          "remittanceInformationUnstructured": "AMAZON* GB29FAKE01234567894",
+          "proprietaryBankTransactionCode": "DEB",
+          "merchantCategoryCode": "5399",
+          "internalTransactionId": "303430379fb7eb74646a0295f7702a66"
+        }
+      ]
+    }
+  },
+  {
+    "metadata": {
+      "accountId": "daca3742-7881-4b69-f2e2-2aa7a2718c1e",
+      "requisitionId": "1f8f11c9-e01e-4454-9b2b-52e1cf61b8e3",
+      "createdAt": "2025-07-11T16:18:02.742Z",
+      "traceId": "e234f74a-1096-426d-9a39-70da23ed2010"
+    },
+    "payload": {
+      "pending": [
+        {
+          "bookingDate": "2025-07-11",
+          "transactionAmount": {
+            "amount": "-11.62",
+            "currency": "GBP"
+          },
+          "creditorName": "HOLLAND & BARRETT",
+          "proprietaryBankTransactionCode": "DEB",
+          "merchantCategoryCode": "5813"
+        },
+        {
+          "bookingDate": "2025-07-11",
+          "transactionAmount": {
+            "amount": "-2.54",
+            "currency": "GBP"
+          },
+          "creditorName": "REVOLUT",
+          "proprietaryBankTransactionCode": "DEB",
+          "merchantCategoryCode": "5411"
+        },
+        {
+          "bookingDate": "2025-07-11",
+          "transactionAmount": {
+            "amount": "-6.59",
+            "currency": "GBP"
+          },
+          "creditorName": "REVOLUT",
+          "proprietaryBankTransactionCode": "DEB",
+          "merchantCategoryCode": "5411"
+        },
+        {
+          "bookingDate": "2025-07-11",
+          "transactionAmount": {
+            "amount": "-1.83",
+            "currency": "GBP"
+          },
+          "creditorName": "STARBUCKS",
+          "proprietaryBankTransactionCode": "DEB",
+          "merchantCategoryCode": "4121"
+        }
+      ],
+      "booked": [
+        {
+          "transactionId": "T040cbc36f06dbbcc819dd054bb3a73f",
+          "entryReference": "196419641964196467",
+          "bookingDate": "2025-07-11",
+          "valueDate": "2025-07-11",
+          "transactionAmount": {
+            "amount": "-11.62",
+            "currency": "GBP"
+          },
+          "remittanceInformationUnstructured": "ORD57843324",
+          "additionalInformation": "196419641964196467",
+          "proprietaryBankTransactionCode": "FPO",
+          "internalTransactionId": "c01f03071519520721f6b282b749cbe3"
+        }
+      ]
+    }
+  }
+]
